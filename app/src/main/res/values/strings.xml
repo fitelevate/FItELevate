@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FItElevate</string>
+    <string name="signup_message">Please Signup to create your account</string>
+    <string name="login_message">Please login to your account</string>
+    <string name="tncmessage">Our Terms &amp; Conditions</string>
+    <string name="welcomeTo">Welcome To</string>
+    <string name="contdes">fitelevate</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="confirm_your_password">Confirm Your Password</string>
+    <string name="signup">SignUp</string>
+    <string name="signin">Sign In</string>
+    <string name="alreadymember">already a member?</string>
+    <string name="donthaveac">Dont have an account?</string>
+    <string name="signup_text">By signing up you agree with our term and conditions</string>
+
+
+</resources>
