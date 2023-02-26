@@ -3229,6 +3229,7 @@ int id pin 0x7f080161
 int id position 0x7f080162
 int id postLayout 0x7f080163
 int id pressed 0x7f080164
+int id progressBar 0x7f080208
 int id progress_circular 0x7f080165
 int id progress_horizontal 0x7f080166
 int id radio 0x7f080167

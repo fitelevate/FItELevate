@@ -10,6 +10,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ public class register extends AppCompatActivity {
         EditText editTextEmail,editTextPasswd;
         Button submitBtn;
         FirebaseAuth mAuth;
+        ProgressBar progressBar;
     @Override
     public void onStart() {
         super.onStart();
@@ -56,6 +58,7 @@ public class register extends AppCompatActivity {
         editTextEmail=findViewById(R.id.email);
         editTextPasswd=findViewById(R.id.passwd);
         submitBtn=findViewById(R.id.submitButton);
+        progressBar=findViewById(R.id.progressBar);
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,10 +74,12 @@ public class register extends AppCompatActivity {
                     Toast.makeText(register.this, "Enter password", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                progressBar.setVisibility(View.VISIBLE);
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener( new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
+                                progressBar.setVisibility(View.GONE);
                                 if (task.isSuccessful()) {
 
 

@@ -46,6 +46,7 @@ id logout
 id or_login_with
 id pass_login_from_signup
 id passwd
+id progressBar
 id sign_up
 id signup_message
 id submitButton

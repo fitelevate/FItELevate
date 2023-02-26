@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-xxxhdpi_terms___conditions.png.flat",
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable-xxxhdpi\\terms___conditions.png"
+    },
+    {
+        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-xxxhdpi_don_t_have_an_account.png.flat",
@@ -52,6 +52,10 @@
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable-ldpi\\fit_1.png"
     },
     {
+        "merged": "com.example.fitelevate.app-merged_res-34:/layout_activity_register.xml.flat",
+        "source": "com.example.fitelevate.app-main-36:/layout/activity_register.xml"
+    },
+    {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-xxhdpi_elevate_your_fitness.png.flat",
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable-xxhdpi\\elevate_your_fitness.png"
     },
@@ -86,6 +90,10 @@
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-xxhdpi_fit.png.flat",
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable-xxhdpi\\fit.png"
+    },
+    {
+        "merged": "com.example.fitelevate.app-merged_res-34:/layout_activity_login.xml.flat",
+        "source": "com.example.fitelevate.app-main-36:/layout/activity_login.xml"
     },
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-xxxhdpi__296515_bird_tweet_twitter_twitter_logo_icon.png.flat",
@@ -474,10 +482,6 @@
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-xhdpi_sign_up_now.png.flat",
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable-xhdpi\\sign_up_now.png"
-    },
-    {
-        "merged": "com.example.fitelevate.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "com.example.fitelevate.app-main-36:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",

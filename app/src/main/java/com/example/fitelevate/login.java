@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,6 +23,7 @@ public class login extends AppCompatActivity {
     EditText editTextEmail,editTextPasswd;
     Button loginBtn;
     FirebaseAuth mAuth;
+    ProgressBar progressBar;
     @Override
     public void onStart() {
         super.onStart();
@@ -51,9 +53,11 @@ public class login extends AppCompatActivity {
         editTextEmail=findViewById(R.id.email);
         editTextPasswd=findViewById(R.id.passwd);
         loginBtn=findViewById(R.id.loginButton);
+        progressBar=findViewById(R.id.progressBar);
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String email,password;
                 email=String.valueOf(editTextEmail.getText());
                 password=String.valueOf(editTextPasswd.getText());
@@ -66,10 +70,12 @@ public class login extends AppCompatActivity {
                     Toast.makeText(login.this, "Enter password", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                progressBar.setVisibility(View.VISIBLE);
                 mAuth.signInWithEmailAndPassword(email, password)
                         .addOnCompleteListener( new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
+                                progressBar.setVisibility(View.GONE);
                                 if (task.isSuccessful()) {
 
                                     Toast.makeText(login.this, "loggedIn successfully", Toast.LENGTH_SHORT).show();
