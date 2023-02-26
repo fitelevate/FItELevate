@@ -9,7 +9,180 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7283faf-a76d-433e-af54-b48149553317" name="Changes" comment="initial commit" />
+    <list default="true" id="d7283faf-a76d-433e-af54-b48149553317" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/by_signing_up_you_agree_with_our.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/by_signing_up_you_agree_with_our.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/don_t_have_an_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/don_t_have_an_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/elevate.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/elevate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/elevate_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/elevate_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/elevate_your_fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/elevate_your_fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/email_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/email_address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/fit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fit_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/fit_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/group_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/group_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/homepage_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/homepage_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_feather_lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/icon_feather_lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_feather_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/icon_feather_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/kat.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/kat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/or_login_with.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/or_login_with.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/please_login_to_your_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/please_login_to_your_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/rectangle_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/rectangle_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/rectangle_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rectangle_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/rectangle_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/sign_up_now.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/sign_up_now.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/terms___conditions.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/terms___conditions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/welcome_to.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-hdpi/welcome_to.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/by_signing_up_you_agree_with_our.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/by_signing_up_you_agree_with_our.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/don_t_have_an_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/don_t_have_an_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/elevate.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/elevate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/elevate_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/elevate_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/elevate_your_fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/elevate_your_fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/email_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/email_address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/fit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/fit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/fit_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/fit_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/group_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/group_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/homepage_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/homepage_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/icon_feather_lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/icon_feather_lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/icon_feather_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/icon_feather_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/kat.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/kat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/or_login_with.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/or_login_with.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/please_login_to_your_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/please_login_to_your_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rectangle_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/rectangle_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rectangle_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/rectangle_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rectangle_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/rectangle_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rectangle_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/rectangle_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/sign_up_now.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/sign_up_now.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/terms___conditions.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/terms___conditions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/welcome_to.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-ldpi/welcome_to.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/by_signing_up_you_agree_with_our.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/by_signing_up_you_agree_with_our.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/don_t_have_an_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/don_t_have_an_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/elevate.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/elevate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/elevate_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/elevate_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/elevate_your_fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/elevate_your_fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/email_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/email_address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/fit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fit_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/fit_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/group_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/group_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/homepage_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/homepage_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_feather_lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/icon_feather_lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon_feather_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/icon_feather_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/kat.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/kat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/or_login_with.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/or_login_with.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/please_login_to_your_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/please_login_to_your_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/rectangle_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/rectangle_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/rectangle_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rectangle_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/rectangle_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/sign_up_now.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/sign_up_now.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/terms___conditions.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/terms___conditions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/welcome_to.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-mdpi/welcome_to.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/by_signing_up_you_agree_with_our.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/by_signing_up_you_agree_with_our.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/don_t_have_an_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/don_t_have_an_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/elevate.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/elevate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/elevate_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/elevate_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/elevate_your_fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/elevate_your_fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/email_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/email_address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/fit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fit_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/fit_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/group_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/group_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/homepage_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/homepage_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_feather_lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/icon_feather_lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_feather_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/icon_feather_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/kat.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/kat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/or_login_with.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/or_login_with.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/please_login_to_your_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/please_login_to_your_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/rectangle_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/rectangle_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/rectangle_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/rectangle_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/rectangle_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sign_up_now.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/sign_up_now.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/terms___conditions.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/terms___conditions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/welcome_to.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xhdpi/welcome_to.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/by_signing_up_you_agree_with_our.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/by_signing_up_you_agree_with_our.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/don_t_have_an_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/don_t_have_an_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/elevate.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/elevate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/elevate_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/elevate_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/elevate_your_fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/elevate_your_fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/email_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/email_address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/fit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fit_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/fit_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/group_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/group_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/homepage_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/homepage_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_feather_lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/icon_feather_lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/icon_feather_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/icon_feather_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/kat.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/kat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/or_login_with.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/or_login_with.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/please_login_to_your_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/please_login_to_your_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/rectangle_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/rectangle_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/rectangle_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/rectangle_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/rectangle_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/sign_up_now.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/sign_up_now.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/terms___conditions.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/terms___conditions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/welcome_to.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxhdpi/welcome_to.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/_296515_bird_tweet_twitter_twitter_logo_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/by_signing_up_you_agree_with_our.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/by_signing_up_you_agree_with_our.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/don_t_have_an_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/don_t_have_an_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/elevate.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/elevate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/elevate_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/elevate_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/elevate_your_fitness.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/elevate_your_fitness.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/email_address.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/email_address.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/fit.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/fit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/fit_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/fit_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/group_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/group_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/group_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/group_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/homepage_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/homepage_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_feather_lock.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/icon_feather_lock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_feather_mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/icon_feather_mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/kat.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/kat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/login.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/or_login_with.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/or_login_with.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/please_login_to_your_account.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/please_login_to_your_account.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/rectangle_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/rectangle_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/rectangle_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/rectangle_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/rectangle_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/sign_up_now.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/sign_up_now.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/terms___conditions.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/terms___conditions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/welcome_to.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drawable-xxxhdpi/welcome_to.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-anydpi-v33/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677402628790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1677403907271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677403907272</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
