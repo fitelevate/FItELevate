@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashscreen"
+    android:background="@drawable/homepage_background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fit" />
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/elevate"
+        android:layout_marginStart="10dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/elevate_your_fitness"
+        android:layout_marginStart="10dp"/>
+
+
+
+
+</RelativeLayout>
