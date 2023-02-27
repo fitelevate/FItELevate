@@ -40,6 +40,10 @@ id dont_have_account
 id elevate
 id email
 id fit
+id forgotButton
+id forgot_pass
+id go_back
+id login
 id loginButton
 id login_with_google
 id logout
@@ -53,6 +57,7 @@ id submitButton
 id tnc
 id user_details
 id welcomeToText
+layout activity_forgotpassword
 layout activity_login
 layout activity_main
 layout activity_register
@@ -68,7 +73,10 @@ string default_web_client_id
 string donthaveac
 string enter_your_email
 string enter_your_password
+string forgot_message
+string forgotpass_message
 string gcm_defaultSenderId
+string goback
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key

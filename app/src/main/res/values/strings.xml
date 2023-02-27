@@ -11,8 +11,10 @@
     <string name="signup">SignUp</string>
     <string name="signin">Sign In</string>
     <string name="alreadymember">already a member?</string>
-    <string name="donthaveac">Dont have an account?</string>
+    <string name="donthaveac">Dont have an account? </string>
     <string name="signup_text">By signing up you agree with our term and conditions</string>
-
+    <string name="forgotpass_message">Forgot Password</string>
+    <string name="forgot_message">Forgot Password? </string>
+    <string name="goback">Go back to  </string>
 
 </resources>

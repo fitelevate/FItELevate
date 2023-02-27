@@ -3080,11 +3080,14 @@ id fixed
 id flip
 id floating
 id forever
+id forgotButton
+id forgot_pass
 id fragment_container_view_tag
 id frost
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
+id go_back
 id gone
 id graph
 id graph_wrap
@@ -3125,6 +3128,7 @@ id line3
 id linear
 id listMode
 id list_item
+id login
 id loginButton
 id login_with_google
 id logout
@@ -3501,6 +3505,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_forgotpassword
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3663,7 +3668,10 @@ string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string forgot_message
+string forgotpass_message
 string gcm_defaultSenderId
+string goback
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
