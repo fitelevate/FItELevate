@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="green_500">#76E67B</color>
+    <color name="purple">#9D4FA6</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -8,7 +10,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="alreadymember">already a member?</string>
-    <string name="app_name">FItElevate</string>
+    <string name="app_name">FitElevate</string>
+    <string name="app_theme">Elevate your fitness</string>
+    <string name="bmi">BMI  </string>
+    <string name="calories">calories  </string>
     <string name="confirm_your_password">Confirm Your Password</string>
     <string name="contdes">fitelevate</string>
     <string name="default_web_client_id" translatable="false">635183237547-24gd8f5k1ctldpscf2ak5perpf52as21.apps.googleusercontent.com</string>
@@ -23,14 +28,20 @@
     <string name="google_app_id" translatable="false">1:635183237547:android:9dc869e5c9cf70b56beaee</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyABESmINwp229ofn4xQZWLP2_1yYBau_i4</string>
     <string name="google_storage_bucket" translatable="false">fitelevate-96f37.appspot.com</string>
+    <string name="heart">Heart  </string>
     <string name="login_message">Please login to your account</string>
     <string name="project_id" translatable="false">fitelevate-96f37</string>
     <string name="signin">Sign In</string>
     <string name="signup">SignUp</string>
     <string name="signup_message">Please Signup to create your account</string>
     <string name="signup_text">By signing up you agree with our term and conditions</string>
+    <string name="sleep">Sleep  </string>
+    <string name="steps">Steps  </string>
     <string name="tncmessage">Our Terms &amp; Conditions</string>
+    <string name="trainig">Training </string>
+    <string name="water">Water </string>
     <string name="welcomeTo">Welcome To</string>
+    <string name="yoga">Yoga  </string>
     <style name="Theme.FItElevate" parent="Theme.Design.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

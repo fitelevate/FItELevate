@@ -32,14 +32,11 @@ public class MainActivity extends AppCompatActivity {
         }else{
             textView.setText(user.getEmail());
         }
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FirebaseAuth.getInstance().signOut();
-                Intent intent=new Intent(getApplicationContext(),login.class);
-                startActivity(intent);
-                finish();            }
-        });
+        button.setOnClickListener(view -> {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent=new Intent(getApplicationContext(),login.class);
+            startActivity(intent);
+            finish();            });
 
     }
 }

@@ -6,229 +6,229 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
+8-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
+9-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
-11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:22-64
+11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:23:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
-12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
+12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:24:22-76
 13
 14    <permission
-14-->[androidx.core:core:1.9.0] C:\Users\Vipin\.gradle\caches\transforms-3\46580efff2520e68c7940204055d2c0f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14-->[androidx.core:core:1.9.0] C:\Users\itsjp\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 15        android:name="com.example.fitelevate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.9.0] C:\Users\Vipin\.gradle\caches\transforms-3\46580efff2520e68c7940204055d2c0f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15-->[androidx.core:core:1.9.0] C:\Users\itsjp\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.9.0] C:\Users\Vipin\.gradle\caches\transforms-3\46580efff2520e68c7940204055d2c0f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16-->[androidx.core:core:1.9.0] C:\Users\itsjp\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 17
 18    <uses-permission android:name="com.example.fitelevate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.9.0] C:\Users\Vipin\.gradle\caches\transforms-3\46580efff2520e68c7940204055d2c0f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.9.0] C:\Users\Vipin\.gradle\caches\transforms-3\46580efff2520e68c7940204055d2c0f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18-->[androidx.core:core:1.9.0] C:\Users\itsjp\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\itsjp\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:5:5-36:19
+20-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:5:5-36:19
 21        android:allowBackup="true"
-21-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:6:9-35
+21-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:6:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] C:\Users\Vipin\.gradle\caches\transforms-3\46580efff2520e68c7940204055d2c0f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22-->[androidx.core:core:1.9.0] C:\Users\itsjp\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:7:9-65
+23-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:7:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:8:9-54
+26-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:8:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:9:9-43
+27-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:9:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:10:9-41
+28-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:10:9-41
 29        android:supportsRtl="true"
-29-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:11:9-35
+29-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:11:9-35
 30        android:testOnly="true"
 31        android:theme="@style/Theme.FItElevate" >
-31-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:12:9-48
+31-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:12:9-48
 32        <activity
-32-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:14:9-16:40
+32-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:14:9-16:40
 33            android:name="com.example.fitelevate.forgotpassword"
-33-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:15:13-43
+33-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:15:13-43
 34            android:exported="false" />
-34-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:16:13-37
+34-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:16:13-37
 35        <activity
-35-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:17:9-19:40
+35-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:17:9-19:40
 36            android:name="com.example.fitelevate.tnc"
-36-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:18:13-32
+36-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:18:13-32
 37            android:exported="false" />
-37-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:19:13-37
+37-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:19:13-37
 38        <activity
-38-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:20:9-22:40
+38-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:20:9-22:40
 39            android:name="com.example.fitelevate.login"
-39-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:21:13-34
+39-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:21:13-34
 40            android:exported="false" />
-40-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:22:13-37
+40-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:22:13-37
 41        <activity
-41-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:23:9-25:40
+41-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:23:9-25:40
 42            android:name="com.example.fitelevate.register"
-42-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:24:13-37
+42-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:24:13-37
 43            android:exported="false" />
-43-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:25:13-37
+43-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:25:13-37
 44        <activity
-44-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:26:9-34:20
+44-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:26:9-34:20
 45            android:name="com.example.fitelevate.splashscreen"
-45-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:27:13-41
+45-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:27:13-41
 46            android:exported="true" >
-46-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:28:13-36
+46-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:28:13-36
 47            <intent-filter>
-47-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:29:13-33:29
+47-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:29:13-33:29
 48                <action android:name="android.intent.action.MAIN" />
-48-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:30:17-69
-48-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:30:25-66
+48-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:30:17-69
+48-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:30:25-66
 49
 50                <category android:name="android.intent.category.LAUNCHER" />
-50-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:32:17-77
-50-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:32:27-74
+50-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:32:17-77
+50-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:32:27-74
 51            </intent-filter>
 52        </activity>
 53        <activity android:name="com.example.fitelevate.MainActivity" />
-53-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:35:9-50
-53-->C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:35:19-47
+53-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:35:9-50
+53-->C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:35:19-47
 54        <activity
-54-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+54-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
 55            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-55-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+55-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
 56            android:excludeFromRecents="true"
-56-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+56-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
 57            android:exported="true"
-57-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+57-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
 58            android:launchMode="singleTask"
-58-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+58-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
 59            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-59-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+59-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
 60            <intent-filter>
-60-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+60-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
 61                <action android:name="android.intent.action.VIEW" />
-61-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-61-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+61-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+61-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
 62
 63                <category android:name="android.intent.category.DEFAULT" />
-63-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-63-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+63-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+63-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
 64                <category android:name="android.intent.category.BROWSABLE" />
-64-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-64-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+64-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+64-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
 65
 66                <data
-66-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+66-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
 67                    android:host="firebase.auth"
-67-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+67-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
 68                    android:path="/"
-68-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+68-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
 69                    android:scheme="genericidp" />
-69-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+69-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
 70            </intent-filter>
 71        </activity>
 72        <activity
-72-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+72-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
 73            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-73-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+73-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
 74            android:excludeFromRecents="true"
-74-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+74-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
 75            android:exported="true"
-75-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+75-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
 76            android:launchMode="singleTask"
-76-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+76-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
 77            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-77-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+77-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
 78            <intent-filter>
-78-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+78-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
 79                <action android:name="android.intent.action.VIEW" />
-79-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-79-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+79-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+79-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
 80
 81                <category android:name="android.intent.category.DEFAULT" />
-81-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-81-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+81-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+81-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
 82                <category android:name="android.intent.category.BROWSABLE" />
-82-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-82-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+82-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+82-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
 83
 84                <data
-84-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+84-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
 85                    android:host="firebase.auth"
-85-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+85-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
 86                    android:path="/"
-86-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+86-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
 87                    android:scheme="recaptcha" />
-87-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+87-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
 88            </intent-filter>
 89        </activity>
 90
 91        <service
-91-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
+91-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
 92            android:name="com.google.firebase.components.ComponentDiscoveryService"
-92-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:65:13-84
+92-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:65:13-84
 93            android:directBootAware="true"
-93-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\4dfeb389a10f60f7c71a80a1dcfceb14\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+93-->[com.google.firebase:firebase-common:20.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\5e211577678f0c8938d2a8f5be22ff8f\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
 94            android:exported="false" >
-94-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+94-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
 95            <meta-data
-95-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+95-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
 96                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
 97                android:value="com.google.firebase.components.ComponentRegistrar" />
-97-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\b4a66383e124c4c67e23ba549d4382ff\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+97-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
 98        </service>
 99
 100        <provider
-100-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\4dfeb389a10f60f7c71a80a1dcfceb14\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+100-->[com.google.firebase:firebase-common:20.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\5e211577678f0c8938d2a8f5be22ff8f\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
 101            android:name="com.google.firebase.provider.FirebaseInitProvider"
-101-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\4dfeb389a10f60f7c71a80a1dcfceb14\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+101-->[com.google.firebase:firebase-common:20.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\5e211577678f0c8938d2a8f5be22ff8f\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
 102            android:authorities="com.example.fitelevate.firebaseinitprovider"
-102-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\4dfeb389a10f60f7c71a80a1dcfceb14\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+102-->[com.google.firebase:firebase-common:20.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\5e211577678f0c8938d2a8f5be22ff8f\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
 103            android:directBootAware="true"
-103-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\4dfeb389a10f60f7c71a80a1dcfceb14\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+103-->[com.google.firebase:firebase-common:20.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\5e211577678f0c8938d2a8f5be22ff8f\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
 104            android:exported="false"
-104-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\4dfeb389a10f60f7c71a80a1dcfceb14\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+104-->[com.google.firebase:firebase-common:20.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\5e211577678f0c8938d2a8f5be22ff8f\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
 105            android:initOrder="100" />
-105-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\4dfeb389a10f60f7c71a80a1dcfceb14\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+105-->[com.google.firebase:firebase-common:20.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\5e211577678f0c8938d2a8f5be22ff8f\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
 106
 107        <activity
-107-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\f632709f9ada0248f7ce54974fc583a4\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+107-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\4472bef859a5fa87b7685f5a645827d4\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-108-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\f632709f9ada0248f7ce54974fc583a4\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+108-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\4472bef859a5fa87b7685f5a645827d4\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 109            android:exported="false"
-109-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\f632709f9ada0248f7ce54974fc583a4\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+109-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\4472bef859a5fa87b7685f5a645827d4\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-110-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\f632709f9ada0248f7ce54974fc583a4\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+110-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\4472bef859a5fa87b7685f5a645827d4\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 111
 112        <meta-data
-112-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\3ed17915a2e744c2bbbfb52330773cf5\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+112-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 113            android:name="com.google.android.gms.version"
-113-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\3ed17915a2e744c2bbbfb52330773cf5\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+113-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
 114            android:value="@integer/google_play_services_version" />
-114-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\3ed17915a2e744c2bbbfb52330773cf5\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+114-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\itsjp\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 115
 116        <provider
-116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\ac0fb3956709d2347e7c19d6d7a40626\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 117            android:name="androidx.startup.InitializationProvider"
-117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\ac0fb3956709d2347e7c19d6d7a40626\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 118            android:authorities="com.example.fitelevate.androidx-startup"
-118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\ac0fb3956709d2347e7c19d6d7a40626\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 119            android:exported="false" >
-119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\ac0fb3956709d2347e7c19d6d7a40626\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 120            <meta-data
-120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\ac0fb3956709d2347e7c19d6d7a40626\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\ac0fb3956709d2347e7c19d6d7a40626\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+121-->[androidx.emoji2:emoji2:1.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 122                android:value="androidx.startup" />
-122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\ac0fb3956709d2347e7c19d6d7a40626\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\itsjp\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 123            <meta-data
-123-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vipin\.gradle\caches\transforms-3\a7afaacbc7177510ad6c44aabd6a8811\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+123-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\itsjp\.gradle\caches\transforms-3\7f99fec45baa6b482cb18a0f870840bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-124-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vipin\.gradle\caches\transforms-3\a7afaacbc7177510ad6c44aabd6a8811\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+124-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\itsjp\.gradle\caches\transforms-3\7f99fec45baa6b482cb18a0f870840bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 125                android:value="androidx.startup" />
-125-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Vipin\.gradle\caches\transforms-3\a7afaacbc7177510ad6c44aabd6a8811\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+125-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\itsjp\.gradle\caches\transforms-3\7f99fec45baa6b482cb18a0f870840bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 126        </provider>
 127    </application>
 128
