@@ -2,6 +2,7 @@ R_DEF: Internal format may change without notice
 local
 color black
 color green_500
+color ic_launcher_background
 color purple
 color purple_200
 color purple_500
@@ -159,6 +160,7 @@ layout activity_register
 layout activity_splashscreen
 layout activity_tnc
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string alreadymember
 string app_name
