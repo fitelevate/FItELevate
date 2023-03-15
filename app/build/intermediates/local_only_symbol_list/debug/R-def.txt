@@ -21,6 +21,7 @@ drawable _343850_removebg_preview
 drawable _730
 drawable __cups
 drawable activity
+drawable baseline_logout_24
 drawable by_signing_up_you_agree_with_our
 drawable calories
 drawable component_3__1

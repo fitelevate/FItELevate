@@ -72,6 +72,10 @@
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable-mdpi\\water.png"
     },
     {
+        "merged": "com.example.fitelevate.app-merged_res-34:/layout_activity_login.xml.flat",
+        "source": "com.example.fitelevate.app-main-36:/layout/activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-mdpi_rectangle_6.png.flat",
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable-mdpi\\rectangle_6.png"
     },
@@ -94,6 +98,10 @@
     {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-hdpi_fire.png.flat",
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable-hdpi\\fire.png"
+    },
+    {
+        "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable_baseline_logout_24.xml.flat",
+        "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\drawable\\baseline_logout_24.xml"
     },
     {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-xxhdpi_please_login_to_your_account.png.flat",
@@ -1302,10 +1310,6 @@
     {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.fitelevate.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "com.example.fitelevate.app-main-36:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-34:\\drawable-ldpi_fit_1.png.flat",
