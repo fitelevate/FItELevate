@@ -2740,7 +2740,12 @@ drawable abc_vector_test
 drawable activity
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_home_24
 drawable baseline_logout_24
+drawable baseline_person_24
+drawable baseline_power_settings_new_24
+drawable baseline_search_24
+drawable baseline_stacked_line_chart_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2989,6 +2994,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id accountfarzi
 id actionDown
 id actionDownUp
 id actionUp
@@ -3014,7 +3020,6 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
-id airplane1
 id alertTitle
 id aligned
 id all
@@ -3038,8 +3043,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
-id bmi
-id bmiTextView
+id bnView
 id bottom
 id bounce
 id bounceBoth
@@ -3053,8 +3057,6 @@ id browser_actions_menu_view
 id buttonPanel
 id cache_measures
 id callMeasure
-id caloriesTextView
-id calory
 id cancel_button
 id carryVelocity
 id center
@@ -3091,7 +3093,6 @@ id currentState
 id custom
 id customPanel
 id cut
-id cycle1
 id dark
 id date_picker_actions
 id decelerate
@@ -3169,8 +3170,6 @@ id group_divider
 id grouping
 id groups
 id header_title
-id heart
-id heartTextView
 id hideable
 id home
 id homeAsUp
@@ -3183,7 +3182,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3203,10 +3201,6 @@ id light
 id line1
 id line3
 id linear
-id linearLayout
-id linearLayout2
-id linearLayout3
-id linearLayout4
 id listMode
 id list_item
 id login
@@ -3273,6 +3267,10 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nav_account
+id nav_activity
+id nav_home
+id nav_search
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3376,8 +3374,6 @@ id signup_message
 id sin
 id skipCollapsed
 id skipped
-id sleep
-id sleepTextView
 id slide
 id snackbar_action
 id snackbar_text
@@ -3402,8 +3398,6 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
-id step
-id stepsTextView
 id stop
 id stretch
 id submenuarrow
@@ -3431,10 +3425,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView10
-id textView11
-id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3450,12 +3440,9 @@ id titleDividerNoCustom
 id title_template
 id tnc
 id toggle
-id toolbar
 id top
 id topPanel
 id touch_outside
-id training
-id trainingTextView
 id transitionToEnd
 id transitionToStart
 id transition_current_scene
@@ -3479,8 +3466,6 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id water
-id waterTextView
 id welcomeToText
 id west
 id wide
@@ -3492,8 +3477,6 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
-id yoga
-id yogaTextView
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3602,6 +3585,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_forgotpassword
+layout activity_kali
 layout activity_login
 layout activity_main
 layout activity_register
@@ -3625,6 +3609,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_account_fragment
+layout fragment_activity_fragment
+layout fragment_home_fragment
+layout fragment_search_fragment
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3686,6 +3674,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu nav_items
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
@@ -3718,6 +3707,8 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string account
+string activity
 string alreadymember
 string androidx_startup
 string app_name
@@ -3777,7 +3768,9 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string heart
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string home
 string icon_content_description
 string item_view_role_description
 string login_message
@@ -3882,6 +3875,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string search
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description

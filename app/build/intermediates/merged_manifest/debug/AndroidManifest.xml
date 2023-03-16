@@ -30,6 +30,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FItElevate" >
         <activity
+            android:name="com.example.fitelevate.kali"
+            android:exported="false" />
+        <activity
             android:name="com.example.fitelevate.forgotpassword"
             android:exported="false" />
         <activity
