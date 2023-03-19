@@ -3058,6 +3058,10 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id card1
+id card2
+id card3
+id card4
 id carryVelocity
 id center
 id centerCrop

@@ -111,6 +111,10 @@ font baloo_semibold
 id accountfarzi
 id already_member
 id bnView
+id card1
+id card2
+id card3
+id card4
 id container
 id dont_have_account
 id elevate
