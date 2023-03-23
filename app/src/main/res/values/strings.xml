@@ -29,7 +29,11 @@
     <string name="search">Search  </string>
     <string name="activity">Activity </string>
     <string name="account">Account </string>
+    <string name="login">login </string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="or_login_with">or login with</string>
+    <string name="textview">TextView</string>
 
 </resources>

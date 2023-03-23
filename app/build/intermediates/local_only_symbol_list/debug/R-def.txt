@@ -142,7 +142,6 @@ id tnc
 id user_details
 id welcomeToText
 layout activity_forgotpassword
-layout activity_kali
 layout activity_login
 layout activity_main
 layout activity_register
@@ -180,7 +179,9 @@ string google_storage_bucket
 string heart
 string hello_blank_fragment
 string home
+string login
 string login_message
+string or_login_with
 string project_id
 string search
 string signin
@@ -189,6 +190,7 @@ string signup_message
 string signup_text
 string sleep
 string steps
+string textview
 string tncmessage
 string trainig
 string water

@@ -34,7 +34,9 @@
     <string name="heart">Heart  </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home  </string>
+    <string name="login">login </string>
     <string name="login_message">Please login to your account</string>
+    <string name="or_login_with">or login with</string>
     <string name="project_id" translatable="false">fitelevate-96f37</string>
     <string name="search">Search  </string>
     <string name="signin">Sign In</string>
@@ -43,6 +45,7 @@
     <string name="signup_text">By signing up you agree with our term and conditions</string>
     <string name="sleep">Sleep  </string>
     <string name="steps">Steps  </string>
+    <string name="textview">TextView</string>
     <string name="tncmessage">Our Terms &amp; Conditions</string>
     <string name="trainig">Training </string>
     <string name="water">Water </string>

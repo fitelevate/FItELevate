@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\itsjp\.gradle\caches\transforms-3\f9c28eb245f4c8bc1c8af3a3eff5b023\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\itsjp\.gradle\caches\transforms-3\0fbfde8a1145d3d69645a284c16bc2d9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\itsjp\.gradle\caches\transforms-3\34f2f08679cba25cde825a91c6feac06\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -54,27 +54,27 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\itsjp\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\itsjp\.gradle\caches\transforms-3\c1a6115d276eb1e755d92eacac6a76eb\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\itsjp\.gradle\caches\transforms-3\2563139f2a7b630213d2148e2525fdb5\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\itsjp\.gradle\caches\transforms-3\a1b22f2b00c84b59b593fe6023277808\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-41:12
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:5:5-39:19
+ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:5:5-36:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\itsjp\.gradle\caches\transforms-3\f9c28eb245f4c8bc1c8af3a3eff5b023\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\itsjp\.gradle\caches\transforms-3\f9c28eb245f4c8bc1c8af3a3eff5b023\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\itsjp\.gradle\caches\transforms-3\0fbfde8a1145d3d69645a284c16bc2d9\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -121,56 +121,50 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\it
 		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:12:9-48
 	android:dataExtractionRules
 		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.fitelevate.kali
+activity#com.example.fitelevate.forgotpassword
 ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
 		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:15:13-33
-activity#com.example.fitelevate.forgotpassword
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:15:13-43
+activity#com.example.fitelevate.tnc
 ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:18:13-43
-activity#com.example.fitelevate.tnc
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:18:13-32
+activity#com.example.fitelevate.login
 ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:21:13-32
-activity#com.example.fitelevate.login
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:21:13-34
+activity#com.example.fitelevate.register
 ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:24:13-34
-activity#com.example.fitelevate.register
-ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:26:9-28:40
-	android:exported
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:24:13-37
 activity#com.example.fitelevate.splashscreen
-ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:26:9-34:20
 	android:exported
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:32:27-74
 activity#com.example.fitelevate.MainActivity
-ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:38:9-50
+ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:35:9-50
 	android:name
-		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:38:19-47
+		ADDED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:35:19-47
 uses-sdk
 INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\itsjp\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
