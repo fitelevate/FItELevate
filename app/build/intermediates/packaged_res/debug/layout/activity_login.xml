@@ -22,6 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/welcomeTo"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
@@ -52,6 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_message"
+        android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold"
 
@@ -110,6 +112,7 @@
         android:layout_marginEnd="25dp"
         android:layout_marginTop="55dp"
         android:text="@string/signin"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:textSize="25sp"
 
@@ -120,6 +123,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="or login with"
+        android:textColor="@color/white"
         android:layout_below="@id/loginButton"
         android:textSize="15sp"
         android:textAlignment="center"
@@ -143,6 +147,7 @@
         android:layout_below="@+id/login_with_google"
 
         android:text="@string/donthaveac"
+        android:textColor="@color/white"
         android:layout_marginTop="40dp"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"/>
