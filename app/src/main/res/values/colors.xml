@@ -9,5 +9,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="purple">#9D4FA6</color>
     <color name="green_500">#76E67B</color>
+    <color name="primary">#171433</color>
+    <color name="secondary_1">#7168d3</color>
+    <color name="secondary_2">#7fe4f0</color>
+    <color name="neutral">#f2f1f9</color>
+
+
 
 </resources>

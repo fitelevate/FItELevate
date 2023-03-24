@@ -3,10 +3,14 @@ local
 color black
 color green_500
 color ic_launcher_background
+color neutral
+color primary
 color purple
 color purple_200
 color purple_500
 color purple_700
+color secondary_1
+color secondary_2
 color teal_200
 color teal_700
 color white
@@ -22,12 +26,16 @@ drawable _343850_removebg_preview
 drawable _730
 drawable __cups
 drawable activity
+drawable baseline_arrow_circle_right_24
+drawable baseline_arrow_forward_24
 drawable baseline_home_24
 drawable baseline_logout_24
 drawable baseline_person_24
 drawable baseline_power_settings_new_24
 drawable baseline_search_24
 drawable baseline_stacked_line_chart_24
+drawable bmi
+drawable bmr
 drawable by_signing_up_you_agree_with_our
 drawable calories
 drawable component_3__1
@@ -42,6 +50,7 @@ drawable elevate
 drawable elevate_1
 drawable elevate_your_fitness
 drawable email_address
+drawable exercise
 drawable fire
 drawable fit
 drawable fit_1
@@ -94,6 +103,7 @@ drawable report
 drawable setting
 drawable sign_up_now
 drawable sleep
+drawable step
 drawable steps
 drawable terms___conditions
 drawable training
@@ -102,6 +112,7 @@ drawable water
 drawable welcome_to
 drawable white_settings_icon_vector_7151463_removebg_preview
 drawable xmlid_223_
+drawable yoga
 font aclonica_regular
 font baloo_bold
 font baloo_extra_bold
@@ -111,10 +122,6 @@ font baloo_semibold
 id accountfarzi
 id already_member
 id bnView
-id card1
-id card2
-id card3
-id card4
 id container
 id dont_have_account
 id elevate
@@ -161,6 +168,7 @@ string alreadymember
 string app_name
 string app_theme
 string bmi
+string bmr
 string calories
 string confirm_your_password
 string contdes
@@ -168,6 +176,7 @@ string default_web_client_id
 string donthaveac
 string enter_your_email
 string enter_your_password
+string exercise
 string forgot_message
 string forgotpass_message
 string gcm_defaultSenderId
@@ -192,7 +201,8 @@ string sleep
 string steps
 string textview
 string tncmessage
-string trainig
+string training
+string walk
 string water
 string welcomeTo
 string yoga

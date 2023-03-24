@@ -1908,8 +1908,10 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color neutral
 color notification_action_color_filter
 color notification_icon_bg_color
+color primary
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1924,6 +1926,8 @@ color purple_500
 color purple_700
 color ripple_material_dark
 color ripple_material_light
+color secondary_1
+color secondary_2
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -2740,12 +2744,16 @@ drawable abc_vector_test
 drawable activity
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_arrow_circle_right_24
+drawable baseline_arrow_forward_24
 drawable baseline_home_24
 drawable baseline_logout_24
 drawable baseline_person_24
 drawable baseline_power_settings_new_24
 drawable baseline_search_24
 drawable baseline_stacked_line_chart_24
+drawable bmi
+drawable bmr
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2792,6 +2800,7 @@ drawable elevate
 drawable elevate_1
 drawable elevate_your_fitness
 drawable email_address
+drawable exercise
 drawable fire
 drawable fit
 drawable fit_1
@@ -2929,6 +2938,7 @@ drawable report
 drawable setting
 drawable sign_up_now
 drawable sleep
+drawable step
 drawable steps
 drawable terms___conditions
 drawable test_level_drawable
@@ -2940,6 +2950,7 @@ drawable water
 drawable welcome_to
 drawable white_settings_icon_vector_7151463_removebg_preview
 drawable xmlid_223_
+drawable yoga
 font aclonica_regular
 font baloo_bold
 font baloo_extra_bold
@@ -3058,10 +3069,6 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
-id card1
-id card2
-id card3
-id card4
 id carryVelocity
 id center
 id centerCrop
@@ -3718,6 +3725,7 @@ string app_name
 string app_theme
 string appbar_scrolling_view_behavior
 string bmi
+string bmr
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3756,6 +3764,7 @@ string enter_your_email
 string enter_your_password
 string error_a11y_label
 string error_icon_content_description
+string exercise
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -3896,7 +3905,8 @@ string status_bar_notification_info_overflow
 string steps
 string textview
 string tncmessage
-string trainig
+string training
+string walk
 string water
 string welcomeTo
 string yoga
