@@ -12,16 +12,18 @@
         android:background="@drawable/rectangle_5"
         android:contentDescription="@string/contdes"
         />
+
     <TextView
         android:id="@+id/welcomeToText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:text="@string/welcomeTo"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
-        />
+        tools:ignore="TextContrastCheck" />
     <ImageView
         android:id="@+id/fit"
         android:layout_width="wrap_content"
@@ -42,17 +44,19 @@
         android:layout_marginStart="20dp"
 
         />
+
     <TextView
         android:id="@+id/tnc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/elevate"
+        android:layout_marginStart="20dp"
         android:text="@string/tncmessage"
+        android:textColor="@color/white"
+
         android:textSize="15sp"
         android:textStyle="bold"
-
-        android:layout_marginStart="20dp"
-        android:layout_below="@+id/elevate"
-        />
+        tools:ignore="TextContrastCheck" />
 
 
 
