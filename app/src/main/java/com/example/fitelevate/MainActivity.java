@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
-    // chenged here for fragment
+    // changed here for fragment
     BottomNavigationView bnView;
 
     FirebaseAuth auth;
