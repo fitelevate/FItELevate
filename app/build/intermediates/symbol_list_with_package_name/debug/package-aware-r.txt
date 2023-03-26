@@ -563,8 +563,10 @@ attr forceApplySystemWindowInsetTop
 attr forceDefaultNavigationOnClickListener
 attr foregroundInsidePadding
 attr framePosition
+attr freezesAnimation
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
+attr gifSource
 attr goIcon
 attr guidelineUseRtl
 attr haloColor
@@ -620,6 +622,7 @@ attr isLightTheme
 attr isMaterial3DynamicColorApplied
 attr isMaterial3Theme
 attr isMaterialTheme
+attr isOpaque
 attr itemActiveIndicatorStyle
 attr itemBackground
 attr itemFillColor
@@ -757,6 +760,7 @@ attr logo
 attr logoAdjustViewBounds
 attr logoDescription
 attr logoScaleType
+attr loopCount
 attr marginHorizontal
 attr marginLeftSystemWindowInsets
 attr marginRightSystemWindowInsets
@@ -2744,6 +2748,7 @@ drawable abc_vector_test
 drawable activity
 drawable avd_hide_password
 drawable avd_show_password
+drawable backgroundcrop
 drawable baseline_arrow_circle_right_24
 drawable baseline_arrow_forward_24
 drawable baseline_home_24
@@ -2762,6 +2767,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button
 drawable by_signing_up_you_agree_with_our
 drawable calories
 drawable common_full_open_on_phone
@@ -2801,6 +2807,7 @@ drawable elevate_1
 drawable elevate_your_fitness
 drawable email_address
 drawable exercise
+drawable exercisegif
 drawable fire
 drawable fit
 drawable fit_1
@@ -2935,6 +2942,7 @@ drawable rectangle_6
 drawable rectangle_7
 drawable rectangle_8
 drawable report
+drawable right_arrow
 drawable setting
 drawable sign_up_now
 drawable sleep
@@ -3457,6 +3465,7 @@ id titleDividerNoCustom
 id title_template
 id tnc
 id toggle
+id toolbaar
 id top
 id topPanel
 id touch_outside
@@ -3483,6 +3492,8 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id weightGainButton
+id weightLooseButton
 id welcomeToText
 id west
 id wide
@@ -3612,6 +3623,8 @@ layout activity_splashscreen
 layout activity_step_counter
 layout activity_tnc
 layout activity_water
+layout activity_weight_gain
+layout activity_weight_loose
 layout activity_yoga
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -5076,6 +5089,8 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
+styleable GifTextureView gifSource isOpaque
+styleable GifView freezesAnimation loopCount
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth
