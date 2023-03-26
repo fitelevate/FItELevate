@@ -12,6 +12,12 @@
         android:theme="@style/Theme.FItElevate"
         tools:targetApi="31">
         <activity
+            android:name=".weightLoose"
+            android:exported="false" />
+        <activity
+            android:name=".weightGain"
+            android:exported="false" />
+        <activity
             android:name=".water"
             android:exported="false" />
         <activity

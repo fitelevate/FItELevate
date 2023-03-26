@@ -26,6 +26,7 @@ drawable _343850_removebg_preview
 drawable _730
 drawable __cups
 drawable activity
+drawable backgroundcrop
 drawable baseline_arrow_circle_right_24
 drawable baseline_arrow_forward_24
 drawable baseline_home_24
@@ -36,6 +37,7 @@ drawable baseline_search_24
 drawable baseline_stacked_line_chart_24
 drawable bmi
 drawable bmr
+drawable button
 drawable by_signing_up_you_agree_with_our
 drawable calories
 drawable component_3__1
@@ -51,6 +53,7 @@ drawable elevate_1
 drawable elevate_your_fitness
 drawable email_address
 drawable exercise
+drawable exercisegif
 drawable fire
 drawable fit
 drawable fit_1
@@ -100,6 +103,7 @@ drawable rectangle_6
 drawable rectangle_7
 drawable rectangle_8
 drawable report
+drawable right_arrow
 drawable setting
 drawable sign_up_now
 drawable sleep
@@ -154,7 +158,10 @@ id submitButton
 id textViewStepCounter
 id textViewStepDetector
 id tnc
+id toolbaar
 id user_details
+id weightGainButton
+id weightLooseButton
 id welcomeToText
 layout activity_bmi
 layout activity_bmr
@@ -167,6 +174,8 @@ layout activity_splashscreen
 layout activity_step_counter
 layout activity_tnc
 layout activity_water
+layout activity_weight_gain
+layout activity_weight_loose
 layout activity_yoga
 layout fragment_account_fragment
 layout fragment_activity_fragment

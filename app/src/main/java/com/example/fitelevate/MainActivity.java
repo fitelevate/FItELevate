@@ -47,24 +47,21 @@ public class MainActivity extends AppCompatActivity {
             Intent intent=new Intent(getApplicationContext(),login.class);
             startActivity(intent);
             finish();            });
-        bnView.setOnItemSelectedListener(new BottomNavigationView.OnItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                int id=item.getItemId();
-                if(id==R.id.nav_home){
-                   loadfrag(new Home_fragment(),true);
+        bnView.setOnItemSelectedListener(item -> {
+            int id=item.getItemId();
+            if(id==R.id.nav_home){
+               loadfrag(new Home_fragment(),true);
 
-                } else if (id==R.id.nav_activity) {
-                   loadfrag(new Activity_fragment(),false);
+            } else if (id==R.id.nav_activity) {
+               loadfrag(new Activity_fragment(),false);
 
-                } else if (id==R.id.nav_search) {
-                 loadfrag(new Search_fragment(),false);
+            } else if (id==R.id.nav_search) {
+             loadfrag(new Search_fragment(),false);
 
-                }else {
-                   loadfrag(new Account_fragment(),false);
-                }
-                return true;
+            }else {
+               loadfrag(new Account_fragment(),false);
             }
+            return true;
         });
         // we can change the view of selected fragment from here
         bnView.setSelectedItemId(R.id.nav_home);
