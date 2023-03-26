@@ -73,6 +73,10 @@ INJECTED from C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\Andro
 		INJECTED from C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:4:5-78
+	android:name
+		ADDED from C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:4:22-76
 application
 ADDED from C:\Users\Vipin\AndroidStudioProjects\FItELevate\app\src\main\AndroidManifest.xml:5:5-54:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\Vipin\.gradle\caches\transforms-3\f9c28eb245f4c8bc1c8af3a3eff5b023\transformed\material-1.8.0\AndroidManifest.xml:24:5-20

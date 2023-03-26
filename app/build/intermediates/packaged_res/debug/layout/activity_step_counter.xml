@@ -6,9 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".step_counter">
     <TextView
+        android:id="@+id/textViewStepCounter"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/steps"
+        android:text="Step Counter"
+        android:textSize="50sp"/>
+    <TextView
+        android:id="@+id/textViewStepDetector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:text="Step Detector"
         android:textSize="50sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

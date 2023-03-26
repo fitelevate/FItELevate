@@ -151,6 +151,8 @@ id progressBar
 id sign_up
 id signup_message
 id submitButton
+id textViewStepCounter
+id textViewStepDetector
 id tnc
 id user_details
 id welcomeToText
