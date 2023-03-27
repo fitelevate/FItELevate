@@ -26,9 +26,19 @@
     <string name="contdes">fitelevate</string>
     <string name="default_web_client_id" translatable="false">635183237547-24gd8f5k1ctldpscf2ak5perpf52as21.apps.googleusercontent.com</string>
     <string name="donthaveac">Dont have an account? </string>
+    <string name="e1wloose">hi this is the weight loose exercise and this
+        is the dummy text for all the persons who want to get the
+    hi this is the weight loose exercise and this
+        is the dummy text for all the persons who want to get the
+        hi this is the weight loose exercise and this
+        is the dummy text for all the persons who want to get thehi this is the weight loose exercise and this
+        is the dummy text for all the persons who want to get thehi this is the weight loose exercise and this
+        is the dummy text for all the persons who want to get the
+    </string>
     <string name="enter_your_email">Enter Your Email</string>
     <string name="enter_your_password">Enter Your Password</string>
     <string name="exercise">Exercise  </string>
+    <string name="exerciseany">Any exercise</string>
     <string name="forgot_message">Forgot Password? </string>
     <string name="forgotpass_message">Forgot Password</string>
     <string name="gcm_defaultSenderId" translatable="false">635183237547</string>
