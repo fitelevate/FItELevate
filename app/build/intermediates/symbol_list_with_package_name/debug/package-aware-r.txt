@@ -2758,7 +2758,10 @@ drawable baseline_power_settings_new_24
 drawable baseline_search_24
 drawable baseline_stacked_line_chart_24
 drawable bmi
+drawable bmi_banner_image
+drawable bmi_chart
 drawable bmr
+drawable bmr_banner
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2791,6 +2794,9 @@ drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable component_3__1
 drawable component_3__1__toggle_state_
+drawable custom_button1
+drawable custom_button2
+drawable custom_input
 drawable dashboard
 drawable design_fab_background
 drawable design_ic_visibility
@@ -3062,6 +3068,9 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bmi_banner
+id bmi_height_input
+id bmi_weight_input
 id bnView
 id bottom
 id bounce
@@ -3073,8 +3082,10 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id button
 id buttonPanel
 id cache_measures
+id calculate_bmi_button
 id callMeasure
 id cancel_button
 id cardbmi
@@ -3153,6 +3164,9 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editText3
+id editText4
+id editText5
 id edit_query
 id elastic
 id elevate
@@ -3207,6 +3221,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3342,8 +3357,12 @@ id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
+id radioButton2
 id ratio
 id rectangles
+id result_number
+id result_text
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3450,6 +3469,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textViewStepCounter
 id textViewStepDetector
 id text_input_end_icon
@@ -3615,6 +3635,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_bmi
+layout activity_bmi_result
 layout activity_bmr
 layout activity_exercise
 layout activity_forgotpassword

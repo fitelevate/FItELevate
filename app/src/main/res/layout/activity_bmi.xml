@@ -5,10 +5,65 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".bmi">
-    <TextView
+
+
+    <ImageView
+        android:id="@+id/bmi_banner"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:background="@drawable/bmi_banner_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/bmi_weight_input"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/bmi"
-        android:textSize="50sp"/>
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_input"
+        android:hint="Enter your weight in kg"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:inputType="number"
+        android:textColorHint="#6c757d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bmi_banner" />
+
+    <EditText
+        android:id="@+id/bmi_height_input"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/custom_input"
+        android:hint="Enter your Height in cm"
+        android:inputType="number"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="#6c757d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/calculate_bmi_button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="Calculate BMI"
+        android:background="@drawable/custom_button1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmi_height_input" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
