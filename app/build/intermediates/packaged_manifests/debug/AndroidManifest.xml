@@ -31,7 +31,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.FItElevate" >
         <activity
-            android:name="com.example.fitelevate.bmi_result"
+            android:name="com.example.fitelevate.wloose_ex2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitelevate.wloose_ex1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitelevate.ActivityWeightLooseExercise"
             android:exported="false" />
         <activity
             android:name="com.example.fitelevate.weightLoose"
