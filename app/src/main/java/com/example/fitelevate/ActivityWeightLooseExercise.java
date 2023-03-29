@@ -29,12 +29,45 @@ public class ActivityWeightLooseExercise extends AppCompatActivity {
         switch (intvalue) {
             // Use all values here
             case 1:
-                setContentView(layout.activity_wloose_ex1);
+                setContentView(layout.activity_jumping_jacks);
                 break;
 
             case 2:
-                setContentView(layout.activity_wloose_ex2);
+                setContentView(layout.activity_squat_kicks);
                 break;
+
+            case 3:
+                setContentView(layout.activity_push_ups);
+                break;
+            case 4:
+                setContentView(layout.activity_reverse_crunches);
+                break;
+            case 5:
+                setContentView(layout.activity_squat_reachups);
+                break;
+
+            case 6:
+                setContentView(layout.activity_inch_warms);
+                break;
+
+            case 7:
+                setContentView(layout.activity_frog_press);
+                break;
+
+            case 8:
+                setContentView(layout.activity_lunges);
+                break;
+
+            case 9:
+                setContentView(layout.activity_squats);
+                break;
+
+            case 10:
+                setContentView(layout.activity_leg_raises);
+                break;
+
+
+
 
             // Add more cases as needed
 

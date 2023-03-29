@@ -22,7 +22,7 @@ public class weightLoose extends AppCompatActivity {
         setSupportActionBar(toolbar);
         newArray=new int[]{
                 //sabhi exercise ki id find karni hai according to their respective xml
-          R.id.pose1,R.id.pose2,
+          R.id.jumpingJacks,R.id.squatKicks,R.id.pushups,R.id.reverseCrunches,R.id.squatReachUps,R.id.inchWarms,R.id.frogPress,R.id.lunges,R.id.squats,R.id.legRaises,
         };
     }
     public void Imagebuttonclicked(View view) {

@@ -9,6 +9,6 @@ public class wloose_ex1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wloose_ex1);
+        setContentView(R.layout.activity_jumping_jacks);
     }
 }
