@@ -31,6 +31,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.FItElevate" >
         <activity
+            android:name="com.example.fitelevate.bmr_result"
+            android:exported="false" />
+        <activity
             android:name="com.example.fitelevate.ActivityWeightLooseExercise"
             android:exported="false" />
         <activity

@@ -3061,6 +3061,7 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id age_input
 id alertTitle
 id aligned
 id all
@@ -3087,6 +3088,9 @@ id blocking
 id bmi_banner
 id bmi_height_input
 id bmi_weight_input
+id bmr_heightIn
+id bmr_result_text
+id bmr_submit_btn
 id bnView
 id bottom
 id bounce
@@ -3098,7 +3102,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id button
 id buttonPanel
 id cache_measures
 id calculate_bmi_button
@@ -3180,9 +3183,6 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editText3
-id editText4
-id editText5
 id edit_query
 id elastic
 id elevate
@@ -3196,6 +3196,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id female_radio_btn
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3269,6 +3270,7 @@ id login_with_google
 id logout
 id lunges
 id m3_side_sheet
+id male_radio_btn
 id marquee
 id masked
 id match_constraint
@@ -3381,8 +3383,6 @@ id progress_circular
 id progress_horizontal
 id pushups
 id radio
-id radioButton
-id radioButton2
 id radiogroup
 id ratio
 id rectangles
@@ -3547,6 +3547,7 @@ id visible
 id visible_removing_fragment_view_tag
 id weightGainButton
 id weightLooseButton
+id weight_in
 id welcomeToText
 id west
 id wide
@@ -3668,6 +3669,7 @@ layout abc_tooltip
 layout activity_bmi
 layout activity_bmi_result
 layout activity_bmr
+layout activity_bmr_result
 layout activity_exercise
 layout activity_forgotpassword
 layout activity_frog_press

@@ -38,14 +38,15 @@
             android:textColor="@color/black"/>
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/male_radio_btn"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:text="male"
+            android:onClick="onRadioButtonClicked"
             android:textSize="20sp"/>
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/female_radio_btn"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:text="female"
@@ -57,7 +58,7 @@
 
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/bmr_heightIn"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_below="@id/radiogroup"
@@ -72,13 +73,13 @@
          />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/weight_in"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
-        android:layout_below="@id/editText4"
+        android:layout_below="@id/bmr_heightIn"
         android:background="@drawable/custom_input"
         android:hint="Enter Your weight in kg"
         android:inputType="number"
@@ -87,11 +88,11 @@
         />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/age_input"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginStart="32dp"
-        android:layout_below="@id/editText3"
+        android:layout_below="@id/weight_in"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/custom_input"
@@ -102,11 +103,11 @@
          />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bmr_submit_btn"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/editText5"
+        android:layout_below="@id/age_input"
         android:background="@drawable/custom_button2"
         android:text="Submit"
         android:layout_centerHorizontal="true"
