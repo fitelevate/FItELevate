@@ -19,5 +19,6 @@ public class bmi_result extends AppCompatActivity {
         Intent i = getIntent();
         float new_bmi = i.getFloatExtra("bmi_result", 0);
         result_number.setText(String.valueOf(new_bmi));
+
     }
 }

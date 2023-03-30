@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-hdpi_vinay_panday.png.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-hdpi\\vinay_panday.png"
-    },
-    {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable_baseline_stacked_line_chart_24.xml.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable\\baseline_stacked_line_chart_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-hdpi_vinay_panday.png.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-hdpi\\vinay_panday.png"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xxhdpi__296515_bird_tweet_twitter_twitter_logo_icon.png.flat",
@@ -20,12 +20,12 @@
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\report.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-ldpi_calories.png.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\calories.png"
-    },
-    {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-hdpi_layer_1.png.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-hdpi\\layer_1.png"
+    },
+    {
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-ldpi_calories.png.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\calories.png"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xxhdpi_profile.png.flat",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xxhdpi\\vinay_panday.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-mdpi__25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-mdpi\\_25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png"
-    },
-    {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-ldpi_nopath___copy__4_.png.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\nopath___copy__4_.png"
+    },
+    {
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-mdpi__25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-mdpi\\_25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xhdpi_dashboard.png.flat",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\heart_beat.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\xml\\data_extraction_rules.xml"
-    },
-    {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-ldpi_group_41.png.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\group_41.png"
+    },
+    {
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\xml\\data_extraction_rules.xml"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-hdpi_icon_feather_mail.png.flat",
@@ -160,12 +160,12 @@
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xxhdpi\\rectangle_8.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xxxhdpi__25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xxxhdpi\\_25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png"
-    },
-    {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xxxhdpi_icon_feather_lock.png.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xxxhdpi\\icon_feather_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xxxhdpi__25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xxxhdpi\\_25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xhdpi__2.png.flat",
@@ -196,12 +196,12 @@
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\dashboard.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-ldpi__25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\_25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png"
-    },
-    {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xhdpi_welcome_to.png.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xhdpi\\welcome_to.png"
+    },
+    {
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-ldpi__25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-ldpi\\_25_2259192_reports_icon_white_png_png_download_report_white_removebg_preview.png"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-mdpi_fit_1.png.flat",
@@ -328,20 +328,20 @@
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xhdpi\\rectangle_6.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable_custom_button1.xml.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable\\custom_button1.xml"
-    },
-    {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-mdpi__296515_bird_tweet_twitter_twitter_logo_icon.png.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-mdpi\\_296515_bird_tweet_twitter_twitter_logo_icon.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xhdpi__20_bmp.png.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xhdpi\\_20_bmp.png"
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable_custom_button1.xml.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable\\custom_button1.xml"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\font_baloo_extra_bold.ttf.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\font\\baloo_extra_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xhdpi__20_bmp.png.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xhdpi\\_20_bmp.png"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xxhdpi_steps.png.flat",
@@ -492,16 +492,16 @@
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-hdpi\\please_login_to_your_account.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xhdpi_sleep.png.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xhdpi\\sleep.png"
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-mdpi_please_login_to_your_account.png.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-mdpi\\please_login_to_your_account.png"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xhdpi_elevate.png.flat",
         "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xhdpi\\elevate.png"
     },
     {
-        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-mdpi_please_login_to_your_account.png.flat",
-        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-mdpi\\please_login_to_your_account.png"
+        "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-xhdpi_sleep.png.flat",
+        "source": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-37:\\drawable-xhdpi\\sleep.png"
     },
     {
         "merged": "C:\\Users\\amans\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-35:\\drawable-hdpi_report.png.flat",
