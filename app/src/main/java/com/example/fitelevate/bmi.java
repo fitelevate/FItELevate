@@ -30,7 +30,7 @@ public class bmi extends AppCompatActivity {
                 float user_height = Float.parseFloat(String.valueOf(bmi_height_input.getText()))/100;
                 float user_weight = Float.parseFloat(String.valueOf(bmi_weight_input.getText()));
                 float bmi = user_weight / (user_height * user_height);
-                Intent i = new Intent(getApplicationContext(), bmi_result.class);
+                Intent i = new Intent(bmi.this, bmi_result.class);
                 i.putExtra("bmi_result", bmi);
                 startActivity(i);
             }
