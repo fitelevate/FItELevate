@@ -1,12 +1,12 @@
-#Wed Mar 29 21:53:11 IST 2023
+#Thu Mar 30 08:08:34 IST 2023
 path.3=classes2.dex
 path.2=8/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=C\:\\Users\\amans\\StudioProjects\\FItELevate\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.2=C\:\\Users\\amans\\StudioProjects\\FItELevate\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.1=C\:\\Users\\amans\\StudioProjects\\FItELevate\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\amans\\StudioProjects\\FItELevate\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.3=C\:\\Users\\Vipin\\AndroidStudioProjects\\FItELevate\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.2=C\:\\Users\\Vipin\\AndroidStudioProjects\\FItELevate\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.1=C\:\\Users\\Vipin\\AndroidStudioProjects\\FItELevate\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=C\:\\Users\\Vipin\\AndroidStudioProjects\\FItELevate\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex

@@ -13,11 +13,11 @@ import android.view.WindowManager;
 import android.widget.TextView;
 
 public class step_counter extends AppCompatActivity implements SensorEventListener {
-    private TextView textViewStepCounter, textViewStepDetector;
+    private TextView textViewStepCounter, textViewCaloriesBurnt, textViewDistance;
     private SensorManager sensorManager;
-    private Sensor mStepCounter, mStepDetector;
-    private boolean isCounterSensorPresent, isDetectorSensorPresent;
-    int stepCount=0,stepDetect=0;
+    private Sensor mStepCounter;
+    private boolean isCounterSensorPresent;
+    int stepCount=0,cal=0,feet=0,distance=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,8 @@ public class step_counter extends AppCompatActivity implements SensorEventListen
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         textViewStepCounter = findViewById(R.id.textViewStepCounter);
-        textViewStepDetector = findViewById(R.id.textViewStepDetector);
+        textViewCaloriesBurnt = findViewById(R.id.textViewCaloriesBurnt);
+        textViewDistance = findViewById(R.id.textViewDistance);
 
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
@@ -38,14 +39,6 @@ public class step_counter extends AppCompatActivity implements SensorEventListen
             textViewStepCounter.setText("Counter Sensor Is Not Present");
             isCounterSensorPresent = false;
         }
-        if(sensorManager.getDefaultSensor(Sensor.TYPE_STEP_DETECTOR)!=null){
-            mStepDetector=sensorManager.getDefaultSensor(Sensor.TYPE_STEP_DETECTOR);
-            isDetectorSensorPresent=true;
-        }
-        else{
-            textViewStepDetector.setText("Detector Sensor Is Not Present");
-            isDetectorSensorPresent=false;
-        }
     }
 
     @Override
@@ -53,9 +46,11 @@ public class step_counter extends AppCompatActivity implements SensorEventListen
         if(sensorEvent.sensor == mStepCounter){
             stepCount = (int) sensorEvent.values[0];
             textViewStepCounter.setText(String.valueOf(stepCount));
-        }else if(sensorEvent.sensor==mStepDetector){
-            stepDetect = (int) (stepDetect+sensorEvent.values[0]);
-            textViewStepDetector.setText(String.valueOf(stepDetect));
+            cal = (int) ((int) stepCount*0.045);
+            textViewCaloriesBurnt.setText(String.valueOf(cal));
+            feet = (int) (stepCount*2.5);
+            distance = (int) (feet/3.281);
+            textViewDistance.setText(String.valueOf(distance)+" meters");
         }
     }
 
@@ -69,8 +64,6 @@ public class step_counter extends AppCompatActivity implements SensorEventListen
         super.onResume();
         if(sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER)!=null)
             sensorManager.registerListener(this, mStepCounter, SensorManager.SENSOR_DELAY_NORMAL);
-        if(sensorManager.getDefaultSensor(Sensor.TYPE_STEP_DETECTOR)!=null)
-            sensorManager.registerListener(this, mStepDetector, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
     @Override
@@ -78,7 +71,5 @@ public class step_counter extends AppCompatActivity implements SensorEventListen
         super.onPause();
         if(sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER)!=null)
             sensorManager.unregisterListener(this, mStepCounter);
-        if(sensorManager.getDefaultSensor(Sensor.TYPE_STEP_DETECTOR)!=null)
-            sensorManager.unregisterListener(this, mStepDetector);
     }
 }

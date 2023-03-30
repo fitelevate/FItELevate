@@ -2776,6 +2776,7 @@ drawable button
 drawable buttonbground
 drawable by_signing_up_you_agree_with_our
 drawable calories
+drawable calory
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -2806,6 +2807,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable distance
 drawable divider
 drawable don_t_have_an_account
 drawable donut
@@ -2959,6 +2961,7 @@ drawable rectangle_8
 drawable report
 drawable reverse_crunches
 drawable right_arrow
+drawable run
 drawable setting
 drawable sign_up_now
 drawable sleep
@@ -3496,8 +3499,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewCaloriesBurnt
+id textViewDistance
 id textViewStepCounter
-id textViewStepDetector
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
