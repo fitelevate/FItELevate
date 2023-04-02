@@ -19,6 +19,7 @@
     <string name="alreadymember">already a member?</string>
     <string name="app_name">FitElevate</string>
     <string name="app_theme">Elevate your fitness</string>
+    <string name="bentoverrowdesc">Stand with your feet shoulder width apart. Lean forward, slightly bend your knees and sit your hips back. Hold a dumbbell in each hand.Bend your elbows, and pull them backward. Lower your hands, and repeat the exercise.</string>
     <string name="bmi">BMI  </string>
     <string name="bmr">BMR  </string>
     <string name="calories">calories  </string>
@@ -26,6 +27,12 @@
     <string name="contdes">fitelevate</string>
     <string name="default_web_client_id" translatable="false">635183237547-24gd8f5k1ctldpscf2ak5perpf52as21.apps.googleusercontent.com</string>
     <string name="donthaveac">Dont have an account? </string>
+    <string name="dumbbellchestflydesc">Lie on your bed with your knees bent and your feet flat on the floor.Hold a dumbbell in each hand, and raise your arms towards the ceiling with your palms facing each other and your elbows slightly bent.Lower the dumbbells out to the sides unit your upper arms touch the floor. Return and repeat the exercise.</string>
+    <string name="dumbbellfrontraisedesc">Stand on the floor, and hold a dumbbell in each hand.Raise your arms straight forward at shoulder height, then lower them down. Repeat the exercise.</string>
+    <string name="dumbbellkickbacksdesc">Stand upright, hold a dumbbell in each hand by your sides.Lean forward, and bend your knees slightly. Bend your elbows, and bring the dumbbells towards your chest.Extend your arms behind you, and squeeze your triceps.Bring the dumbbells back to your chest. Repeat the exercise.</string>
+    <string name="dumbbellsquatsdesc">Hold a dumbbell in each hand at your sides.Stand with your feet shoulder width apart, then lower your body until your thighs are parallel with the floor.Your knee should be extended in the same direction as your toes. Return to the start position and do the next rep.This works the thighs, hips buttocks, quads, hamstrings and lower body.</string>
+    <string name="dumbbellswingsdesc">Stand with your feet a little wider than shoulder-width apart. Slightly bend your knees. Hold a dumbbell vertically with both hands.Bend at your hips and lower your upper body until it’s at a 45 degree angle to the floor, and swing the tumble bag between your knees.Then drive your hips forward and swing the dumbbell to your chest height. Repeat the exercise.</string>
+    <string name="dynamicchestdesc">Stand on the floor with your feet shoulder width apart. Extend your arms forward at shoulder height with your palms facing each other.Extend your arms as far out as possible, then move them back to the front. Repeat the exercise.</string>
     <string name="enter_your_email">Enter Your Email</string>
     <string name="enter_your_password">Enter Your Password</string>
     <string name="exercise">Exercise  </string>
@@ -47,9 +54,9 @@
     <string name="legraisesdes">Lie down on your back, and put your hands beneath your hips for support.Then lift your legs up until they fall on right angle with the floor.Slowly bring your legs back down and repeat the exercise.</string>
     <string name="login">login </string>
     <string name="login_message">Please login to your account</string>
-    <string name="lungesdes">Stand with your feet shoulder width apart and your hands on your hips.
-    Take a step forward with your right leg and lower your body until your right thigh is parallel with the floor.
-    Then return and switch to the other leg. This exercise strengthens the quadriceps, gluteus maximus and hamstrings.</string>
+    <string name="lungesdes">Stand with your feet shoulder width apart and your hands on your hips.Take a step forward with your right leg and lower your body until your right thigh is parallel with the floor.Then return and switch to the other leg. This exercise strengthens the quadriceps, gluteus maximus and hamstrings.</string>
+    <string name="militarypressdesc">Stand with your feet a little wider than your shoulders. Hold a dumbbell in each hand.Raise and bend your arms at 90 degree angles to your sides, keep your upper arms parallel to the floor and palms facing forward.Slowly raise your hands over your head, then slowly bring them down. Repeat the exercise.</string>
+    <string name="militarypushupsdesc">Start in a push-up position with your hands directly under your shoulders and feet no more than 12 inches apart.Bend your elbows and lower your body until your upper arms are parallel to the floor. Stay in this position for one second and then push your body back to the starting position and repeat the exercise. Please remember that your elbows should be close to your body during this exercise.</string>
     <string name="or_login_with">or login with</string>
     <string name="project_id" translatable="false">fitelevate-96f37</string>
     <string name="pushupsdes">Lay prone on the ground with arm supporting your body.Keep your body straight while raising and lowering your body with your arms.This exercise works the chest, shoulders, triceps, back and legs.</string>
@@ -63,6 +70,7 @@
     <string name="squatkicksdes">Stand with your feet shoulder width apart. Put your arms in front of your chest to keep your balance.Then do a squat, and when you come up, kick your left leg to the front. Repeat the exercise and then switch to the right leg.Inhale when you go down, and exhale when you go up. It\'s a great exercise for the quadriceps and gluteus maximus.</string>
     <string name="squatreachupsdes">Stand with your feet a little wider than shoulder width apart, elbows bent, palms facing each other and fingers pointed toward the ceiling.Lower your body until your thighs are parallel to the floor. When you come up, turn your body to the left, straighten your right leg, lift your right heel and stretch and reach your right arm to the left.Return to the start position, and repeat with the other side.</string>
     <string name="squatsdes">Stand with your feet shoulder width apart and your arms stretched forward, then lower your body until your thighs are parallel with the floor.Your knees should be extended in the same direction as you toes. Return to the start position and do the next rep.This works the thighs, hips, buttocks, quartz hamstrings and lower body.</string>
+    <string name="standingdumbbellcurldesc">Stand with your feet shoulder width apart. Hold a dumbbell in each hand.Extend your arms and place them in front of your body with palms facing forward.Bend your arms and raised the dumbbells to your shoulders, then lower them. Repeat the exercise.</string>
     <string name="steps"> &amp; Steps  </string>
     <string name="textview">TextView</string>
     <string name="tncmessage">Our Terms &amp; Conditions</string>

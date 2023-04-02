@@ -37,10 +37,13 @@
             android:name="com.example.fitelevate.ActivityWeightLooseExercise"
             android:exported="false" />
         <activity
+            android:name="com.example.fitelevate.ActivityMuscleGainExercise"
+            android:exported="false" />
+        <activity
             android:name="com.example.fitelevate.weightLoose"
             android:exported="false" />
         <activity
-            android:name="com.example.fitelevate.weightGain"
+            android:name="com.example.fitelevate.muscleGain"
             android:exported="false" />
         <activity
             android:name="com.example.fitelevate.water"

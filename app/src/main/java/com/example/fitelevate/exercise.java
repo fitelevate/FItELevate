@@ -26,14 +26,14 @@ public class exercise extends AppCompatActivity {
 
 
         button2.setOnClickListener(view -> {
-            Intent intent=new Intent(getApplicationContext(),weightGain.class);
+            Intent intent=new Intent(getApplicationContext(), muscleGain.class);
             startActivity(intent);
         });
 
     }
 
     public void weightGain(View view) {
-        Intent intent=new Intent(getApplicationContext(),weightGain.class);
+        Intent intent=new Intent(getApplicationContext(), muscleGain.class);
         startActivity(intent);
     }
 

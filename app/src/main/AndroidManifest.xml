@@ -20,10 +20,13 @@
             android:name=".ActivityWeightLooseExercise"
             android:exported="false" />
         <activity
+            android:name=".ActivityMuscleGainExercise"
+            android:exported="false" />
+        <activity
             android:name=".weightLoose"
             android:exported="false" />
         <activity
-            android:name=".weightGain"
+            android:name=".muscleGain"
             android:exported="false" />
         <activity
             android:name=".water"
