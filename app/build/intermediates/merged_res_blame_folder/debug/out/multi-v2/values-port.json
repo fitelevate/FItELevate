@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fitelevate.app-mergeDebugResources-33:/values-port/values-port.xml",
+            "outputFile": "com.example.fitelevate.app-mergeDebugResources-45:/values-port/values-port.xml",
             "map": [
                 {
                     "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\4a8fc8d4cffe1deef03672f2112cd6a4\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",

@@ -140,7 +140,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="monospace"
                             android:padding="5dp"
-                            android:text="For Weight Gain"
+                            android:text="For Muscle Gain"
                             android:textColor="#ff000000"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
@@ -170,7 +170,7 @@
                         <pl.droidsonroids.gif.GifImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/exercisegif"/>
+                            android:src="@drawable/bent_over_row"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="wrap_content"
