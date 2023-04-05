@@ -20,11 +20,12 @@ public final class ActivityWaterBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textView;
+  public final TextView userNameInAccount;
 
-  private ActivityWaterBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView) {
+  private ActivityWaterBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView userNameInAccount) {
     this.rootView = rootView;
-    this.textView = textView;
+    this.userNameInAccount = userNameInAccount;
   }
 
   @Override
@@ -54,13 +55,13 @@ public final class ActivityWaterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.userNameInAccount;
+      TextView userNameInAccount = ViewBindings.findChildViewById(rootView, id);
+      if (userNameInAccount == null) {
         break missingId;
       }
 
-      return new ActivityWaterBinding((ConstraintLayout) rootView, textView);
+      return new ActivityWaterBinding((ConstraintLayout) rootView, userNameInAccount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

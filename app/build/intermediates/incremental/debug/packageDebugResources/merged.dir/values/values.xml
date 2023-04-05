@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
     <color name="green_500">#76E67B</color>
     <color name="ic_launcher_background">#252642</color>
     <color name="neutral">#f2f1f9</color>
@@ -15,6 +18,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
+    <string name="Report">Report</string>
     <string name="account">Account </string>
     <string name="activity">Activity </string>
     <string name="alreadymember">already a member?</string>
@@ -74,6 +78,7 @@
     <string name="project_id" translatable="false">fitelevate-96f37</string>
     <string name="pursedlipbreathingdesc">Relax your neck and shoulders.Keeping your mouth closed, inhale slowly through your nose for 2 counts.Pucker or purse your lips as though you were going to whistle.Exhale slowly by blowing air through your pursed lips for a count of 4.</string>
     <string name="pushupsdes">Lay prone on the ground with arm supporting your body.Keep your body straight while raising and lowering your body with your arms.This exercise works the chest, shoulders, triceps, back and legs.</string>
+    <string name="report">report</string>
     <string name="resonantbreathingdesc">Inhale for a count of 5.Exhale for a count of 5.Continue this breathing pattern for at least a few minutes.</string>
     <string name="reversecrunchesdes">Lie on your back with your knees up at 90 degree angle and your hands behind your head.Lift your upper body and thighs, and then stretch out. Repeat this exercise.</string>
     <string name="search">Search  </string>

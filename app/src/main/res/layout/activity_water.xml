@@ -7,7 +7,7 @@
     tools:context=".water">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/userNameInAccount"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/water"

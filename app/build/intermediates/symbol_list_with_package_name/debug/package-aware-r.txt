@@ -1376,6 +1376,9 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -2793,15 +2796,18 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable activity
+drawable ageprofile
 drawable alternate_nostril_breathing
 drawable avd_hide_password
 drawable avd_show_password
 drawable backgroundcrop
 drawable baseline_arrow_circle_right_24
 drawable baseline_arrow_forward_24
+drawable baseline_fitness_center_24
 drawable baseline_home_24
 drawable baseline_logout_24
 drawable baseline_person_24
+drawable baseline_poll_24
 drawable baseline_power_settings_new_24
 drawable baseline_search_24
 drawable baseline_stacked_line_chart_24
@@ -2824,7 +2830,9 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable btnbg
 drawable btnshape
 drawable button
+drawable button_background
 drawable buttonbground
+drawable buttonred
 drawable by_signing_up_you_agree_with_our
 drawable calories
 drawable calory
@@ -2898,6 +2906,7 @@ drawable group_5
 drawable group_6
 drawable heart
 drawable heart_beat
+drawable heightprof
 drawable home
 drawable homepage_background
 drawable hours
@@ -3015,6 +3024,7 @@ drawable or_login_with
 drawable password
 drawable please_login_to_your_account
 drawable profile
+drawable profile1
 drawable pursed_lip_breathing
 drawable push_ups
 drawable rectangle_132
@@ -3053,10 +3063,14 @@ drawable terms___conditions
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable top_background
+drawable top_button_background
 drawable training
 drawable vinay_panday
 drawable water
+drawable weightprofile
 drawable welcome_to
+drawable white_background
 drawable white_settings_icon_vector_7151463_removebg_preview
 drawable xmlid_223_
 drawable yoga
@@ -3141,8 +3155,10 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id address
 id adjust_height
 id adjust_width
+id ageInProfile
 id age_input
 id alertTitle
 id aligned
@@ -3156,6 +3172,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appCompatImageView
+id appCompatImageView3
 id arc
 id asConfigured
 id async
@@ -3282,6 +3300,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editProfile
 id edit_query
 id elastic
 id elevate
@@ -3319,6 +3338,7 @@ id frogPress
 id frost
 id fullscreen_header
 id fwbend
+id genderInProfile
 id ghost_view
 id ghost_view_holder
 id go_back
@@ -3329,6 +3349,7 @@ id group_divider
 id grouping
 id groups
 id header_title
+id heightInProfile
 id hideable
 id home
 id homeAsUp
@@ -3365,6 +3386,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id lionsbreath
 id listMode
 id list_item
@@ -3405,6 +3427,7 @@ id matrix
 id message
 id middle
 id mini
+id mobileInProfile
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3497,6 +3520,7 @@ id pose9
 id position
 id postLayout
 id pressed
+id profileIcon
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -3627,8 +3651,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView2
 id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
@@ -3670,6 +3692,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userNameInAccount
 id user_details
 id vertical_only
 id view_offset_helper
@@ -3683,6 +3706,7 @@ id visible_removing_fragment_view_tag
 id walkbtn
 id waterbtn
 id weightGainButton
+id weightInProfile
 id weightLooseButton
 id weight_in
 id welcomeToText
@@ -3962,6 +3986,7 @@ mipmap left_arrow
 navigation nav_graph
 plurals mtrl_badge_content_description
 raw firebase_common_keep
+string Report
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4192,6 +4217,7 @@ string previous
 string project_id
 string pursedlipbreathingdesc
 string pushupsdes
+string report
 string resonantbreathingdesc
 string reversecrunchesdes
 string search

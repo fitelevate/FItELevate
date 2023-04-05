@@ -642,6 +642,9 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -1806,6 +1809,7 @@
     <item quantity="one"><ns2:g id="count">%d</ns2:g> new notification</item>
     <item quantity="other"><ns2:g id="count">%d</ns2:g> new notifications</item>
   </plurals>
+    <string name="Report">Report</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -2044,6 +2048,7 @@
     <string name="project_id" translatable="false">fitelevate-96f37</string>
     <string name="pursedlipbreathingdesc">Relax your neck and shoulders.Keeping your mouth closed, inhale slowly through your nose for 2 counts.Pucker or purse your lips as though you were going to whistle.Exhale slowly by blowing air through your pursed lips for a count of 4.</string>
     <string name="pushupsdes">Lay prone on the ground with arm supporting your body.Keep your body straight while raising and lowering your body with your arms.This exercise works the chest, shoulders, triceps, back and legs.</string>
+    <string name="report">report</string>
     <string name="resonantbreathingdesc">Inhale for a count of 5.Exhale for a count of 5.Continue this breathing pattern for at least a few minutes.</string>
     <string name="reversecrunchesdes">Lie on your back with your knees up at 90 degree angle and your hands behind your head.Lift your upper body and thighs, and then stretch out. Repeat this exercise.</string>
     <string name="search">Search  </string>

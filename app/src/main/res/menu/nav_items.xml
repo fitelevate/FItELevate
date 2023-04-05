@@ -8,11 +8,11 @@
 
     <item android:title="@string/activity"
         android:id="@+id/nav_activity"
-        android:icon="@drawable/baseline_stacked_line_chart_24"/>
+        android:icon="@drawable/baseline_fitness_center_24"/>
 
-    <item android:title="@string/search"
+    <item android:title="@string/Report"
         android:id="@+id/nav_search"
-        android:icon="@drawable/baseline_search_24"/>
+        android:icon="@drawable/baseline_poll_24"/>
 
     <item android:title="@string/account"
         android:id="@+id/nav_account"

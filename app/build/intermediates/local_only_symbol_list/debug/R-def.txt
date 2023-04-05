@@ -1,6 +1,9 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color green_500
 color ic_launcher_background
 color neutral
@@ -27,13 +30,16 @@ drawable _343850_removebg_preview
 drawable _730
 drawable __cups
 drawable activity
+drawable ageprofile
 drawable alternate_nostril_breathing
 drawable backgroundcrop
 drawable baseline_arrow_circle_right_24
 drawable baseline_arrow_forward_24
+drawable baseline_fitness_center_24
 drawable baseline_home_24
 drawable baseline_logout_24
 drawable baseline_person_24
+drawable baseline_poll_24
 drawable baseline_power_settings_new_24
 drawable baseline_search_24
 drawable baseline_stacked_line_chart_24
@@ -48,7 +54,9 @@ drawable breath_focus_technique
 drawable btnbg
 drawable btnshape
 drawable button
+drawable button_background
 drawable buttonbground
+drawable buttonred
 drawable by_signing_up_you_agree_with_our
 drawable calories
 drawable calory
@@ -96,6 +104,7 @@ drawable group_5
 drawable group_6
 drawable heart
 drawable heart_beat
+drawable heightprof
 drawable home
 drawable homepage_background
 drawable hours
@@ -130,6 +139,7 @@ drawable or_login_with
 drawable password
 drawable please_login_to_your_account
 drawable profile
+drawable profile1
 drawable pursed_lip_breathing
 drawable push_ups
 drawable rectangle_132
@@ -165,10 +175,14 @@ drawable standing_dumbbell_curl
 drawable step
 drawable steps
 drawable terms___conditions
+drawable top_background
+drawable top_button_background
 drawable training
 drawable vinay_panday
 drawable water
+drawable weightprofile
 drawable welcome_to
+drawable white_background
 drawable white_settings_icon_vector_7151463_removebg_preview
 drawable xmlid_223_
 drawable yoga
@@ -182,9 +196,13 @@ id FirstFragment
 id SecondFragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id address
+id ageInProfile
 id age_input
 id already_member
 id alternatenostril
+id appCompatImageView
+id appCompatImageView3
 id bhramiribreath
 id bmi_banner
 id bmi_height_input
@@ -216,6 +234,7 @@ id deepbreathing
 id diaphragmatic
 id dntochest
 id dont_have_account
+id editProfile
 id elevate
 id email
 id equalbreath
@@ -226,12 +245,15 @@ id forgotButton
 id forgot_pass
 id frogPress
 id fwbend
+id genderInProfile
 id go_back
+id heightInProfile
 id imageView
 id inchWarms
 id jumpingJacks
 id kneetochest
 id legRaises
+id linearLayout
 id lionsbreath
 id login
 id loginButton
@@ -239,6 +261,7 @@ id login_with_google
 id logout
 id lunges
 id male_radio_btn
+id mobileInProfile
 id nav_account
 id nav_activity
 id nav_graph
@@ -259,6 +282,7 @@ id pose6
 id pose7
 id pose8
 id pose9
+id profileIcon
 id progressBar
 id pursed
 id pushups
@@ -278,8 +302,6 @@ id ssbend
 id startbutton
 id stretching_btn
 id submitButton
-id textView
-id textView2
 id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
@@ -291,10 +313,12 @@ id timer
 id tnc
 id toolbaar
 id toolbaar1
+id userNameInAccount
 id user_details
 id walkbtn
 id waterbtn
 id weightGainButton
+id weightInProfile
 id weightLooseButton
 id weight_in
 id welcomeToText
@@ -375,6 +399,7 @@ mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap left_arrow
 navigation nav_graph
+string Report
 string account
 string activity
 string alreadymember
@@ -434,6 +459,7 @@ string previous
 string project_id
 string pursedlipbreathingdesc
 string pushupsdes
+string report
 string resonantbreathingdesc
 string reversecrunchesdes
 string search
