@@ -3010,6 +3010,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable nutritionicon
 drawable or_login_with
 drawable password
 drawable please_login_to_your_account
@@ -3197,6 +3198,7 @@ id cache_measures
 id calculate_bmi_button
 id callMeasure
 id cancel_button
+id cardNutrition
 id cardbmi
 id cardbmr
 id cardexercise
@@ -3460,6 +3462,7 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id nutritionbtn
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3625,6 +3628,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
@@ -3817,6 +3821,7 @@ layout activity_login
 layout activity_lunges
 layout activity_main
 layout activity_muscle_gain
+layout activity_nutrition
 layout activity_push_ups
 layout activity_register
 layout activity_reverse_crunches

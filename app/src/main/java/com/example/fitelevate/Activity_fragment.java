@@ -23,7 +23,7 @@ public class Activity_fragment extends Fragment{
 
     String[] permissions = {"android.permission.ACTIVITY_RECOGNITION"};
 
-    public CardView card1, card2, card3, card4, card5, card6;
+    public CardView card1, card2, card3, card4, card5, card6,card7;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -34,6 +34,7 @@ public class Activity_fragment extends Fragment{
         card4=(CardView)view.findViewById(R.id.cardexercise);
         card5=(CardView)view.findViewById(R.id.cardstep);
         card6=(CardView)view.findViewById(R.id.cardwater);
+        card7=(CardView)view.findViewById(R.id.cardNutrition);
 
         //bmi intent
         card1.setOnClickListener(view1 -> {
@@ -76,33 +77,15 @@ public class Activity_fragment extends Fragment{
             Intent intent = new Intent(getActivity(), water.class);
             startActivity(intent);
         });
+        card7.setOnClickListener(view17 -> {
+            Intent intent = new Intent(getActivity(), nutrition.class);
+            startActivity(intent);
+        });
+
+
         return view;
     }
 
-//    @Override
-//    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-//        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-//
-//        if (requestCode == 80) {
-//            boolean permissionGranted = true;
-//            for (int result : grantResults) {
-//                if (result != PackageManager.PERMISSION_GRANTED) {
-//                    permissionGranted = false;
-//                    break;
-//                }
-//            }
-//            if (permissionGranted) {
-//                if (!permissionAlreadyGranted) {
-////                    Toast.makeText(getActivity(), "Permission Granted", Toast.LENGTH_SHORT).show();
-//                    permissionAlreadyGranted = true;
-//                }
-//            } else {
-//                if (!permissionAlreadyDenied) {
-//                    Toast.makeText(getActivity(), "Permission Denied", Toast.LENGTH_SHORT).show();
-//                    permissionAlreadyDenied = true;
-//                }
-//            }
-//        }
-//    }
+
 
 }

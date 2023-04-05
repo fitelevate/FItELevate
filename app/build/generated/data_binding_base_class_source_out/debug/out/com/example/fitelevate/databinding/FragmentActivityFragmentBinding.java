@@ -20,6 +20,9 @@ public final class FragmentActivityFragmentBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
+  public final CardView cardNutrition;
+
+  @NonNull
   public final CardView cardbmi;
 
   @NonNull
@@ -37,10 +40,12 @@ public final class FragmentActivityFragmentBinding implements ViewBinding {
   @NonNull
   public final CardView cardyoga;
 
-  private FragmentActivityFragmentBinding(@NonNull ScrollView rootView, @NonNull CardView cardbmi,
-      @NonNull CardView cardbmr, @NonNull CardView cardexercise, @NonNull CardView cardstep,
-      @NonNull CardView cardwater, @NonNull CardView cardyoga) {
+  private FragmentActivityFragmentBinding(@NonNull ScrollView rootView,
+      @NonNull CardView cardNutrition, @NonNull CardView cardbmi, @NonNull CardView cardbmr,
+      @NonNull CardView cardexercise, @NonNull CardView cardstep, @NonNull CardView cardwater,
+      @NonNull CardView cardyoga) {
     this.rootView = rootView;
+    this.cardNutrition = cardNutrition;
     this.cardbmi = cardbmi;
     this.cardbmr = cardbmr;
     this.cardexercise = cardexercise;
@@ -76,6 +81,12 @@ public final class FragmentActivityFragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardNutrition;
+      CardView cardNutrition = ViewBindings.findChildViewById(rootView, id);
+      if (cardNutrition == null) {
+        break missingId;
+      }
+
       id = R.id.cardbmi;
       CardView cardbmi = ViewBindings.findChildViewById(rootView, id);
       if (cardbmi == null) {
@@ -112,8 +123,8 @@ public final class FragmentActivityFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentActivityFragmentBinding((ScrollView) rootView, cardbmi, cardbmr,
-          cardexercise, cardstep, cardwater, cardyoga);
+      return new FragmentActivityFragmentBinding((ScrollView) rootView, cardNutrition, cardbmi,
+          cardbmr, cardexercise, cardstep, cardwater, cardyoga);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

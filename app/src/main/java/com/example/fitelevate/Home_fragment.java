@@ -13,7 +13,7 @@ import android.widget.Button;
 
 
 public class Home_fragment extends Fragment {
-    private Button bmiBtn, bmrBtn, yogaBtn, walkBtn, exerciseBtn, waterBtn;
+    private Button bmiBtn, bmrBtn, yogaBtn, walkBtn, exerciseBtn, waterBtn,nutritionbutton;
 
     @Nullable
     @Override
@@ -26,6 +26,7 @@ public class Home_fragment extends Fragment {
         walkBtn = view.findViewById(R.id.walkbtn);
         exerciseBtn = view.findViewById(R.id.exebtn);
         waterBtn = view.findViewById(R.id.waterbtn);
+        nutritionbutton=view.findViewById(R.id.nutritionbtn);
 
         // Set click listeners for each button
         bmiBtn.setOnClickListener(new View.OnClickListener() {
@@ -80,6 +81,18 @@ public class Home_fragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+
+        nutritionbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Handle water button click
+                Intent intent = new Intent(getActivity(), nutrition.class);
+                startActivity(intent);
+            }
+        });
+
+
 
         return view;
     }

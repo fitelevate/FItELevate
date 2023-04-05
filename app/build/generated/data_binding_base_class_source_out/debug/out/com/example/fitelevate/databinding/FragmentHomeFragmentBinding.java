@@ -29,6 +29,9 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
   public final Button exebtn;
 
   @NonNull
+  public final Button nutritionbtn;
+
+  @NonNull
   public final Button walkbtn;
 
   @NonNull
@@ -38,12 +41,13 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
   public final Button yogabtn;
 
   private FragmentHomeFragmentBinding(@NonNull FrameLayout rootView, @NonNull Button bmibtn,
-      @NonNull Button bmrbtn, @NonNull Button exebtn, @NonNull Button walkbtn,
-      @NonNull Button waterbtn, @NonNull Button yogabtn) {
+      @NonNull Button bmrbtn, @NonNull Button exebtn, @NonNull Button nutritionbtn,
+      @NonNull Button walkbtn, @NonNull Button waterbtn, @NonNull Button yogabtn) {
     this.rootView = rootView;
     this.bmibtn = bmibtn;
     this.bmrbtn = bmrbtn;
     this.exebtn = exebtn;
+    this.nutritionbtn = nutritionbtn;
     this.walkbtn = walkbtn;
     this.waterbtn = waterbtn;
     this.yogabtn = yogabtn;
@@ -94,6 +98,12 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.nutritionbtn;
+      Button nutritionbtn = ViewBindings.findChildViewById(rootView, id);
+      if (nutritionbtn == null) {
+        break missingId;
+      }
+
       id = R.id.walkbtn;
       Button walkbtn = ViewBindings.findChildViewById(rootView, id);
       if (walkbtn == null) {
@@ -113,7 +123,7 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
       }
 
       return new FragmentHomeFragmentBinding((FrameLayout) rootView, bmibtn, bmrbtn, exebtn,
-          walkbtn, waterbtn, yogabtn);
+          nutritionbtn, walkbtn, waterbtn, yogabtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
