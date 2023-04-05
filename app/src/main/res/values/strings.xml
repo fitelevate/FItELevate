@@ -67,4 +67,70 @@
     <string name="standingdumbbellcurldesc">Stand with your feet shoulder width apart. Hold a dumbbell in each hand.Extend your arms and place them in front of your body with palms facing forward.Bend your arms and raised the dumbbells to your shoulders, then lower them. Repeat the exercise.</string>
 
 
+    <!--    stretching-->
+
+    <string name="str1">Sit and cross your legs on the mat. Lift your left arm overhead, and put your right hand on the floor for support.Look up at your left hand, and slowly band your right arm; meanwhile, brand your upper body to the right. Hold it for a few seconds.Switch sides and repeat.</string>
+
+
+    <string name="str2">Start on all fours with your knees under your butt and your hands directly under your shoulders.Then Take a breath and make your belly fall down, shoulders roll back and head come up towards the ceiling.As you exhale, curve your back upward and let your head come down. Repeat the exercise.Do it slowly with each step of this exercise.</string>
+
+
+    <string name="str3">Start with your knees and hands on the floor. Put your hands are little forward, widen your knees and put your toes together.Take a breath, then exhale and sit back. Try to make your butt touch your heels. Relax your elbows, make your forehead touch the floor and try to lower your chest close to the floor. Hold this position.Keep your arms stretched forward as you sit back. Make sure there is enough space between your shoulders and ears during the exercise.</string>
+
+
+    <string name="str4">Start on all fours with your hips up in an upside down “V” shape. Alternatively lift and lower your heels.</string>
+
+    <string name="str5">Lie down on your stomach and bend your elbows with your hands beneath your shoulders.Then push your chest up off the ground as far as possible. Hold this position for seconds.</string>
+
+    <string name="str6">Lie down on your back with your legs extended.Bend your knees and bring them up toward your chest; hug your knees with both hands. Hold for a few seconds.</string>
+
+
+    <string name="str7">Stand on the floor with your feet together.Then bend your body and bring your upper body as close to your legs as you can.Hold this position for a few seconds and repeat.Exhale when you bend your body and inhale when you come up. Keep your legs straight during the exercise.</string>
+
+
+    <string name="str8">Stand with your thighs closed, and raise your hands over your head.Then bend your knees and come to a sitting position.Bend your torso forward slightly and extend your arms forward to keep your balance. Hold this position till time’s up .</string>
+
+
+    <string name="str9">Place one arm across your body, parallel to the ground, then use the other arm to pull the parallel arm towards your chest.Hold for a while, switch arms and repeat the exercise. Keep the inside arm straight during the exercise.
+</string>
+
+    <string name="str10">Lie on the floor with your legs extended. Lift your left knee up and grab it with both hands.Pull your left leg towards your chest as much as you can while keeping your right leg straight on the ground.Hold this position for a few seconds. Switch sides and repeat.</string>
+    <string name="title_activity_breathing_yoga">breathingYoga</string>
+
+<!--    breathing description-->
+
+    <string name="pursedlipbreathingdesc">Relax your neck and shoulders.Keeping your mouth closed, inhale slowly through your nose for 2 counts.Pucker or purse your lips as though you were going to whistle.Exhale slowly by blowing air through your pursed lips for a count of 4.</string>
+
+    <string name="diaphragmaticbreathingdesc">Lie on your back with your knees slightly bent and your head on a pillow.Place one hand on your upper chest and one hand below your rib cage. Slowly inhale through your nose. Keep your other hand as still as possible.Exhale using pursed lips as you tighten your abdominal muscles, keeping your upper hand completely still.</string>
+
+
+    <string name="breathfocustechniquedesc">Sit or lie down in a comfortable place.Bring your awareness to your breaths without trying to change how you’re breathing.Alternate between normal and deep breaths a few times. Notice any differences between normal breathing and deep breathing.Practice your deep breathing for a few minutes.</string>
+
+
+    <string name="lionsbreathdesc">Sit back on your heels and cross your legs.Press your palms against your knees with your fingers spread wide.Inhale deeply through your nose and open your eyes wide.At the same time, open your mouth wide and stick out your tongue, bringing the tip down toward your chin.Contract the muscles at the front of your throat as you exhale out through your mouth by making a long “haaa” sound.</string>
+
+
+    <string name="alternatenostrilbreathingdesc">Lift your right hand toward your nose, pressing your first and middle fingers down toward your palm and leaving your other fingers extended.After an exhale, use your right thumb to gently close your right nostril.Inhale through your left nostril and then close your left nostril with your right pinky and ring fingers.Release your thumb and exhale out through your right nostril.Inhale through your right nostril and then close this nostril.Release your fingers to open your left nostril and exhale through this side.This is one cycle.</string>
+
+
+    <string name="equalbreathingdesc">Breathe in and out through your nose.Count during each inhale and exhale to make sure they are even in duration. Alternatively, choose a word or short phrase to repeat during each inhale and exhale.</string>
+
+    <string name="resonantbreathingdesc">Inhale for a count of 5.Exhale for a count of 5.Continue this breathing pattern for at least a few minutes.</string>
+
+    <string name="sitalibreathdesc">Stick out your tongue and curl your tongue to bring the outer edges together.If your tongue doesn’t do this, you can purse your lips.Inhale through your mouth.Exhale out through your nose.</string>
+
+
+    <string name="deepbreathingdesc">While standing or sitting, draw your elbows back slightly to allow your chest to expand.Take a deep inhalation through your nose.Retain your breath for a count of 5.Slowly release your breath by exhaling through your nose.</string>
+
+
+    <string name="bhramaridesc">Choose a comfortable seated position.Close your eyes and relax your face.Place your first fingers on the tragus cartilage that partially covers your ear canal.Inhale and gently press your fingers into the cartilage as you exhale.Keeping your mouth closed, make a loud humming sound.</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
 </resources>

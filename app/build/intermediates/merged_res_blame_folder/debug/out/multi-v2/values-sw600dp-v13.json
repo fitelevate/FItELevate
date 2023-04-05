@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fitelevate.app-mergeDebugResources-33:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.example.fitelevate.app-mergeDebugResources-45:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Vipin\\.gradle\\caches\\transforms-3\\488519bf88b141369e1f2b3fffc88e8e\\transformed\\material-1.8.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
