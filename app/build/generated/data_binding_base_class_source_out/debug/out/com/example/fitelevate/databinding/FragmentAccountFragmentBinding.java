@@ -4,6 +4,7 @@ package com.example.fitelevate.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,12 +21,16 @@ public final class FragmentAccountFragmentBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final TextView accountfarzi;
+  public final Button logout;
 
-  private FragmentAccountFragmentBinding(@NonNull FrameLayout rootView,
-      @NonNull TextView accountfarzi) {
+  @NonNull
+  public final TextView userDetails;
+
+  private FragmentAccountFragmentBinding(@NonNull FrameLayout rootView, @NonNull Button logout,
+      @NonNull TextView userDetails) {
     this.rootView = rootView;
-    this.accountfarzi = accountfarzi;
+    this.logout = logout;
+    this.userDetails = userDetails;
   }
 
   @Override
@@ -55,13 +60,19 @@ public final class FragmentAccountFragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.accountfarzi;
-      TextView accountfarzi = ViewBindings.findChildViewById(rootView, id);
-      if (accountfarzi == null) {
+      id = R.id.logout;
+      Button logout = ViewBindings.findChildViewById(rootView, id);
+      if (logout == null) {
         break missingId;
       }
 
-      return new FragmentAccountFragmentBinding((FrameLayout) rootView, accountfarzi);
+      id = R.id.user_details;
+      TextView userDetails = ViewBindings.findChildViewById(rootView, id);
+      if (userDetails == null) {
+        break missingId;
+      }
+
+      return new FragmentAccountFragmentBinding((FrameLayout) rootView, logout, userDetails);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

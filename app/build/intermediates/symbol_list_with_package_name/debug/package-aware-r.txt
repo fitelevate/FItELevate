@@ -3115,7 +3115,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-id accountfarzi
 id actionDown
 id actionDownUp
 id actionUp
@@ -3191,7 +3190,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnClick
 id buttonPanel
 id button_first
 id button_second

@@ -1,10 +1,16 @@
 package com.example.fitelevate;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -13,6 +19,11 @@ import android.view.ViewGroup;
  *
  */
 public class Account_fragment extends Fragment {
+
+    FirebaseAuth auth;
+    Button button;
+    TextView textView;
+    FirebaseUser user;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -57,7 +68,27 @@ public class Account_fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.fragment_account_fragment, container, false);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_account_fragment, container, false);
+
+        auth=FirebaseAuth.getInstance();
+        button=(Button)view.findViewById(R.id.logout);
+        textView=(TextView)view.findViewById(R.id.user_details);
+        user= auth.getCurrentUser();
+        if (user == null){
+            Intent intent=new Intent(getActivity(),login.class);
+            startActivity(intent);
+            getActivity().finish();
+        }else{
+            textView.setText(user.getEmail());
+        }
+        button.setOnClickListener(view1 -> {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent=new Intent(getActivity(),login.class);
+            startActivity(intent);
+            getActivity().finish();            });
+
+        return view;
     }
 }

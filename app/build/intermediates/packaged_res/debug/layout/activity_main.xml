@@ -6,53 +6,11 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize">
-
-
-        <TextView
-            android:id="@+id/user_details"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="85dp"
-            android:layout_marginTop="17dp"
-            android:layout_marginEnd="103dp"
-            android:layout_marginBottom="20dp"
-            android:text="@string/textview"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/logout"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/logout"
-            android:layout_width="66dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="103dp"
-            android:layout_marginTop="6dp"
-            android:layout_marginEnd="77dp"
-            android:layout_marginBottom="2dp"
-
-            android:background="@drawable/baseline_power_settings_new_24"
-            android:contentDescription="@string/contdes"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/user_details"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="VisualLintBounds" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="?attr/actionBarSize"
-        android:layout_marginTop="?attr/actionBarSize"
         android:background="@color/white"
         />
     <com.google.android.material.bottomnavigation.BottomNavigationView

@@ -179,7 +179,6 @@ font baloo_regular
 font baloo_semibold
 id FirstFragment
 id SecondFragment
-id accountfarzi
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id age_input
@@ -276,6 +275,9 @@ id ssbend
 id startbutton
 id stretching_btn
 id submitButton
+id textView
+id textViewBmi
+id textViewBmr
 id textViewCaloriesBurnt
 id textViewDistance
 id textViewStepCounter

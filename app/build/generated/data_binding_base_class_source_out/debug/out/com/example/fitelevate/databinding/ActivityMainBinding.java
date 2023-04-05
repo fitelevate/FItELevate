@@ -4,10 +4,8 @@ package com.example.fitelevate.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -28,20 +26,11 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final FrameLayout container;
 
-  @NonNull
-  public final Button logout;
-
-  @NonNull
-  public final TextView userDetails;
-
   private ActivityMainBinding(@NonNull RelativeLayout rootView,
-      @NonNull BottomNavigationView bnView, @NonNull FrameLayout container, @NonNull Button logout,
-      @NonNull TextView userDetails) {
+      @NonNull BottomNavigationView bnView, @NonNull FrameLayout container) {
     this.rootView = rootView;
     this.bnView = bnView;
     this.container = container;
-    this.logout = logout;
-    this.userDetails = userDetails;
   }
 
   @Override
@@ -83,20 +72,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.logout;
-      Button logout = ViewBindings.findChildViewById(rootView, id);
-      if (logout == null) {
-        break missingId;
-      }
-
-      id = R.id.user_details;
-      TextView userDetails = ViewBindings.findChildViewById(rootView, id);
-      if (userDetails == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((RelativeLayout) rootView, bnView, container, logout,
-          userDetails);
+      return new ActivityMainBinding((RelativeLayout) rootView, bnView, container);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
