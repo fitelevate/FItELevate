@@ -3115,6 +3115,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnClick
 id buttonPanel
 id cache_measures
 id calculate_bmi_button
@@ -3521,6 +3522,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textViewBmi
+id textViewBmr
 id textViewCaloriesBurnt
 id textViewDistance
 id textViewStepCounter

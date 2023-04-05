@@ -168,6 +168,7 @@ id bmr_result_text
 id bmr_submit_btn
 id bmrbtn
 id bnView
+id btnClick
 id calculate_bmi_button
 id cardbmi
 id cardbmr
@@ -226,6 +227,9 @@ id squatReachUps
 id squats
 id startbutton
 id submitButton
+id textView
+id textViewBmi
+id textViewBmr
 id textViewCaloriesBurnt
 id textViewDistance
 id textViewStepCounter

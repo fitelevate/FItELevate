@@ -5,10 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".water">
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/water"
-        android:textSize="50sp"/>
+        android:textSize="50sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

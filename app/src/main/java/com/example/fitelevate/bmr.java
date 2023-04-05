@@ -11,11 +11,18 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class bmr extends AppCompatActivity {
     float bmr=0f;
     EditText bmr_height;
     EditText bmr_weight;
     EditText bmr_age;
+
+    FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
 
 
     RadioButton maleRadioButton,femaleRadioButton;
@@ -48,6 +55,17 @@ public class bmr extends AppCompatActivity {
                     // Perform female BMR calculation
                     bmr = 447.593f + (9.247f * weight) + (3.098f * height) - (4.330f * age);
                 }
+
+                //formatting bmr up-to one decimal place
+                String formattedBmr = String.format("%.0f", bmr);
+                //again converting it into float
+                bmr = Float.parseFloat(formattedBmr);
+
+                FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
+                DatabaseReference reference = rootNode.getReference("bmr");
+                dbBmr addBmr = new dbBmr(bmr);
+                reference.child(user.getUid()).setValue(addBmr);
+
                 Intent intent = new Intent(getApplicationContext(), bmr_result.class);
                 intent.putExtra("bmr_value", bmr);
                 startActivity(intent);
