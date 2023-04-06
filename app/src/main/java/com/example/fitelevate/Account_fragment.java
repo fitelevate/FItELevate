@@ -2,15 +2,23 @@ package com.example.fitelevate;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,7 +30,7 @@ public class Account_fragment extends Fragment {
 
     FirebaseAuth auth;
     Button button;
-    TextView textView;
+    TextView textView, userNameInAccount, heightInProfile, ageInProfile, weightInProfile, genderInProfile, mobileInProfile, address;
     FirebaseUser user;
 
     // TODO: Rename parameter arguments, choose names that match
@@ -83,6 +91,7 @@ public class Account_fragment extends Fragment {
         }else{
             textView.setText(user.getEmail());
         }
+        fetchUserDetails(view);
         button.setOnClickListener(view1 -> {
             FirebaseAuth.getInstance().signOut();
             Intent intent=new Intent(getActivity(),login.class);
@@ -90,5 +99,49 @@ public class Account_fragment extends Fragment {
             getActivity().finish();            });
 
         return view;
+    }
+
+    private void fetchUserDetails(View view) {
+        //Hooks
+        userNameInAccount = view.findViewById(R.id.userNameInAccount);
+        heightInProfile = view.findViewById(R.id.heightInProfile);
+        ageInProfile = view.findViewById(R.id.ageInProfile);
+        weightInProfile = view.findViewById(R.id.weightInProfile);
+        genderInProfile = view.findViewById(R.id.genderInProfile);
+        mobileInProfile = view.findViewById(R.id.mobileInProfile);
+        address = view.findViewById(R.id.address);
+
+        String uid = user.getUid();
+        Query checkUser = FirebaseDatabase.getInstance().getReference("User").orderByKey().equalTo(uid);
+
+        checkUser.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.exists()){
+                    String name = snapshot.child(uid).child("name").getValue(String.class);
+                    int height = snapshot.child(uid).child("height").getValue(Integer.class);
+                    int age = snapshot.child(uid).child("age").getValue(Integer.class);
+                    int weight = snapshot.child(uid).child("weight").getValue(Integer.class);
+                    String gender = snapshot.child(uid).child("gender").getValue(String.class);
+                    Double mobile = snapshot.child(uid).child("mobile").getValue(Double.class);
+                    String add = snapshot.child(uid).child("address").getValue(String.class);
+                    userNameInAccount.setText(name);
+                    heightInProfile.setText(height+" cm");
+                    ageInProfile.setText(age+" Years");
+                    weightInProfile.setText(weight+" kg");
+                    genderInProfile.setText(gender);
+                    mobileInProfile.setText(String.format("%.0f", mobile));
+                    address.setText(add);
+                }
+                else{
+                    Toast.makeText(getActivity(), "User Details Does Not Exist", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(getActivity(), error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
