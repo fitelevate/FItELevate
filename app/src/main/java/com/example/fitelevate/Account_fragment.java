@@ -29,7 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 public class Account_fragment extends Fragment {
 
     FirebaseAuth auth;
-    Button button;
+    Button button,editprof;
     TextView textView, userNameInAccount, heightInProfile, ageInProfile, weightInProfile, genderInProfile, mobileInProfile, address;
     FirebaseUser user;
 
@@ -110,6 +110,7 @@ public class Account_fragment extends Fragment {
         genderInProfile = view.findViewById(R.id.genderInProfile);
         mobileInProfile = view.findViewById(R.id.mobileInProfile);
         address = view.findViewById(R.id.address);
+        editprof=view.findViewById(R.id.editProfile);
 
         String uid = user.getUid();
         Query checkUser = FirebaseDatabase.getInstance().getReference("User").orderByKey().equalTo(uid);
@@ -142,6 +143,15 @@ public class Account_fragment extends Fragment {
             public void onCancelled(@NonNull DatabaseError error) {
                 Toast.makeText(getActivity(), error.getMessage(), Toast.LENGTH_SHORT).show();
             }
+
+        });
+        editprof.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getActivity(),update_profile.class);
+                startActivity(intent);
+            }
         });
     }
+
 }

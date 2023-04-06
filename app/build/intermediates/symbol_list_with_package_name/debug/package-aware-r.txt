@@ -2801,6 +2801,7 @@ drawable alternate_nostril_breathing
 drawable avd_hide_password
 drawable avd_show_password
 drawable backgroundcrop
+drawable baseline_account_circle_24
 drawable baseline_arrow_circle_right_24
 drawable baseline_arrow_forward_24
 drawable baseline_fitness_center_24
@@ -3156,9 +3157,11 @@ id actions
 id activity_chooser_view_content
 id add
 id address
+id address_field
 id adjust_height
 id adjust_width
 id ageInProfile
+id age_field
 id age_input
 id alertTitle
 id aligned
@@ -3181,6 +3184,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id avatar_image
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3317,6 +3321,7 @@ id expand_activities_button
 id expanded_menu
 id fade
 id female_radio_btn
+id female_radio_button
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3339,6 +3344,8 @@ id frost
 id fullscreen_header
 id fwbend
 id genderInProfile
+id gender_field
+id gender_label
 id ghost_view
 id ghost_view_holder
 id go_back
@@ -3350,6 +3357,7 @@ id grouping
 id groups
 id header_title
 id heightInProfile
+id height_field
 id hideable
 id home
 id homeAsUp
@@ -3399,6 +3407,7 @@ id ltr
 id lunges
 id m3_side_sheet
 id male_radio_btn
+id male_radio_button
 id marquee
 id masked
 id match_constraint
@@ -3428,6 +3437,7 @@ id message
 id middle
 id mini
 id mobileInProfile
+id mobile_field
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3459,6 +3469,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name_field
 id nav_account
 id nav_activity
 id nav_controller_view_tag
@@ -3691,6 +3702,8 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id update_button
+id update_image_button
 id useLogo
 id userNameInAccount
 id user_details
@@ -3708,6 +3721,7 @@ id waterbtn
 id weightGainButton
 id weightInProfile
 id weightLooseButton
+id weight_field
 id weight_in
 id welcomeToText
 id west
@@ -3857,6 +3871,7 @@ layout activity_step_counter
 layout activity_stretching
 layout activity_stretching_yoga
 layout activity_tnc
+layout activity_update_profile
 layout activity_water
 layout activity_weight_loose
 layout activity_weight_loose_exercise
