@@ -26,140 +26,139 @@
             android:gravity="end"
             />
 
-    <!-- Avatar Image -->
-    <ImageView
-        android:id="@+id/avatar_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_below="@id/toolbaar"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/baseline_account_circle_24" />
-
-    <!-- Update Image Button -->
-    <Button
-        android:id="@+id/update_image_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/avatar_image"
-        android:text="Update Avatar" />
-
-    <!-- User Information Fields -->
-<!--    name field-->
-
-    <EditText
-        android:id="@+id/name_field"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Name"
-        android:minHeight="48dp"
-        android:layout_below="@id/update_image_button"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp" />
-
-
-    <EditText
-        android:id="@+id/height_field"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Height (cm)"
-        android:inputType="number"
-        android:minHeight="48dp"
-        android:layout_below="@id/name_field"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp" />
-
-    <EditText
-        android:id="@+id/weight_field"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Weight (kg)"
-        android:minHeight="48dp"
-        android:inputType="number"
-        android:layout_below="@id/height_field"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp" />
-
-    <EditText
-        android:id="@+id/age_field"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Age"
-        android:minHeight="48dp"
-        android:inputType="number"
-        android:layout_below="@id/weight_field"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp" />
-
-    <EditText
-        android:id="@+id/mobile_field"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Mobile Number"
-        android:inputType="number"
-        android:minHeight="48dp"
-        android:layout_below="@id/age_field"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp" />
-
-    <EditText
-        android:id="@+id/address_field"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Address"
-        android:minHeight="48dp"
-        android:layout_below="@id/mobile_field"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp" />
-
-    <TextView
-        android:id="@+id/gender_label"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Gender:"
-        android:layout_below="@id/address_field"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="23dp"
-        android:textSize="20dp"/>
-
-    <RadioGroup
-        android:id="@+id/gender_field"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@id/address_field"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="16dp">
-
-
-        <RadioButton
-            android:id="@+id/male_radio_button"
+        <!-- Avatar Image -->
+        <ImageView
+            android:id="@+id/avatar_image"
             android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:text="Male" />
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_below="@id/toolbaar"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/baseline_account_circle_24" />
 
-        <RadioButton
-            android:id="@+id/female_radio_button"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            android:text="Female" />
-    </RadioGroup>
+        <!-- Update Image Button -->
+        <Button
+            android:id="@+id/update_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/avatar_image"
+            android:text="Update Avatar" />
 
-    <!-- Update Button -->
-    <Button
-        android:id="@+id/update_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/gender_field"
-        android:layout_centerHorizontal="true"
-        android:text="update"
-        />
+        <!-- User Information Fields -->
+        <!--    name field-->
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:minHeight="48dp"
+            android:layout_below="@id/update_image_button"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
 
 
-</RelativeLayout>
+        <EditText
+            android:id="@+id/height_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height (cm)"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:layout_below="@id/name_field"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/weight_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight (kg)"
+            android:minHeight="48dp"
+            android:inputType="number"
+            android:layout_below="@id/height_field"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/age_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:minHeight="48dp"
+            android:inputType="number"
+            android:layout_below="@id/weight_field"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/mobile_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:layout_below="@id/age_field"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/address_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:minHeight="48dp"
+            android:layout_below="@id/mobile_field"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/gender_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:layout_below="@id/address_field"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="23dp"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/gender_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/address_field"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="16dp">
+
+
+            <RadioButton
+                android:id="@+id/male_radio_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female_radio_button"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Female" />
+        </RadioGroup>
+
+        <!-- Update Button -->
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gender_field"
+            android:layout_centerHorizontal="true"
+            android:text="update"
+            />
+
+
+    </RelativeLayout>
 </ScrollView>
-

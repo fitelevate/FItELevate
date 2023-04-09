@@ -1,286 +1,282 @@
 [
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\dumble_front_raise.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\dumble_front_raise.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/standing_dumbbell_curl.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/standing_dumbbell_curl.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_stretching_yoga.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_stretching_yoga.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_yoga.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_yoga.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\kobra_stretch.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\kobra_stretch.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/sitali_breath.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/sitali_breath.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\walk_the_dog.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\walk_the_dog.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_stretching_yoga.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_stretching_yoga.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\militry_push_ups.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\militry_push_ups.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/militry_press.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/militry_press.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_tnc.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_tnc.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/militry_push_ups.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/militry_push_ups.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\forword_bend.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\forword_bend.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/forword_bend.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/forword_bend.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_bmr.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_bmr.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/childs_pose.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/childs_pose.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_step_counter.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_step_counter.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/alternate_nostril_breath.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/alternate_nostril_breath.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\sitali_breath.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\sitali_breath.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/fragment_first.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_breathing.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_breathing.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/lions_breath.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/lions_breath.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\content_breathing_yoga.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\content_breathing_yoga.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/resonant_breathing.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/resonant_breathing.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\bent_over_row.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\bent_over_row.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/kobra_stretch.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/kobra_stretch.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_push_ups.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_push_ups.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/seated_side_bend.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/seated_side_bend.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\pursed_lip_breathing.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\pursed_lip_breathing.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_squat_reachups.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_squat_reachups.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\seated_side_bend.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\seated_side_bend.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/dumble_kick_back.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/dumble_kick_back.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_inch_warms.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_inch_warms.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_nutrition.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_nutrition.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\breath_focus_technique.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\breath_focus_technique.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_bmi_result.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_bmi_result.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\equal_brething.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\equal_brething.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_squats.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_squats.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_bmi_result.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_bmi_result.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/fragment_activity_fragment.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/fragment_activity_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\dumble_chest_fly.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\dumble_chest_fly.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/content_breathing_yoga.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/content_breathing_yoga.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_muscle_gain.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_muscle_gain.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_splashscreen.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_splashscreen.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_update_profile.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_update_profile.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_register.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_squats.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_squats.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/bent_over_row.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/bent_over_row.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_yoga.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_yoga.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/knee_to_chest_stretch.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/knee_to_chest_stretch.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\dumb_bell_swings.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\dumb_bell_swings.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_weight_loose.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_weight_loose.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\alternate_nostril_breath.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\alternate_nostril_breath.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_squat_kicks.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_squat_kicks.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\dynamic_chest.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\dynamic_chest.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/walk_the_dog.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/walk_the_dog.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_leg_raises.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_leg_raises.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_inch_warms.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_inch_warms.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\cat_cow_pose.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\cat_cow_pose.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_bmr.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_bmr.xml"
     },
     {
         "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/fragment_account_fragment.xml",
         "source": "com.example.fitelevate.app-main-49:/layout/fragment_account_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_login.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_bmi.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_bmi.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_bmi.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_bmi.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_water.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_water.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\childs_pose.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\childs_pose.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/double_knees_to_chest.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/double_knees_to_chest.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\fragment_activity_fragment.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\fragment_activity_fragment.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/dumble_chest_fly.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/dumble_chest_fly.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_stretching.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_stretching.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/dynamic_chest.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/dynamic_chest.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\shoulder_stretch.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\shoulder_stretch.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/cat_cow_pose.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/cat_cow_pose.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\deep_breathing.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\deep_breathing.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/fragment_steps_counter.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/fragment_steps_counter.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_bmr_result.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_bmr_result.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_step_counter.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_step_counter.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\bhramari.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\bhramari.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_push_ups.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_push_ups.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_splashscreen.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_splashscreen.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_jumping_jacks.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_jumping_jacks.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_register.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_stretching.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_stretching.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\fragment_account_fragment.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\fragment_account_fragment.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_leg_raises.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_leg_raises.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_main.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/breath_focus_technique.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/breath_focus_technique.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_exercise.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_exercise.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/fragment_second.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\standing_dumbbell_curl.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\standing_dumbbell_curl.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/dumb_bell_swings.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/dumb_bell_swings.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_forgotpassword.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_forgotpassword.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_bmr_result.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_bmr_result.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\resonant_breathing.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\resonant_breathing.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_reverse_crunches.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_reverse_crunches.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_weight_loose_exercise.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_weight_loose_exercise.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/deep_breathing.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/deep_breathing.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\dumbwell_squats.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\dumbwell_squats.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/chair.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/chair.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\diaphragmatic_breathing.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\diaphragmatic_breathing.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/dumbwell_squats.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/dumbwell_squats.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_water.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_water.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/fragment_home_fragment.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/fragment_home_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_lunges.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_lunges.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/dumble_front_raise.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/dumble_front_raise.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\knee_to_chest_stretch.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\knee_to_chest_stretch.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/equal_brething.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/equal_brething.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_weight_loose.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_weight_loose.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_login.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_reverse_crunches.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_reverse_crunches.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_lunges.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_lunges.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_frog_press.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_frog_press.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_breathing.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_breathing.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\fragment_first.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/pursed_lip_breathing.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/pursed_lip_breathing.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\fragment_steps_counter.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\fragment_steps_counter.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_frog_press.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_frog_press.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\dumble_kick_back.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\dumble_kick_back.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\lions_breath.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\lions_breath.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_muscle_gain.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_muscle_gain.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\fragment_search_fragment.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\fragment_search_fragment.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_update_profile.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_update_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_squat_reachups.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_squat_reachups.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_forgotpassword.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_forgotpassword.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\fragment_home_fragment.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\fragment_home_fragment.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/diaphragmatic_breathing.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/diaphragmatic_breathing.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\fragment_second.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/bhramari.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/bhramari.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\chair.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\chair.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_tnc.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_tnc.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_squat_kicks.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_squat_kicks.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_weight_loose_exercise.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_weight_loose_exercise.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\double_knees_to_chest.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\double_knees_to_chest.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/fragment_search_fragment.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/fragment_search_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_jumping_jacks.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_jumping_jacks.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/shoulder_stretch.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/shoulder_stretch.xml"
     },
     {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\militry_press.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\militry_press.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-46:\\layout\\activity_nutrition.xml",
-        "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-49:\\layout\\activity_nutrition.xml"
+        "merged": "com.example.fitelevate.app-mergeDebugResources-46:/layout/activity_exercise.xml",
+        "source": "com.example.fitelevate.app-main-49:/layout/activity_exercise.xml"
     }
 ]

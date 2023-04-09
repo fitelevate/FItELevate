@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewBmi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/bmi"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/textViewBmr"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/bmr"
+        android:textSize="50sp"/>
+
+</FrameLayout>

@@ -30,28 +30,27 @@
 
 
         >
+
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="Gender:"
-            android:textSize="20sp"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/male_radio_btn"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:text="male"
-            android:onClick="onRadioButtonClicked"
-            android:textSize="20sp"/>
+            android:text="Male"
+            android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/female_radio_btn"
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:text="female"
+            android:text="Female"
             android:textSize="20sp"
-
             />
     </RadioGroup>
 
