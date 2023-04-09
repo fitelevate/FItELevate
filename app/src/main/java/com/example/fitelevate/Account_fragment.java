@@ -91,6 +91,7 @@ public class Account_fragment extends Fragment {
         }else{
             textView.setText(user.getEmail());
         }
+        //Calling Fetch User Details
         fetchUserDetails(view);
         button.setOnClickListener(view1 -> {
             FirebaseAuth.getInstance().signOut();
@@ -99,6 +100,12 @@ public class Account_fragment extends Fragment {
             getActivity().finish();            });
 
         return view;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        fetchUserDetails(getView());
     }
 
     private void fetchUserDetails(View view) {
@@ -119,23 +126,23 @@ public class Account_fragment extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(snapshot.exists()){
-                    String name = snapshot.child(uid).child("name").getValue(String.class);
-                    int height = snapshot.child(uid).child("height").getValue(Integer.class);
-                    int age = snapshot.child(uid).child("age").getValue(Integer.class);
-                    int weight = snapshot.child(uid).child("weight").getValue(Integer.class);
-                    String gender = snapshot.child(uid).child("gender").getValue(String.class);
-                    Double mobile = snapshot.child(uid).child("mobile").getValue(Double.class);
-                    String add = snapshot.child(uid).child("address").getValue(String.class);
+                    String name = snapshot.child(uid).child("name").getValue().toString();
+                    String height = snapshot.child(uid).child("height").getValue().toString();
+                    String age = snapshot.child(uid).child("age").getValue().toString();
+                    String weight = snapshot.child(uid).child("weight").getValue().toString();
+                    String gender = snapshot.child(uid).child("gender").getValue().toString();
+                    String mobile = snapshot.child(uid).child("mobile").getValue().toString();
+                    String add = snapshot.child(uid).child("address").getValue().toString();
                     userNameInAccount.setText(name);
                     heightInProfile.setText(height+" cm");
                     ageInProfile.setText(age+" Years");
                     weightInProfile.setText(weight+" kg");
                     genderInProfile.setText(gender);
-                    mobileInProfile.setText(String.format("%.0f", mobile));
+                    mobileInProfile.setText(mobile);
                     address.setText(add);
                 }
                 else{
-                    Toast.makeText(getActivity(), "User Details Does Not Exist", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getActivity(), "User Details Does Not Exist", Toast.LENGTH_SHORT).show();
                 }
             }
 
@@ -153,5 +160,4 @@ public class Account_fragment extends Fragment {
             }
         });
     }
-
 }

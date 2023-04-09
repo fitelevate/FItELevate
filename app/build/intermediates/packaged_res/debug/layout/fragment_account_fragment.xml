@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     >
 <FrameLayout
+    android:id="@+id/acc_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Account_fragment">
@@ -43,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="user name"
+            android:text="User Name"
             android:textColor="#ffffff"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -196,7 +197,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="123-123-1234"
+                    android:text="Gender"
                     android:textAlignment="viewEnd"
                     android:textColor="#5b5b5b"
                     android:textSize="18sp" />
@@ -230,7 +231,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="NY-Street 22- no74"
+                    android:text="Mobile"
                     android:textAlignment="viewEnd"
                     android:textColor="#5b5b5b"
                     android:textSize="18sp" />
@@ -263,7 +264,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="knit sultanpur"
+                    android:text="Address"
                     android:textAlignment="viewEnd"
                     android:textColor="#5b5b5b"
                     android:textSize="18sp" />

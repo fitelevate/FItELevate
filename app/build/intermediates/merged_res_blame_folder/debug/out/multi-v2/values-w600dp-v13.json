@@ -4,7 +4,7 @@
             "outputFile": "com.example.fitelevate.app-mergeDebugResources-45:/values-w600dp-v13/values-w600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\itsjp\\AndroidStudioProjects\\FItELevate\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "source": "C:\\Users\\Vipin\\AndroidStudioProjects\\FItELevate\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

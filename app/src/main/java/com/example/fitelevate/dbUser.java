@@ -7,12 +7,12 @@ public class dbUser {
     int age;
     int weight;
     String gender;
-    String mobile;
+    Double mobile;
     String address;
 
     dbUser(){}
 
-    public dbUser(String name, int height, int age, int weight, String gender, String mobile, String address) {
+    public dbUser(String name, int height, int age, int weight, String gender, Double mobile, String address) {
         this.name = name;
         this.height = height;
         this.age = age;
@@ -62,11 +62,11 @@ public class dbUser {
         this.gender = gender;
     }
 
-    public String getMobile() {
+    public Double getMobile() {
         return mobile;
     }
 
-    public void setMobile(String mobile) {
+    public void setMobile(Double mobile) {
         this.mobile = mobile;
     }
 

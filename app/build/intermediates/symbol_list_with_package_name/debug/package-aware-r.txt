@@ -3097,6 +3097,7 @@ id SYM
 id SecondFragment
 id TOP_END
 id TOP_START
+id acc_fragment
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0

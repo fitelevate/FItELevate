@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -37,26 +39,32 @@ public class bmi extends AppCompatActivity {
         calculate_bmi_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                float user_height = Float.parseFloat(String.valueOf(bmi_height_input.getText()))/100;
-                float user_weight = Float.parseFloat(String.valueOf(bmi_weight_input.getText()));
-                float bmi = user_weight / (user_height * user_height);
-                //formatting bmi up-to one decimal place
-                String formattedBmi = String.format("%.1f", bmi);
-                //again converting it into float
-                bmi = Float.parseFloat(formattedBmi);
+                String heightStr = bmi_height_input.getText().toString();
+                String weightStr = bmi_weight_input.getText().toString();
+                if(!TextUtils.isEmpty(heightStr) && !TextUtils.isEmpty(weightStr)){
+                    float user_height = Float.parseFloat(heightStr)/100;
+                    float user_weight = Float.parseFloat(weightStr);
+                    float bmi = user_weight / (user_height * user_height);
+                    //formatting bmi up-to one decimal place
+                    String formattedBmi = String.format("%.1f", bmi);
+                    //again converting it into float
+                    bmi = Float.parseFloat(formattedBmi);
 
-                //Start Writing in database
-                FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
-                DatabaseReference reference = rootNode.getReference("bmi");
-                dbBmi addBmi = new dbBmi(bmi);
-                reference.child(user.getUid()).setValue(addBmi);
-                //End Writing in Database
+                    //Start Writing in database
+                    FirebaseDatabase rootNode = FirebaseDatabase.getInstance();
+                    DatabaseReference reference = rootNode.getReference("bmi");
+                    dbBmi addBmi = new dbBmi(bmi);
+                    reference.child(user.getUid()).setValue(addBmi);
+                    //End Writing in Database
 
-                Intent i = new Intent(bmi.this, bmi_result.class);
-                i.putExtra("bmi_result", bmi);
-                startActivity(i);
+                    Intent i = new Intent(bmi.this, bmi_result.class);
+                    i.putExtra("bmi_result", bmi);
+                    startActivity(i);
+                }
+                else {
+                    Toast.makeText(getApplicationContext(), "Please fill in all fields", Toast.LENGTH_SHORT).show();
+                }
             }
         });
-
     }
 }

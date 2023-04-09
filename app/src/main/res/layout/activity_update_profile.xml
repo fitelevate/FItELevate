@@ -21,7 +21,7 @@
             android:background="@color/design_default_color_primary_dark"
             android:textAlignment="textEnd"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:title="update profile"
+            app:title="Update Profile"
             app:titleTextColor="@color/white"
             android:gravity="end"
             />
@@ -67,7 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Height (cm)"
-
+        android:inputType="number"
         android:minHeight="48dp"
         android:layout_below="@id/name_field"
         android:layout_marginStart="16dp"
@@ -79,6 +79,7 @@
         android:layout_height="wrap_content"
         android:hint="Weight (kg)"
         android:minHeight="48dp"
+        android:inputType="number"
         android:layout_below="@id/height_field"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp" />
@@ -89,6 +90,7 @@
         android:layout_height="wrap_content"
         android:hint="Age"
         android:minHeight="48dp"
+        android:inputType="number"
         android:layout_below="@id/weight_field"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp" />
@@ -98,6 +100,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Mobile Number"
+        android:inputType="number"
         android:minHeight="48dp"
         android:layout_below="@id/age_field"
         android:layout_marginStart="16dp"
@@ -119,11 +122,9 @@
         android:layout_height="wrap_content"
         android:text="Gender:"
         android:layout_below="@id/address_field"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="23dp"
-
-
-        android:textSize="25dp"/>
+        android:textSize="20dp"/>
 
     <RadioGroup
         android:id="@+id/gender_field"

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -22,6 +23,9 @@ import java.lang.String;
 public final class FragmentAccountFragmentBinding implements ViewBinding {
   @NonNull
   private final ScrollView rootView;
+
+  @NonNull
+  public final FrameLayout accFragment;
 
   @NonNull
   public final TextView address;
@@ -68,8 +72,9 @@ public final class FragmentAccountFragmentBinding implements ViewBinding {
   @NonNull
   public final TextView weightInProfile;
 
-  private FragmentAccountFragmentBinding(@NonNull ScrollView rootView, @NonNull TextView address,
-      @NonNull TextView ageInProfile, @NonNull AppCompatImageView appCompatImageView,
+  private FragmentAccountFragmentBinding(@NonNull ScrollView rootView,
+      @NonNull FrameLayout accFragment, @NonNull TextView address, @NonNull TextView ageInProfile,
+      @NonNull AppCompatImageView appCompatImageView,
       @NonNull AppCompatImageView appCompatImageView3, @NonNull Button editProfile,
       @NonNull TextView genderInProfile, @NonNull TextView heightInProfile,
       @NonNull ImageView imageView, @NonNull LinearLayout linearLayout, @NonNull Button logout,
@@ -77,6 +82,7 @@ public final class FragmentAccountFragmentBinding implements ViewBinding {
       @NonNull TextView userDetails, @NonNull TextView userNameInAccount,
       @NonNull TextView weightInProfile) {
     this.rootView = rootView;
+    this.accFragment = accFragment;
     this.address = address;
     this.ageInProfile = ageInProfile;
     this.appCompatImageView = appCompatImageView;
@@ -121,6 +127,12 @@ public final class FragmentAccountFragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.acc_fragment;
+      FrameLayout accFragment = ViewBindings.findChildViewById(rootView, id);
+      if (accFragment == null) {
+        break missingId;
+      }
+
       id = R.id.address;
       TextView address = ViewBindings.findChildViewById(rootView, id);
       if (address == null) {
@@ -211,10 +223,10 @@ public final class FragmentAccountFragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAccountFragmentBinding((ScrollView) rootView, address, ageInProfile,
-          appCompatImageView, appCompatImageView3, editProfile, genderInProfile, heightInProfile,
-          imageView, linearLayout, logout, mobileInProfile, profileIcon, userDetails,
-          userNameInAccount, weightInProfile);
+      return new FragmentAccountFragmentBinding((ScrollView) rootView, accFragment, address,
+          ageInProfile, appCompatImageView, appCompatImageView3, editProfile, genderInProfile,
+          heightInProfile, imageView, linearLayout, logout, mobileInProfile, profileIcon,
+          userDetails, userNameInAccount, weightInProfile);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
