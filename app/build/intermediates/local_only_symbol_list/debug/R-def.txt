@@ -1,6 +1,11 @@
 R_DEF: Internal format may change without notice
 local
+color bgcolor
 color black
+color btnend
+color btnstart
+color cardend
+color cardstart
 color colorAccent
 color colorBlack
 color colorPrimary
@@ -24,8 +29,10 @@ color purple_700
 color red
 color secondary_1
 color secondary_2
+color subtextcolor
 color teal_200
 color teal_700
+color textcolor
 color white
 dimen fab_margin
 drawable _1
@@ -42,6 +49,7 @@ drawable __cups
 drawable activity
 drawable ageprofile
 drawable alternate_nostril_breathing
+drawable appdeve
 drawable background_login
 drawable backgroundcrop
 drawable baseline_account_circle_24
@@ -50,6 +58,7 @@ drawable baseline_arrow_forward_24
 drawable baseline_fitness_center_24
 drawable baseline_home_24
 drawable baseline_logout_24
+drawable baseline_panorama_fish_eye_24
 drawable baseline_person_24
 drawable baseline_poll_24
 drawable baseline_power_settings_new_24
@@ -117,7 +126,9 @@ drawable forward_bend
 drawable frog_press
 drawable glass
 drawable google
+drawable gradientcard
 drawable graph_fill_gradiant
+drawable graphics
 drawable group_41
 drawable group_5
 drawable group_6
@@ -202,6 +213,8 @@ drawable rectangle_6
 drawable rectangle_7
 drawable rectangle_8
 drawable report
+drawable report_bmi
+drawable report_bmr
 drawable resonant_breathing
 drawable reverse_crunches
 drawable right_arrow
@@ -227,6 +240,7 @@ drawable top_background
 drawable top_button_background
 drawable topbg
 drawable training
+drawable uigradient
 drawable vinay_panday
 drawable walk_through_button_bg
 drawable water
@@ -389,6 +403,7 @@ id resonant
 id result_number
 id result_text
 id reverseCrunches
+id seekBar
 id shstretch
 id sign_up
 id sitali
@@ -412,6 +427,7 @@ id textView8
 id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
+id textViewCat
 id textViewDistance
 id textViewStepCounter
 id textview_first
@@ -498,7 +514,7 @@ layout fragment_account_fragment
 layout fragment_activity_fragment
 layout fragment_first
 layout fragment_home_fragment
-layout fragment_search_fragment
+layout fragment_report_fragment
 layout fragment_second
 layout fragment_steps_counter
 layout knee_to_chest_stretch

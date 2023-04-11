@@ -1384,6 +1384,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bgcolor
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -1395,10 +1396,14 @@ color browser_actions_bg_grey
 color browser_actions_divider_color
 color browser_actions_text_color
 color browser_actions_title_color
+color btnend
+color btnstart
 color button_material_dark
 color button_material_light
 color call_notification_answer_color
 color call_notification_decline_color
+color cardend
+color cardstart
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -2021,6 +2026,7 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color subtextcolor
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -2029,6 +2035,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color teal_200
 color teal_700
+color textcolor
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -2835,6 +2842,7 @@ drawable abc_vector_test
 drawable activity
 drawable ageprofile
 drawable alternate_nostril_breathing
+drawable appdeve
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_login
@@ -2845,6 +2853,7 @@ drawable baseline_arrow_forward_24
 drawable baseline_fitness_center_24
 drawable baseline_home_24
 drawable baseline_logout_24
+drawable baseline_panorama_fish_eye_24
 drawable baseline_person_24
 drawable baseline_poll_24
 drawable baseline_power_settings_new_24
@@ -2946,7 +2955,9 @@ drawable glass
 drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradientcard
 drawable graph_fill_gradiant
+drawable graphics
 drawable group_41
 drawable group_5
 drawable group_6
@@ -3120,6 +3131,8 @@ drawable rectangle_6
 drawable rectangle_7
 drawable rectangle_8
 drawable report
+drawable report_bmi
+drawable report_bmr
 drawable resonant_breathing
 drawable reverse_crunches
 drawable right_arrow
@@ -3148,6 +3161,7 @@ drawable top_background
 drawable top_button_background
 drawable topbg
 drawable training
+drawable uigradient
 drawable vinay_panday
 drawable walk_through_button_bg
 drawable water
@@ -3709,6 +3723,7 @@ id search_view_status_bar_spacer
 id search_view_toolbar
 id search_view_toolbar_container
 id search_voice_btn
+id seekBar
 id select_dialog_listview
 id selected
 id selection_type
@@ -3796,6 +3811,7 @@ id textView8
 id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
+id textViewCat
 id textViewDistance
 id textViewStepCounter
 id text_input_end_icon
@@ -4057,7 +4073,7 @@ layout fragment_account_fragment
 layout fragment_activity_fragment
 layout fragment_first
 layout fragment_home_fragment
-layout fragment_search_fragment
+layout fragment_report_fragment
 layout fragment_second
 layout fragment_steps_counter
 layout knee_to_chest_stretch

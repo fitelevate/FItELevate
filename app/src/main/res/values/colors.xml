@@ -17,6 +17,16 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
+    <!--report-->
+    <color name = "bgcolor">#474D71</color>
+    <color name = "textcolor">#FDFCFF</color>
+    <color name = "subtextcolor">#B7EEEEEE</color>
+    <color name = "btnstart">#7B7EA4</color>
+    <color name = "btnend">#575C84</color>
+    <color name = "cardstart">#93B7D7</color>
+    <color name = "cardend">#474D71</color>
+
+
     <!--vaibhav-->
     <color name="colorSecondary">#1845E6</color>
     <color name="colorSecondaryDark">#4167B2</color>

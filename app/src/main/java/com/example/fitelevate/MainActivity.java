@@ -1,21 +1,13 @@
 package com.example.fitelevate;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
     // changed here for fragment
@@ -35,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                loadfrag(new Activity_fragment(),false);
 
             } else if (id==R.id.nav_search) {
-             loadfrag(new Search_fragment(),false);
+             loadfrag(new Report_fragment(),false);
 
             }else {
                loadfrag(new Account_fragment(),false);

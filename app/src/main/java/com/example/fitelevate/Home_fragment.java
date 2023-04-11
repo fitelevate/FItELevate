@@ -64,6 +64,15 @@ public class Home_fragment extends Fragment {
             }
         });
 
+        nutritionBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Handle water button click
+                Intent intent = new Intent(getActivity(), nutrition.class);
+                startActivity(intent);
+            }
+        });
+
         exerciseBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

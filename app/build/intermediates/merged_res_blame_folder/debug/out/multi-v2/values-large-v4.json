@@ -4,7 +4,7 @@
             "outputFile": "com.example.fitelevate.app-mergeDebugResources-47:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\5804030942482b983326b83c9807f82b\\transformed\\material-1.8.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Vipin\\.gradle\\caches\\transforms-3\\5804030942482b983326b83c9807f82b\\transformed\\material-1.8.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,10",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\9d09ceef58fe9957bb01548bb8bac268\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Vipin\\.gradle\\caches\\transforms-3\\9d09ceef58fe9957bb01548bb8bac268\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
