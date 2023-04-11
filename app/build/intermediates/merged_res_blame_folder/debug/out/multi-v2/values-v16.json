@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fitelevate.app-mergeDebugResources-45:/values-v16/values-v16.xml",
+            "outputFile": "com.example.fitelevate.app-mergeDebugResources-47:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vipin\\.gradle\\caches\\transforms-3\\4a8fc8d4cffe1deef03672f2112cd6a4\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\9d09ceef58fe9957bb01548bb8bac268\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Vipin\\.gradle\\caches\\transforms-3\\43a64de5a16f642f933aa2c844c81289\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\b1b806b0947cbc6830f4e5b150b9db99\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

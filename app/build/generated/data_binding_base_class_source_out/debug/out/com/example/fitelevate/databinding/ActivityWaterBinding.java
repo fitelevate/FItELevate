@@ -4,6 +4,7 @@ package com.example.fitelevate.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,6 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.fitelevate.R;
+import com.google.android.material.textfield.TextInputLayout;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,12 +22,43 @@ public final class ActivityWaterBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView userNameInAccount;
+  public final Button btnContinue;
 
-  private ActivityWaterBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView userNameInAccount) {
+  @NonNull
+  public final ConstraintLayout constraintLayout;
+
+  @NonNull
+  public final TextInputLayout etSleepTime;
+
+  @NonNull
+  public final TextInputLayout etWakeUpTime;
+
+  @NonNull
+  public final TextInputLayout etWeight;
+
+  @NonNull
+  public final TextInputLayout etWorkTime;
+
+  @NonNull
+  public final ConstraintLayout initUserInfoParentLayout;
+
+  @NonNull
+  public final TextView textView3;
+
+  private ActivityWaterBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnContinue,
+      @NonNull ConstraintLayout constraintLayout, @NonNull TextInputLayout etSleepTime,
+      @NonNull TextInputLayout etWakeUpTime, @NonNull TextInputLayout etWeight,
+      @NonNull TextInputLayout etWorkTime, @NonNull ConstraintLayout initUserInfoParentLayout,
+      @NonNull TextView textView3) {
     this.rootView = rootView;
-    this.userNameInAccount = userNameInAccount;
+    this.btnContinue = btnContinue;
+    this.constraintLayout = constraintLayout;
+    this.etSleepTime = etSleepTime;
+    this.etWakeUpTime = etWakeUpTime;
+    this.etWeight = etWeight;
+    this.etWorkTime = etWorkTime;
+    this.initUserInfoParentLayout = initUserInfoParentLayout;
+    this.textView3 = textView3;
   }
 
   @Override
@@ -55,13 +88,52 @@ public final class ActivityWaterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.userNameInAccount;
-      TextView userNameInAccount = ViewBindings.findChildViewById(rootView, id);
-      if (userNameInAccount == null) {
+      id = R.id.btnContinue;
+      Button btnContinue = ViewBindings.findChildViewById(rootView, id);
+      if (btnContinue == null) {
         break missingId;
       }
 
-      return new ActivityWaterBinding((ConstraintLayout) rootView, userNameInAccount);
+      id = R.id.constraintLayout;
+      ConstraintLayout constraintLayout = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.etSleepTime;
+      TextInputLayout etSleepTime = ViewBindings.findChildViewById(rootView, id);
+      if (etSleepTime == null) {
+        break missingId;
+      }
+
+      id = R.id.etWakeUpTime;
+      TextInputLayout etWakeUpTime = ViewBindings.findChildViewById(rootView, id);
+      if (etWakeUpTime == null) {
+        break missingId;
+      }
+
+      id = R.id.etWeight;
+      TextInputLayout etWeight = ViewBindings.findChildViewById(rootView, id);
+      if (etWeight == null) {
+        break missingId;
+      }
+
+      id = R.id.etWorkTime;
+      TextInputLayout etWorkTime = ViewBindings.findChildViewById(rootView, id);
+      if (etWorkTime == null) {
+        break missingId;
+      }
+
+      ConstraintLayout initUserInfoParentLayout = (ConstraintLayout) rootView;
+
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      return new ActivityWaterBinding((ConstraintLayout) rootView, btnContinue, constraintLayout,
+          etSleepTime, etWakeUpTime, etWeight, etWorkTime, initUserInfoParentLayout, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

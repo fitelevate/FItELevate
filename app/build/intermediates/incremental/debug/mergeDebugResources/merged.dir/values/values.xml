@@ -638,13 +638,22 @@
     <color name="browser_actions_title_color">#646464</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="call_notification_answer_color">#1d873b</color>
+    <color name="call_notification_decline_color">#d93025</color>
     <color name="cardview_dark_background">#FF424242</color>
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorBlack">#090909</color>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorSecondary">#1845E6</color>
+    <color name="colorSecondaryDark">#4167B2</color>
+    <color name="colorSecondaryLight">#6A91DE</color>
+    <color name="colorSecondaryLighter">#ABBDEC</color>
+    <color name="colorSkyBlue">#A0A5F4</color>
+    <color name="colorWhite">#F7F9F8</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -692,11 +701,13 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="dividerColor">#F5F5F5</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="green_500">#76E67B</color>
+    <color name="grey">#A5A3A3</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="ic_launcher_background">#252642</color>
@@ -900,6 +911,7 @@
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="red">#D80101</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_1">#7168d3</color>
@@ -1839,8 +1851,10 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="account">Account </string>
     <string name="activity">Activity </string>
+    <string name="add_info_text"> Please provide some info.</string>
     <string name="alreadymember">already a member?</string>
     <string name="alternatenostrilbreathingdesc">Lift your right hand toward your nose, pressing your first and middle fingers down toward your palm and leaving your other fingers extended.After an exhale, use your right thumb to gently close your right nostril.Inhale through your left nostril and then close your left nostril with your right pinky and ring fingers.Release your thumb and exhale out through your right nostril.Inhale through your right nostril and then close this nostril.Release your fingers to open your left nostril and exhale through this side.This is one cycle.</string>
+    <string name="android_animations_lib_name">AndroidAnimations</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">FitElevate</string>
     <string name="app_theme">Elevate your fitness</string>
@@ -1856,6 +1870,13 @@
     <string description="An accessibility feedback when the bottom sheet drag handle is clicked [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
     <string description="The content description of bottom sheet drag handles [CHAR LIMIT=NONE]" name="bottomsheet_drag_handle_content_description">Drag handle</string>
     <string name="breathfocustechniquedesc">Sit or lie down in a comfortable place.Bring your awareness to your breaths without trying to change how you’re breathing.Alternate between normal and deep breaths a few times. Notice any differences between normal breathing and deep breathing.Practice your deep breathing for a few minutes.</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
     <string name="calories">calories  </string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
@@ -1912,6 +1933,7 @@
     <string name="forgotpass_message">Forgot Password</string>
     <string name="frogpressdes">Lie on your bed with your legs lifted, knees bent and heels squeezed together. Put your arms flat at your sides.Straighten your legs and bring them back to the starting position. Repeat the exercise.</string>
     <string name="gcm_defaultSenderId" translatable="false">635183237547</string>
+    <string name="get_started">Get Started</string>
     <string name="goback">Go back to  </string>
     <string name="google_api_key" translatable="false">AIzaSyABESmINwp229ofn4xQZWLP2_1yYBau_i4</string>
     <string name="google_app_id" translatable="false">1:635183237547:android:9dc869e5c9cf70b56beaee</string>
@@ -2044,6 +2066,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="pref_notification_message_value"/>
     <string name="previous">Previous</string>
     <string name="project_id" translatable="false">fitelevate-96f37</string>
     <string name="pursedlipbreathingdesc">Relax your neck and shoulders.Keeping your mouth closed, inhale slowly through your nose for 2 counts.Pucker or purse your lips as though you were going to whistle.Exhale slowly by blowing air through your pursed lips for a count of 4.</string>
@@ -2067,6 +2090,7 @@
     <string name="signup_text">By signing up you agree with our term and conditions</string>
     <string name="sitalibreathdesc">Stick out your tongue and curl your tongue to bring the outer edges together.If your tongue doesn’t do this, you can purse your lips.Inhale through your mouth.Exhale out through your nose.</string>
     <string name="sleep">Sleep  </string>
+    <string name="sleeping_hint">Your Sleep time</string>
     <string name="squatkicksdes">Stand with your feet shoulder width apart. Put your arms in front of your chest to keep your balance.Then do a squat, and when you come up, kick your left leg to the front. Repeat the exercise and then switch to the right leg.Inhale when you go down, and exhale when you go up. It\'s a great exercise for the quadriceps and gluteus maximus.</string>
     <string name="squatreachupsdes">Stand with your feet a little wider than shoulder width apart, elbows bent, palms facing each other and fingers pointed toward the ceiling.Lower your body until your thighs are parallel to the floor. When you come up, turn your body to the left, straighten your right leg, lift your right heel and stretch and reach your right arm to the left.Return to the start position, and repeat with the other side.</string>
     <string name="squatsdes">Stand with your feet shoulder width apart and your arms stretched forward, then lower your body until your thighs are parallel with the floor.Your knees should be extended in the same direction as you toes. Return to the start position and do the next rep.This works the thighs, hips, buttocks, quartz hamstrings and lower body.</string>
@@ -2084,13 +2108,17 @@
     <string name="str8">Stand with your thighs closed, and raise your hands over your head.Then bend your knees and come to a sitting position.Bend your torso forward slightly and extend your arms forward to keep your balance. Hold this position till time’s up .</string>
     <string name="str9">Place one arm across your body, parallel to the ground, then use the other arm to pull the parallel arm towards your chest.Hold for a while, switch arms and repeat the exercise. Keep the inside arm straight during the exercise.
 </string>
+    <string name="str_continue"/>
     <string name="textview">TextView</string>
     <string name="title_activity_breathing_yoga">breathingYoga</string>
     <string name="tncmessage">Our Terms &amp; Conditions</string>
     <string name="training">Training </string>
+    <string name="wakeup_hint">Your wake up time</string>
     <string name="walk">  Walk  </string>
     <string name="water">Water </string>
+    <string name="weight_hint">Enter Your Weight in Kg </string>
     <string name="welcomeTo">Welcome To</string>
+    <string name="workout_hint">Your daily work out time in min/day</string>
     <string name="yoga">Yoga  </string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
@@ -5377,6 +5405,23 @@
     </style>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="DividerHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/dividerColor</item>
+    </style>
+    <style name="DividerVertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/dividerColor</item>
+    </style>
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        Customize your theme here.
+        <item name="colorPrimary">@color/colorSecondary</item>
+        <item name="colorPrimaryDark">@color/colorSecondary</item>
+        <item name="colorAccent">@color/colorSecondaryDark</item>
+        <item name="android:fontFamily">@font/kanit</item>
     </style>
     <style name="MaterialAlertDialog.Material3" parent="MaterialAlertDialog.MaterialComponents">
     <item name="enforceMaterialTheme">true</item>
@@ -13337,6 +13382,17 @@
         <attr format="reference" name="ifTagSet"/>
         <attr format="reference" name="ifTagNotSet"/>
     </declare-styleable>
+    <declare-styleable name="WaveLoadingView"><attr format="dimension" name="wlv_borderWidth"/><attr format="color" name="wlv_borderColor"/><attr format="integer" name="wlv_progressValue"/><attr format="enum" name="wlv_shapeType">
+            <enum name="triangle" value="0"/>
+            <enum name="circle" value="1"/>
+            <enum name="square" value="2"/>
+            <enum name="rectangle" value="3"/>
+        </attr><attr format="enum" name="wlv_triangle_direction">
+            <enum name="north" value="0"/>
+            <enum name="south" value="1"/>
+            <enum name="east" value="2"/>
+            <enum name="west" value="3"/>
+        </attr><attr format="boolean" name="wlv_round_rectangle"/><attr format="integer" name="wlv_round_rectangle_x_and_y"/><attr format="color" name="wlv_waveColor"/><attr format="color" name="wlv_wave_background_Color"/><attr format="float" name="wlv_waveAmplitude"/><attr format="string" name="wlv_titleTop"/><attr format="string" name="wlv_titleCenter"/><attr format="string" name="wlv_titleBottom"/><attr format="dimension" name="wlv_titleTopSize"/><attr format="dimension" name="wlv_titleCenterSize"/><attr format="dimension" name="wlv_titleBottomSize"/><attr format="color" name="wlv_titleTopColor"/><attr format="color" name="wlv_titleCenterColor"/><attr format="color" name="wlv_titleBottomColor"/><attr format="color" name="wlv_titleTopStrokeColor"/><attr format="dimension" name="wlv_titleTopStrokeWidth"/><attr format="color" name="wlv_titleBottomStrokeColor"/><attr format="dimension" name="wlv_titleBottomStrokeWidth"/><attr format="color" name="wlv_titleCenterStrokeColor"/><attr format="dimension" name="wlv_titleCenterStrokeWidth"/></declare-styleable>
     <declare-styleable name="include">
         <attr name="constraintSet"/>
     </declare-styleable>

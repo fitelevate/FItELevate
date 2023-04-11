@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fitelevate.app-mergeDebugResources-45:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.example.fitelevate.app-mergeDebugResources-47:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vipin\\.gradle\\caches\\transforms-3\\4a8fc8d4cffe1deef03672f2112cd6a4\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\9d09ceef58fe9957bb01548bb8bac268\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -135,4 +135,16 @@
     <string name="report">report</string>
     <string name="Report">Report</string>
 
+
+<!--vaibhav-->
+
+    <string name="get_started">Get Started</string>
+    <string name="str_continue" />
+    <string name="add_info_text"> Please provide some info.</string>
+    <string name="weight_hint">Enter Your Weight in Kg </string>
+    <string name="workout_hint">Your daily work out time in min/day</string>
+    <string name="wakeup_hint">Your wake up time</string>
+    <string name="sleeping_hint">Your Sleep time</string>
+    <string name="pref_notification_message_value" />
+
 </resources>
