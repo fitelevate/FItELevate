@@ -2837,6 +2837,7 @@ drawable ageprofile
 drawable alternate_nostril_breathing
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_login
 drawable backgroundcrop
 drawable baseline_account_circle_24
 drawable baseline_arrow_circle_right_24
@@ -2861,6 +2862,7 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_login
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -2924,19 +2926,24 @@ drawable dumbbell_squats
 drawable dumbbell_swings
 drawable dumble
 drawable dynamic_chest
+drawable edittext_background
 drawable elevate
 drawable elevate_1
 drawable elevate_your_fitness
+drawable email
 drawable email_address
 drawable equal_breathing
 drawable exercise
 drawable exercisegif
+drawable facebook
 drawable fire
 drawable fit
 drawable fit_1
+drawable fitelvateicon
 drawable forward_bend
 drawable frog_press
 drawable glass
+drawable google
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable graph_fill_gradiant
@@ -2996,6 +3003,7 @@ drawable icon_feather_mail
 drawable icons
 drawable icons_1
 drawable inchworms
+drawable intro
 drawable jumping_jacks
 drawable kat
 drawable knee_to_chest_stretch
@@ -3004,6 +3012,7 @@ drawable layer__1
 drawable layer__2
 drawable leg_raises
 drawable lions_breath
+drawable logbuttonbackground
 drawable login
 drawable logo
 drawable lunges
@@ -3069,6 +3078,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable name
 drawable navigation_empty_icon
 drawable nopath___copy__14_
 drawable nopath___copy__16_
@@ -3092,6 +3102,7 @@ drawable password
 drawable please_login_to_your_account
 drawable profile
 drawable profile1
+drawable pswd
 drawable pursed_lip_breathing
 drawable push_ups
 drawable rectangle_132
@@ -3135,6 +3146,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable top_background
 drawable top_button_background
+drawable topbg
 drawable training
 drawable vinay_panday
 drawable walk_through_button_bg
@@ -3239,7 +3251,6 @@ id alertTitle
 id aligned
 id all
 id allStates
-id already_member
 id alternatenostril
 id always
 id androidx_window_activity_scope
@@ -3376,7 +3387,6 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id dntochest
-id dont_have_account
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3443,7 +3453,6 @@ id gender_field
 id gender_label
 id ghost_view
 id ghost_view_holder
-id go_back
 id gone
 id graph
 id graph_wrap
@@ -3466,6 +3475,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView3
 id immediateStop
 id inchWarms
 id included
@@ -3606,7 +3617,6 @@ id op200ml
 id op250ml
 id op50ml
 id opCustom
-id or_login_with
 id outline
 id outward
 id overshoot
@@ -3710,7 +3720,6 @@ id showHome
 id showTitle
 id shstretch
 id sign_up
-id signup_message
 id sin
 id sitali
 id skipCollapsed
@@ -3781,6 +3790,7 @@ id textView14
 id textView2
 id textView3
 id textView5
+id textView6
 id textView7
 id textView8
 id textViewBmi

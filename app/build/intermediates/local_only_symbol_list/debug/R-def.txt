@@ -42,6 +42,7 @@ drawable __cups
 drawable activity
 drawable ageprofile
 drawable alternate_nostril_breathing
+drawable background_login
 drawable backgroundcrop
 drawable baseline_account_circle_24
 drawable baseline_arrow_circle_right_24
@@ -62,6 +63,7 @@ drawable bmi_chart
 drawable bmr
 drawable bmr_banner
 drawable breath_focus_technique
+drawable btn_login
 drawable btnbg
 drawable btnshape
 drawable button
@@ -97,19 +99,24 @@ drawable dumbbell_squats
 drawable dumbbell_swings
 drawable dumble
 drawable dynamic_chest
+drawable edittext_background
 drawable elevate
 drawable elevate_1
 drawable elevate_your_fitness
+drawable email
 drawable email_address
 drawable equal_breathing
 drawable exercise
 drawable exercisegif
+drawable facebook
 drawable fire
 drawable fit
 drawable fit_1
+drawable fitelvateicon
 drawable forward_bend
 drawable frog_press
 drawable glass
+drawable google
 drawable graph_fill_gradiant
 drawable group_41
 drawable group_5
@@ -149,6 +156,7 @@ drawable icon_feather_mail
 drawable icons
 drawable icons_1
 drawable inchworms
+drawable intro
 drawable jumping_jacks
 drawable kat
 drawable knee_to_chest_stretch
@@ -157,6 +165,7 @@ drawable layer__1
 drawable layer__2
 drawable leg_raises
 drawable lions_breath
+drawable logbuttonbackground
 drawable login
 drawable logo
 drawable lunges
@@ -164,6 +173,7 @@ drawable menu_icon
 drawable military_press
 drawable military_push_ups
 drawable moon
+drawable name
 drawable nopath___copy__14_
 drawable nopath___copy__16_
 drawable nopath___copy__4_
@@ -174,6 +184,7 @@ drawable password
 drawable please_login_to_your_account
 drawable profile
 drawable profile1
+drawable pswd
 drawable pursed_lip_breathing
 drawable push_ups
 drawable rectangle_132
@@ -214,6 +225,7 @@ drawable terms___conditions
 drawable textinput_bg
 drawable top_background
 drawable top_button_background
+drawable topbg
 drawable training
 drawable vinay_panday
 drawable walk_through_button_bg
@@ -241,7 +253,6 @@ id address_field
 id ageInProfile
 id age_field
 id age_input
-id already_member
 id alternatenostril
 id appCompatImageView
 id appCompatImageView3
@@ -289,7 +300,6 @@ id container
 id deepbreathing
 id diaphragmatic
 id dntochest
-id dont_have_account
 id editProfile
 id elevate
 id email
@@ -314,10 +324,11 @@ id fwbend
 id genderInProfile
 id gender_field
 id gender_label
-id go_back
 id heightInProfile
 id height_field
 id imageView
+id imageView2
+id imageView3
 id inchWarms
 id init_user_info_parent_layout
 id intakeProgress
@@ -352,7 +363,6 @@ id op200ml
 id op250ml
 id op50ml
 id opCustom
-id or_login_with
 id pass_login_from_signup
 id passwd
 id pose1
@@ -381,7 +391,6 @@ id result_text
 id reverseCrunches
 id shstretch
 id sign_up
-id signup_message
 id sitali
 id squatKicks
 id squatReachUps
@@ -397,6 +406,7 @@ id textView14
 id textView2
 id textView3
 id textView5
+id textView6
 id textView7
 id textView8
 id textViewBmi

@@ -128,7 +128,7 @@
     <string name="walk">  Walk  </string>
     <string name="water">Water </string>
     <string name="weight_hint">Enter Your Weight in Kg </string>
-    <string name="welcomeTo">Welcome To</string>
+    <string name="welcomeTo">Welcome</string>
     <string name="workout_hint">Your daily work out time in min/day</string>
     <string name="yoga">Yoga  </string>
     <style name="DividerHorizontal">

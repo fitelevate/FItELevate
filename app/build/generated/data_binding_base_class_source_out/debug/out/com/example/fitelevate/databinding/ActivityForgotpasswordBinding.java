@@ -8,10 +8,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.fitelevate.R;
@@ -21,22 +21,19 @@ import java.lang.String;
 
 public final class ActivityForgotpasswordBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
-
-  @NonNull
-  public final ImageView elevate;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final EditText email;
 
   @NonNull
-  public final ImageView fit;
-
-  @NonNull
   public final Button forgotButton;
 
   @NonNull
-  public final TextView goBack;
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ImageView imageView3;
 
   @NonNull
   public final TextView login;
@@ -45,31 +42,24 @@ public final class ActivityForgotpasswordBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
-  public final TextView signupMessage;
+  public final TextView textView6;
 
-  @NonNull
-  public final TextView welcomeToText;
-
-  private ActivityForgotpasswordBinding(@NonNull RelativeLayout rootView,
-      @NonNull ImageView elevate, @NonNull EditText email, @NonNull ImageView fit,
-      @NonNull Button forgotButton, @NonNull TextView goBack, @NonNull TextView login,
-      @NonNull ProgressBar progressBar, @NonNull TextView signupMessage,
-      @NonNull TextView welcomeToText) {
+  private ActivityForgotpasswordBinding(@NonNull ConstraintLayout rootView, @NonNull EditText email,
+      @NonNull Button forgotButton, @NonNull ImageView imageView2, @NonNull ImageView imageView3,
+      @NonNull TextView login, @NonNull ProgressBar progressBar, @NonNull TextView textView6) {
     this.rootView = rootView;
-    this.elevate = elevate;
     this.email = email;
-    this.fit = fit;
     this.forgotButton = forgotButton;
-    this.goBack = goBack;
+    this.imageView2 = imageView2;
+    this.imageView3 = imageView3;
     this.login = login;
     this.progressBar = progressBar;
-    this.signupMessage = signupMessage;
-    this.welcomeToText = welcomeToText;
+    this.textView6 = textView6;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -94,21 +84,9 @@ public final class ActivityForgotpasswordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.elevate;
-      ImageView elevate = ViewBindings.findChildViewById(rootView, id);
-      if (elevate == null) {
-        break missingId;
-      }
-
       id = R.id.email;
       EditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
-        break missingId;
-      }
-
-      id = R.id.fit;
-      ImageView fit = ViewBindings.findChildViewById(rootView, id);
-      if (fit == null) {
         break missingId;
       }
 
@@ -118,9 +96,15 @@ public final class ActivityForgotpasswordBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.go_back;
-      TextView goBack = ViewBindings.findChildViewById(rootView, id);
-      if (goBack == null) {
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
         break missingId;
       }
 
@@ -136,20 +120,14 @@ public final class ActivityForgotpasswordBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signup_message;
-      TextView signupMessage = ViewBindings.findChildViewById(rootView, id);
-      if (signupMessage == null) {
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
         break missingId;
       }
 
-      id = R.id.welcomeToText;
-      TextView welcomeToText = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeToText == null) {
-        break missingId;
-      }
-
-      return new ActivityForgotpasswordBinding((RelativeLayout) rootView, elevate, email, fit,
-          forgotButton, goBack, login, progressBar, signupMessage, welcomeToText);
+      return new ActivityForgotpasswordBinding((ConstraintLayout) rootView, email, forgotButton,
+          imageView2, imageView3, login, progressBar, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

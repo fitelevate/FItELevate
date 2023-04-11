@@ -8,10 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.fitelevate.R;
@@ -21,19 +22,22 @@ import java.lang.String;
 
 public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
-
-  @NonNull
-  public final TextView alreadyMember;
-
-  @NonNull
-  public final ImageView elevate;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final EditText email;
 
   @NonNull
-  public final ImageView fit;
+  public final TextView forgotPass;
+
+  @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ImageView imageView3;
+
+  @NonNull
+  public final AppCompatButton loginWithGoogle;
 
   @NonNull
   public final TextView passLoginFromSignup;
@@ -45,39 +49,32 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final ProgressBar progressBar;
 
   @NonNull
-  public final TextView signupMessage;
-
-  @NonNull
   public final Button submitButton;
 
   @NonNull
-  public final TextView tnc;
+  public final TextView textView6;
 
-  @NonNull
-  public final TextView welcomeToText;
-
-  private ActivityRegisterBinding(@NonNull RelativeLayout rootView, @NonNull TextView alreadyMember,
-      @NonNull ImageView elevate, @NonNull EditText email, @NonNull ImageView fit,
-      @NonNull TextView passLoginFromSignup, @NonNull EditText passwd,
-      @NonNull ProgressBar progressBar, @NonNull TextView signupMessage,
-      @NonNull Button submitButton, @NonNull TextView tnc, @NonNull TextView welcomeToText) {
+  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView, @NonNull EditText email,
+      @NonNull TextView forgotPass, @NonNull ImageView imageView2, @NonNull ImageView imageView3,
+      @NonNull AppCompatButton loginWithGoogle, @NonNull TextView passLoginFromSignup,
+      @NonNull EditText passwd, @NonNull ProgressBar progressBar, @NonNull Button submitButton,
+      @NonNull TextView textView6) {
     this.rootView = rootView;
-    this.alreadyMember = alreadyMember;
-    this.elevate = elevate;
     this.email = email;
-    this.fit = fit;
+    this.forgotPass = forgotPass;
+    this.imageView2 = imageView2;
+    this.imageView3 = imageView3;
+    this.loginWithGoogle = loginWithGoogle;
     this.passLoginFromSignup = passLoginFromSignup;
     this.passwd = passwd;
     this.progressBar = progressBar;
-    this.signupMessage = signupMessage;
     this.submitButton = submitButton;
-    this.tnc = tnc;
-    this.welcomeToText = welcomeToText;
+    this.textView6 = textView6;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -102,27 +99,33 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.already_member;
-      TextView alreadyMember = ViewBindings.findChildViewById(rootView, id);
-      if (alreadyMember == null) {
-        break missingId;
-      }
-
-      id = R.id.elevate;
-      ImageView elevate = ViewBindings.findChildViewById(rootView, id);
-      if (elevate == null) {
-        break missingId;
-      }
-
       id = R.id.email;
       EditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
         break missingId;
       }
 
-      id = R.id.fit;
-      ImageView fit = ViewBindings.findChildViewById(rootView, id);
-      if (fit == null) {
+      id = R.id.forgot_pass;
+      TextView forgotPass = ViewBindings.findChildViewById(rootView, id);
+      if (forgotPass == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.login_with_google;
+      AppCompatButton loginWithGoogle = ViewBindings.findChildViewById(rootView, id);
+      if (loginWithGoogle == null) {
         break missingId;
       }
 
@@ -144,33 +147,21 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signup_message;
-      TextView signupMessage = ViewBindings.findChildViewById(rootView, id);
-      if (signupMessage == null) {
-        break missingId;
-      }
-
       id = R.id.submitButton;
       Button submitButton = ViewBindings.findChildViewById(rootView, id);
       if (submitButton == null) {
         break missingId;
       }
 
-      id = R.id.tnc;
-      TextView tnc = ViewBindings.findChildViewById(rootView, id);
-      if (tnc == null) {
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
         break missingId;
       }
 
-      id = R.id.welcomeToText;
-      TextView welcomeToText = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeToText == null) {
-        break missingId;
-      }
-
-      return new ActivityRegisterBinding((RelativeLayout) rootView, alreadyMember, elevate, email,
-          fit, passLoginFromSignup, passwd, progressBar, signupMessage, submitButton, tnc,
-          welcomeToText);
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, email, forgotPass, imageView2,
+          imageView3, loginWithGoogle, passLoginFromSignup, passwd, progressBar, submitButton,
+          textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -6,13 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.fitelevate.R;
@@ -22,31 +22,25 @@ import java.lang.String;
 
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
-
-  @NonNull
-  public final TextView dontHaveAccount;
-
-  @NonNull
-  public final ImageView elevate;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final EditText email;
 
   @NonNull
-  public final ImageView fit;
+  public final TextView forgotPass;
 
   @NonNull
-  public final TextView forgotPass;
+  public final ImageView imageView2;
+
+  @NonNull
+  public final ImageView imageView3;
 
   @NonNull
   public final Button loginButton;
 
   @NonNull
-  public final ImageButton loginWithGoogle;
-
-  @NonNull
-  public final TextView orLoginWith;
+  public final AppCompatButton loginWithGoogle;
 
   @NonNull
   public final EditText passwd;
@@ -58,36 +52,29 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextView signUp;
 
   @NonNull
-  public final TextView signupMessage;
+  public final TextView textView6;
 
-  @NonNull
-  public final TextView welcomeToText;
-
-  private ActivityLoginBinding(@NonNull ScrollView rootView, @NonNull TextView dontHaveAccount,
-      @NonNull ImageView elevate, @NonNull EditText email, @NonNull ImageView fit,
-      @NonNull TextView forgotPass, @NonNull Button loginButton,
-      @NonNull ImageButton loginWithGoogle, @NonNull TextView orLoginWith, @NonNull EditText passwd,
-      @NonNull ProgressBar progressBar, @NonNull TextView signUp, @NonNull TextView signupMessage,
-      @NonNull TextView welcomeToText) {
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull EditText email,
+      @NonNull TextView forgotPass, @NonNull ImageView imageView2, @NonNull ImageView imageView3,
+      @NonNull Button loginButton, @NonNull AppCompatButton loginWithGoogle,
+      @NonNull EditText passwd, @NonNull ProgressBar progressBar, @NonNull TextView signUp,
+      @NonNull TextView textView6) {
     this.rootView = rootView;
-    this.dontHaveAccount = dontHaveAccount;
-    this.elevate = elevate;
     this.email = email;
-    this.fit = fit;
     this.forgotPass = forgotPass;
+    this.imageView2 = imageView2;
+    this.imageView3 = imageView3;
     this.loginButton = loginButton;
     this.loginWithGoogle = loginWithGoogle;
-    this.orLoginWith = orLoginWith;
     this.passwd = passwd;
     this.progressBar = progressBar;
     this.signUp = signUp;
-    this.signupMessage = signupMessage;
-    this.welcomeToText = welcomeToText;
+    this.textView6 = textView6;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -112,33 +99,27 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.dont_have_account;
-      TextView dontHaveAccount = ViewBindings.findChildViewById(rootView, id);
-      if (dontHaveAccount == null) {
-        break missingId;
-      }
-
-      id = R.id.elevate;
-      ImageView elevate = ViewBindings.findChildViewById(rootView, id);
-      if (elevate == null) {
-        break missingId;
-      }
-
       id = R.id.email;
       EditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
         break missingId;
       }
 
-      id = R.id.fit;
-      ImageView fit = ViewBindings.findChildViewById(rootView, id);
-      if (fit == null) {
-        break missingId;
-      }
-
       id = R.id.forgot_pass;
       TextView forgotPass = ViewBindings.findChildViewById(rootView, id);
       if (forgotPass == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
         break missingId;
       }
 
@@ -149,14 +130,8 @@ public final class ActivityLoginBinding implements ViewBinding {
       }
 
       id = R.id.login_with_google;
-      ImageButton loginWithGoogle = ViewBindings.findChildViewById(rootView, id);
+      AppCompatButton loginWithGoogle = ViewBindings.findChildViewById(rootView, id);
       if (loginWithGoogle == null) {
-        break missingId;
-      }
-
-      id = R.id.or_login_with;
-      TextView orLoginWith = ViewBindings.findChildViewById(rootView, id);
-      if (orLoginWith == null) {
         break missingId;
       }
 
@@ -178,21 +153,14 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signup_message;
-      TextView signupMessage = ViewBindings.findChildViewById(rootView, id);
-      if (signupMessage == null) {
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
         break missingId;
       }
 
-      id = R.id.welcomeToText;
-      TextView welcomeToText = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeToText == null) {
-        break missingId;
-      }
-
-      return new ActivityLoginBinding((ScrollView) rootView, dontHaveAccount, elevate, email, fit,
-          forgotPass, loginButton, loginWithGoogle, orLoginWith, passwd, progressBar, signUp,
-          signupMessage, welcomeToText);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, email, forgotPass, imageView2,
+          imageView3, loginButton, loginWithGoogle, passwd, progressBar, signUp, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
