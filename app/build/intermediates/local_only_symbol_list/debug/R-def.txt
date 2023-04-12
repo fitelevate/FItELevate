@@ -428,6 +428,7 @@ id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
 id textViewCat
+id textViewCategory
 id textViewDistance
 id textViewStepCounter
 id textview_first

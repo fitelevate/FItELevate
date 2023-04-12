@@ -25,11 +25,16 @@ public final class ActivityBmiResultBinding implements ViewBinding {
   @NonNull
   public final TextView resultText;
 
+  @NonNull
+  public final TextView textViewCategory;
+
   private ActivityBmiResultBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView resultNumber, @NonNull TextView resultText) {
+      @NonNull TextView resultNumber, @NonNull TextView resultText,
+      @NonNull TextView textViewCategory) {
     this.rootView = rootView;
     this.resultNumber = resultNumber;
     this.resultText = resultText;
+    this.textViewCategory = textViewCategory;
   }
 
   @Override
@@ -71,7 +76,14 @@ public final class ActivityBmiResultBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityBmiResultBinding((ConstraintLayout) rootView, resultNumber, resultText);
+      id = R.id.textViewCategory;
+      TextView textViewCategory = ViewBindings.findChildViewById(rootView, id);
+      if (textViewCategory == null) {
+        break missingId;
+      }
+
+      return new ActivityBmiResultBinding((ConstraintLayout) rootView, resultNumber, resultText,
+          textViewCategory);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

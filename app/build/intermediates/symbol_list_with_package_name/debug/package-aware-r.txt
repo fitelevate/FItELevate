@@ -3812,6 +3812,7 @@ id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
 id textViewCat
+id textViewCategory
 id textViewDistance
 id textViewStepCounter
 id text_input_end_icon

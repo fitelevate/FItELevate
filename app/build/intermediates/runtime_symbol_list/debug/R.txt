@@ -3811,6 +3811,7 @@ int id textViewBmi 0x7f090276
 int id textViewBmr 0x7f090277
 int id textViewCaloriesBurnt 0x7f090278
 int id textViewCat 0x7f090279
+int id textViewCategory 0x7f0902c6
 int id textViewDistance 0x7f09027a
 int id textViewStepCounter 0x7f09027b
 int id text_input_end_icon 0x7f09027c

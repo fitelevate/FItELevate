@@ -1,5 +1,6 @@
 package com.example.fitelevate;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -14,8 +15,12 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 
 public class bmi extends AppCompatActivity {
 
@@ -35,6 +40,29 @@ public class bmi extends AppCompatActivity {
         bmi_weight_input = findViewById(R.id.bmi_weight_input);
         bmi_height_input = findViewById(R.id.bmi_height_input);
         calculate_bmi_button = findViewById(R.id.calculate_bmi_button);
+
+        //fetch height and weight values
+        Query checkUser = FirebaseDatabase.getInstance().getReference("User").orderByKey().equalTo(u);
+
+        checkUser.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.exists()){
+                    String height = snapshot.child(u).child("height").getValue().toString();
+                    String weight = snapshot.child(u).child("weight").getValue().toString();
+                    bmi_height_input.setText(height);
+                    bmi_weight_input.setText(weight);
+                }
+                else{
+                    //Toast.makeText(bmi.this, "User Details Does Not Exist", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(bmi.this, error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
 
         calculate_bmi_button.setOnClickListener(new View.OnClickListener() {
             @Override

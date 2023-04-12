@@ -314,7 +314,8 @@
                                 android:scaleY="1.2"
                                 android:max="50"
                                 android:progress="0"
-                                android:layout_marginStart="8dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginEnd="10dp"
                                 android:thumbTint="#fff"
                                 android:progressTint="#fff"
                                 android:progressBackgroundTint="#7D7D7A"
@@ -325,7 +326,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Healthy Weight"
+                                android:text="Category"
                                 android:layout_marginVertical="10dp"
                                 android:textColor="#fff"
                                 android:textSize="15sp" />

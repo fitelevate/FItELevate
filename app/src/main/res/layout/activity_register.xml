@@ -53,15 +53,6 @@
                 android:layout_marginBottom="100dp"
                 android:textSize="40sp"
                 android:textStyle="bold" />
-            <ProgressBar
-                android:id="@+id/progressBar"
-                android:layout_marginBottom="16dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:visibility="gone"
-
-                />
 
 
             <EditText
@@ -92,9 +83,17 @@
                 android:ems="10"
                 android:textColor="@color/purple"
                 android:hint="Password"
-
                 android:drawableStart="@drawable/pswd"
                 android:drawablePadding="10dp"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_marginBottom="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"/>
 
             <Button
                 android:id="@+id/submitButton"

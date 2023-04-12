@@ -30,7 +30,7 @@ public class Report_fragment extends Fragment {
 
     FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
 
-    TextView textViewBmi, textViewBmr, temp;
+    TextView textViewBmi, textViewBmr, textViewCat;
     SeekBar seekBar;
 
     // TODO: Rename parameter arguments, choose names that match
@@ -113,6 +113,7 @@ public class Report_fragment extends Fragment {
     private void fetchBmi(View view) {
         textViewBmi = view.findViewById(R.id.textViewBmi);
         seekBar = view.findViewById(R.id.seekBar);
+        textViewCat = view.findViewById(R.id.textViewCat);
         seekBar.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
@@ -130,6 +131,16 @@ public class Report_fragment extends Fragment {
                     textViewBmi.setText(String.format("%.1f", bmi));
                     int value1 = (int)Math.round(bmi);
                     seekBar.setProgress(value1);
+                    if(bmi<18.5)
+                        textViewCat.setText("Underweight");
+                    else if(bmi>=18.5 && bmi<=24.9)
+                        textViewCat.setText("Normal Weight");
+                    else if(bmi>=25 && bmi<=29.9)
+                        textViewCat.setText("Overweight");
+                    else if(bmi>=30 && bmi<=34.9)
+                        textViewCat.setText("Obesity");
+                    else if(bmi>=35)
+                        textViewCat.setText("Extreme Obesity");
                 }
                 else{
                     //Toast.makeText(getActivity(), "Snapshot Does Not Exist", Toast.LENGTH_SHORT).show();
