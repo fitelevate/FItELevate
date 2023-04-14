@@ -57,6 +57,24 @@
             android:name="com.example.fitelevate.nutrition"
             android:exported="false" />
         <activity
+            android:name="com.example.fitelevate.muscle_gain_page1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitelevate.muscle_gain_page2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitelevate.muscle_gain_page3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitelevate.weight_loss_page1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitelevate.weight_loss_page2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.fitelevate.weight_loss_page3"
+            android:exported="false" />
+        <activity
             android:name="com.example.fitelevate.breathing"
             android:exported="false" />
         <activity

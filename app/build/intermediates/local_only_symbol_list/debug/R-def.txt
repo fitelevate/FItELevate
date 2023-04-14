@@ -93,6 +93,8 @@ drawable component_3__1
 drawable component_3__1__toggle_state_
 drawable custom_button1
 drawable custom_button2
+drawable custom_button3
+drawable custom_button4
 drawable custom_input
 drawable dashboard
 drawable deep_breathing
@@ -196,6 +198,14 @@ drawable name
 drawable nopath___copy__14_
 drawable nopath___copy__16_
 drawable nopath___copy__4_
+drawable nutrition_bg1
+drawable nutrition_bg2
+drawable nutrition_bg3
+drawable nutrition_bg4
+drawable nutrition_bg5
+drawable nutrition_bg6
+drawable nutrition_bg7
+drawable nutritionbg
 drawable nutritionicon
 drawable option_select_bg
 drawable or_login_with
@@ -277,6 +287,7 @@ font roboto_bold
 font roboto_light
 font roboto_mediume
 font roboto_regular
+id Before_bed_chart
 id FirstFragment
 id SecondFragment
 id Yogaaasan
@@ -292,6 +303,7 @@ id alternatenostril
 id appCompatImageView
 id appCompatImageView3
 id avatar_image
+id before_bed_chart_gain
 id bhramiribreath
 id bmi_banner
 id bmi_height_input
@@ -303,6 +315,8 @@ id bmr_submit_btn
 id bmrbtn
 id bnView
 id bottomSheetParent
+id breakfast_chart
+id breakfast_chart_gain
 id breathfocus
 id breathingbtn
 id breathingbtn1
@@ -312,6 +326,8 @@ id btnMenu
 id btnNotific
 id btnStats
 id btnUpdate
+id btn_page2
+id btn_page3
 id button_first
 id button_second
 id calculate_bmi_button
@@ -338,6 +354,8 @@ id constraintLayout3
 id container
 id deepbreathing
 id diaphragmatic
+id dinner_chart
+id dinner_chart_gain
 id dntochest
 id editProfile
 id elevate
@@ -351,6 +369,7 @@ id etTarget
 id etWakeUpTime
 id etWeight
 id etWorkTime
+id eve_snack_chart
 id everymusc
 id exebtn
 id exer
@@ -362,6 +381,8 @@ id forgotButton
 id forgot_pass
 id frogPress
 id fwbend
+id gain_page1
+id gain_page2
 id genderInProfile
 id gender_field
 id gender_label
@@ -385,6 +406,7 @@ id login
 id loginButton
 id login_with_google
 id logout
+id lunch_chart
 id lunges
 id main_activity_parent
 id male_radio_btn
@@ -398,6 +420,7 @@ id nav_graph
 id nav_home
 id nav_host_fragment_content_breathing_yoga
 id nav_search
+id nutrition_heading
 id nutritionbtn
 id nutritioncard
 id op100ml
@@ -406,6 +429,7 @@ id op200ml
 id op250ml
 id op50ml
 id opCustom
+id page1_heading
 id pass_login_from_signup
 id passwd
 id pose1
@@ -438,6 +462,8 @@ id seekBar
 id shstretch
 id sign_up
 id sitali
+id snack_chart
+id snack_chart_gain
 id squatKicks
 id squatReachUps
 id squats
@@ -490,7 +516,9 @@ id weightInProfile
 id weightLooseButton
 id weight_field
 id weight_in
+id weight_loss_btn
 id welcomeToText
+id wight_gain_btn
 id wthedog
 id yogabtn
 layout activity_bmi
@@ -508,6 +536,9 @@ layout activity_login
 layout activity_lunges
 layout activity_main
 layout activity_muscle_gain
+layout activity_muscle_gain_page1
+layout activity_muscle_gain_page2
+layout activity_muscle_gain_page3
 layout activity_nutrition
 layout activity_push_ups
 layout activity_register
@@ -526,6 +557,9 @@ layout activity_water
 layout activity_water_main
 layout activity_weight_loose
 layout activity_weight_loose_exercise
+layout activity_weight_loss_page1
+layout activity_weight_loss_page2
+layout activity_weight_loss_page3
 layout activity_yoga
 layout alternate_nostril_breath
 layout bent_over_row

@@ -40,6 +40,25 @@
             android:name=".nutrition"
             android:exported="false" />
         <activity
+            android:name=".muscle_gain_page1"
+            android:exported="false" />
+        <activity
+            android:name=".muscle_gain_page2"
+            android:exported="false" />
+        <activity
+            android:name=".muscle_gain_page3"
+            android:exported="false" />
+        <activity
+            android:name=".weight_loss_page1"
+            android:exported="false" />
+        <activity
+            android:name=".weight_loss_page2"
+            android:exported="false" />
+        <activity
+            android:name=".weight_loss_page3"
+            android:exported="false" />
+
+        <activity
             android:name=".breathing"
             android:exported="false" />
         <activity
