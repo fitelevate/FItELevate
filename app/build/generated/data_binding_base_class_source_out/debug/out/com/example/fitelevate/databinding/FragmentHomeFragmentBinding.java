@@ -4,7 +4,9 @@ package com.example.fitelevate.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -21,28 +23,98 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final TextView Yogaaasan;
+
+  @NonNull
   public final ImageView bmibtn;
 
   @NonNull
   public final ImageView bmrbtn;
 
   @NonNull
+  public final Button breathingbtn1;
+
+  @NonNull
+  public final TextView categ;
+
+  @NonNull
   public final TextView categories;
+
+  @NonNull
+  public final TextView everymusc;
+
+  @NonNull
+  public final Button exebtn;
+
+  @NonNull
+  public final ImageView exer;
+
+  @NonNull
+  public final TextView hewo;
+
+  @NonNull
+  public final Button nutritionbtn;
+
+  @NonNull
+  public final TextView nutritioncard;
+
+  @NonNull
+  public final HorizontalScrollView scrollhorizontal;
+
+  @NonNull
+  public final Button stretchingBtn1;
 
   @NonNull
   public final TextView userName;
 
   @NonNull
+  public final TextView walkandstepcard;
+
+  @NonNull
+  public final TextView walkandstepcardTextDes;
+
+  @NonNull
+  public final Button walkbtn;
+
+  @NonNull
+  public final Button waterbtn;
+
+  @NonNull
+  public final TextView waterstepcard;
+
+  @NonNull
   public final ImageView yogabtn;
 
-  private FragmentHomeFragmentBinding(@NonNull FrameLayout rootView, @NonNull ImageView bmibtn,
-      @NonNull ImageView bmrbtn, @NonNull TextView categories, @NonNull TextView userName,
-      @NonNull ImageView yogabtn) {
+  private FragmentHomeFragmentBinding(@NonNull FrameLayout rootView, @NonNull TextView Yogaaasan,
+      @NonNull ImageView bmibtn, @NonNull ImageView bmrbtn, @NonNull Button breathingbtn1,
+      @NonNull TextView categ, @NonNull TextView categories, @NonNull TextView everymusc,
+      @NonNull Button exebtn, @NonNull ImageView exer, @NonNull TextView hewo,
+      @NonNull Button nutritionbtn, @NonNull TextView nutritioncard,
+      @NonNull HorizontalScrollView scrollhorizontal, @NonNull Button stretchingBtn1,
+      @NonNull TextView userName, @NonNull TextView walkandstepcard,
+      @NonNull TextView walkandstepcardTextDes, @NonNull Button walkbtn, @NonNull Button waterbtn,
+      @NonNull TextView waterstepcard, @NonNull ImageView yogabtn) {
     this.rootView = rootView;
+    this.Yogaaasan = Yogaaasan;
     this.bmibtn = bmibtn;
     this.bmrbtn = bmrbtn;
+    this.breathingbtn1 = breathingbtn1;
+    this.categ = categ;
     this.categories = categories;
+    this.everymusc = everymusc;
+    this.exebtn = exebtn;
+    this.exer = exer;
+    this.hewo = hewo;
+    this.nutritionbtn = nutritionbtn;
+    this.nutritioncard = nutritioncard;
+    this.scrollhorizontal = scrollhorizontal;
+    this.stretchingBtn1 = stretchingBtn1;
     this.userName = userName;
+    this.walkandstepcard = walkandstepcard;
+    this.walkandstepcardTextDes = walkandstepcardTextDes;
+    this.walkbtn = walkbtn;
+    this.waterbtn = waterbtn;
+    this.waterstepcard = waterstepcard;
     this.yogabtn = yogabtn;
   }
 
@@ -73,6 +145,12 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Yogaaasan;
+      TextView Yogaaasan = ViewBindings.findChildViewById(rootView, id);
+      if (Yogaaasan == null) {
+        break missingId;
+      }
+
       id = R.id.bmibtn;
       ImageView bmibtn = ViewBindings.findChildViewById(rootView, id);
       if (bmibtn == null) {
@@ -85,9 +163,69 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.breathingbtn1;
+      Button breathingbtn1 = ViewBindings.findChildViewById(rootView, id);
+      if (breathingbtn1 == null) {
+        break missingId;
+      }
+
+      id = R.id.categ;
+      TextView categ = ViewBindings.findChildViewById(rootView, id);
+      if (categ == null) {
+        break missingId;
+      }
+
       id = R.id.categories;
       TextView categories = ViewBindings.findChildViewById(rootView, id);
       if (categories == null) {
+        break missingId;
+      }
+
+      id = R.id.everymusc;
+      TextView everymusc = ViewBindings.findChildViewById(rootView, id);
+      if (everymusc == null) {
+        break missingId;
+      }
+
+      id = R.id.exebtn;
+      Button exebtn = ViewBindings.findChildViewById(rootView, id);
+      if (exebtn == null) {
+        break missingId;
+      }
+
+      id = R.id.exer;
+      ImageView exer = ViewBindings.findChildViewById(rootView, id);
+      if (exer == null) {
+        break missingId;
+      }
+
+      id = R.id.hewo;
+      TextView hewo = ViewBindings.findChildViewById(rootView, id);
+      if (hewo == null) {
+        break missingId;
+      }
+
+      id = R.id.nutritionbtn;
+      Button nutritionbtn = ViewBindings.findChildViewById(rootView, id);
+      if (nutritionbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.nutritioncard;
+      TextView nutritioncard = ViewBindings.findChildViewById(rootView, id);
+      if (nutritioncard == null) {
+        break missingId;
+      }
+
+      id = R.id.scrollhorizontal;
+      HorizontalScrollView scrollhorizontal = ViewBindings.findChildViewById(rootView, id);
+      if (scrollhorizontal == null) {
+        break missingId;
+      }
+
+      id = R.id.stretching_btn1;
+      Button stretchingBtn1 = ViewBindings.findChildViewById(rootView, id);
+      if (stretchingBtn1 == null) {
         break missingId;
       }
 
@@ -97,14 +235,46 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.walkandstepcard;
+      TextView walkandstepcard = ViewBindings.findChildViewById(rootView, id);
+      if (walkandstepcard == null) {
+        break missingId;
+      }
+
+      id = R.id.walkandstepcard_text_des;
+      TextView walkandstepcardTextDes = ViewBindings.findChildViewById(rootView, id);
+      if (walkandstepcardTextDes == null) {
+        break missingId;
+      }
+
+      id = R.id.walkbtn;
+      Button walkbtn = ViewBindings.findChildViewById(rootView, id);
+      if (walkbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.waterbtn;
+      Button waterbtn = ViewBindings.findChildViewById(rootView, id);
+      if (waterbtn == null) {
+        break missingId;
+      }
+
+      id = R.id.waterstepcard;
+      TextView waterstepcard = ViewBindings.findChildViewById(rootView, id);
+      if (waterstepcard == null) {
+        break missingId;
+      }
+
       id = R.id.yogabtn;
       ImageView yogabtn = ViewBindings.findChildViewById(rootView, id);
       if (yogabtn == null) {
         break missingId;
       }
 
-      return new FragmentHomeFragmentBinding((FrameLayout) rootView, bmibtn, bmrbtn, categories,
-          userName, yogabtn);
+      return new FragmentHomeFragmentBinding((FrameLayout) rootView, Yogaaasan, bmibtn, bmrbtn,
+          breathingbtn1, categ, categories, everymusc, exebtn, exer, hewo, nutritionbtn,
+          nutritioncard, scrollhorizontal, stretchingBtn1, userName, walkandstepcard,
+          walkandstepcardTextDes, walkbtn, waterbtn, waterstepcard, yogabtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

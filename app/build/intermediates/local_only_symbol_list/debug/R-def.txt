@@ -79,6 +79,7 @@ drawable btnbg
 drawable btnshape
 drawable button
 drawable button_background
+drawable button_background_primary
 drawable buttonbground
 drawable buttonred
 drawable by_signing_up_you_agree_with_our
@@ -118,6 +119,9 @@ drawable email
 drawable email_address
 drawable equal_breathing
 drawable exercise
+drawable exercise_man
+drawable exercise_men
+drawable exercisebt
 drawable exercisegif
 drawable facebook
 drawable fire
@@ -138,7 +142,9 @@ drawable heart
 drawable heart_beat
 drawable heightprof
 drawable home
+drawable home_page_gradiant
 drawable homepage_background
+drawable horscrview1
 drawable hours
 drawable hours_1
 drawable ic_app_bg
@@ -258,9 +264,22 @@ font baloo_extra_bold
 font baloo_medium
 font baloo_regular
 font baloo_semibold
+font chivomono_blacitalic
+font chivomono_black
+font chivomono_bold
+font chivomono_bolditalic
+font chivomono_extra_bolditalic
+font chivomono_extra_light
+font chivomono_extrabold
 font kanit
+font roboto_black
+font roboto_bold
+font roboto_light
+font roboto_mediume
+font roboto_regular
 id FirstFragment
 id SecondFragment
+id Yogaaasan
 id acc_fragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
@@ -286,6 +305,7 @@ id bnView
 id bottomSheetParent
 id breathfocus
 id breathingbtn
+id breathingbtn1
 id btnBack
 id btnContinue
 id btnMenu
@@ -305,6 +325,7 @@ id cardexercise
 id cardstep
 id cardwater
 id cardyoga
+id categ
 id categories
 id ccpose
 id chair
@@ -330,6 +351,9 @@ id etTarget
 id etWakeUpTime
 id etWeight
 id etWorkTime
+id everymusc
+id exebtn
+id exer
 id fabAdd
 id female_radio_btn
 id female_radio_button
@@ -343,6 +367,7 @@ id gender_field
 id gender_label
 id heightInProfile
 id height_field
+id hewo
 id imageView
 id imageView2
 id imageView3
@@ -373,6 +398,8 @@ id nav_graph
 id nav_home
 id nav_host_fragment_content_breathing_yoga
 id nav_search
+id nutritionbtn
+id nutritioncard
 id op100ml
 id op150ml
 id op200ml
@@ -406,6 +433,7 @@ id resonant
 id result_number
 id result_text
 id reverseCrunches
+id scrollhorizontal
 id seekBar
 id shstretch
 id sign_up
@@ -416,6 +444,7 @@ id squats
 id ssbend
 id startbutton
 id stretching_btn
+id stretching_btn1
 id submitButton
 id targetIntake
 id textView10
@@ -450,7 +479,12 @@ id update_image_button
 id userName
 id userNameInAccount
 id user_details
+id walkandstepcard
+id walkandstepcard_text_des
+id walkbtn
 id waterLevelView
+id waterbtn
+id waterstepcard
 id weightGainButton
 id weightInProfile
 id weightLooseButton

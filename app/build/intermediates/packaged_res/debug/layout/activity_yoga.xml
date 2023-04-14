@@ -86,7 +86,7 @@
                         <pl.droidsonroids.gif.GifImageView
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/lions_breath"/>
+                            android:src="@drawable/shoulder_stretch"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="wrap_content"

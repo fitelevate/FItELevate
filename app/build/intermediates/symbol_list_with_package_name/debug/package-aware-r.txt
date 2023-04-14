@@ -2900,6 +2900,7 @@ drawable btnbg
 drawable btnshape
 drawable button
 drawable button_background
+drawable button_background_primary
 drawable buttonbground
 drawable buttonred
 drawable by_signing_up_you_agree_with_our
@@ -2963,6 +2964,9 @@ drawable email
 drawable email_address
 drawable equal_breathing
 drawable exercise
+drawable exercise_man
+drawable exercise_men
+drawable exercisebt
 drawable exercisegif
 drawable facebook
 drawable fire
@@ -2985,7 +2989,9 @@ drawable heart
 drawable heart_beat
 drawable heightprof
 drawable home
+drawable home_page_gradiant
 drawable homepage_background
+drawable horscrview1
 drawable hours
 drawable hours_1
 drawable ic_app_bg
@@ -3197,7 +3203,19 @@ font baloo_extra_bold
 font baloo_medium
 font baloo_regular
 font baloo_semibold
+font chivomono_blacitalic
+font chivomono_black
+font chivomono_bold
+font chivomono_bolditalic
+font chivomono_extra_bolditalic
+font chivomono_extra_light
+font chivomono_extrabold
 font kanit
+font roboto_black
+font roboto_bold
+font roboto_light
+font roboto_mediume
+font roboto_regular
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3214,6 +3232,7 @@ id SYM
 id SecondFragment
 id TOP_END
 id TOP_START
+id Yogaaasan
 id acc_fragment
 id accelerate
 id accessibility_action_clickable_span
@@ -3327,6 +3346,7 @@ id bounceEnd
 id bounceStart
 id breathfocus
 id breathingbtn
+id breathingbtn1
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
@@ -3356,6 +3376,7 @@ id cardstep
 id cardwater
 id cardyoga
 id carryVelocity
+id categ
 id categories
 id ccpose
 id center
@@ -3456,6 +3477,9 @@ id etTarget
 id etWakeUpTime
 id etWeight
 id etWorkTime
+id everymusc
+id exebtn
+id exer
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3498,6 +3522,7 @@ id groups
 id header_title
 id heightInProfile
 id height_field
+id hewo
 id hideable
 id home
 id homeAsUp
@@ -3644,6 +3669,8 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id nutritionbtn
+id nutritioncard
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3722,6 +3749,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id scrollhorizontal
 id search_badge
 id search_bar
 id search_bar_text_view
@@ -3796,6 +3824,7 @@ id staticPostLayout
 id stop
 id stretch
 id stretching_btn
+id stretching_btn1
 id submenuarrow
 id submitButton
 id submit_area
@@ -3896,7 +3925,12 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id walkandstepcard
+id walkandstepcard_text_des
+id walkbtn
 id waterLevelView
+id waterbtn
+id waterstepcard
 id weightGainButton
 id weightInProfile
 id weightLooseButton

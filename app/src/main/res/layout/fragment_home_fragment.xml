@@ -5,97 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Home_fragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 <RelativeLayout
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
-<!--    <HorizontalScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:fillViewport="true"-->
-<!--        android:scrollbars="none"-->
-<!--        >-->
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="horizontal"-->
-
-<!--            android:layout_marginTop="5dp">-->
-<!--            <Button-->
-<!--                android:id="@+id/bmibtn"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/scrbutton"-->
-<!--                android:text="@string/bmi"-->
-<!--                android:textColor="#606060"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginStart="10dp"-->
-<!--                android:layout_marginEnd="10dp"/>-->
-
-<!--            <Button-->
-<!--                android:id="@+id/bmrbtn"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/scrbutton"-->
-<!--                android:text="@string/bmr"-->
-<!--                android:textColor="#606060"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginEnd="10dp"-->
-<!--                />-->
-<!--            <Button-->
-<!--                android:id="@+id/yogabtn"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/scrbutton"-->
-<!--                android:text="@string/yoga"-->
-<!--                android:textColor="#606060"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginEnd="10dp"/>-->
-<!--            <Button-->
-<!--                android:id="@+id/exebtn"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/scrbutton"-->
-<!--                android:text="@string/exercise"-->
-<!--                android:textColor="#606060"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginEnd="10dp"/>-->
-<!--            <Button-->
-<!--                android:id="@+id/nutritionbtn"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/scrbutton"-->
-<!--                android:text="Nutrition"-->
-<!--                android:textColor="#606060"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginEnd="10dp"/>-->
-<!--            <Button-->
-<!--                android:id="@+id/walkbtn"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/scrbutton"-->
-<!--                android:text="walk and steps"-->
-<!--                android:textColor="#606060"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginEnd="10dp"/>-->
-<!--            <Button-->
-<!--                android:id="@+id/waterbtn"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:background="@drawable/scrbutton"-->
-<!--                android:text="@string/water"-->
-<!--                android:textColor="#606060"-->
-<!--                android:textStyle="bold"-->
-<!--                android:layout_marginEnd="10dp"/>-->
 
 
-
-<!--        </LinearLayout>-->
-
-
-
-<!--    </HorizontalScrollView>-->
 
 
     <TextView
@@ -104,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
-        android:fontFamily="@font/baloo_semibold"
+        android:fontFamily="@font/baloo_extra_bold"
         android:text="Hi, Ajay"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,7 +46,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/categories"
             android:orientation="horizontal"
             android:baselineAligned="false">
@@ -246,11 +165,447 @@
                     android:gravity="center"/>
 
             </LinearLayout>
-
-
-
-
         </LinearLayout>
 
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/exer"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/home_page_gradiant" />
+
+        <TextView
+            android:id="@+id/categ"
+            android:layout_width="match_parent"
+            android:layout_below="@id/exer"
+            android:text="Popular Categories"
+            android:textSize="25sp"
+            android:padding="6dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_extra_bold"/>
+
+        <ImageView
+            android:layout_width="219dp"
+            android:layout_height="205dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="-23dp"
+            android:background="@drawable/exercise_men" />
+
+        <TextView
+            android:id="@+id/hewo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="225dp"
+            android:fontFamily="@font/baloo_extra_bold"
+            android:text="Full Body workout"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/everymusc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/hewo"
+            android:textStyle="bold"
+            android:text="Exercising for a healthier \n body and mind"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/exebtn"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/everymusc"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:text="Start Training"
+            android:textColor="#FFF"
+            android:background="@drawable/exercisebt"/>
+
+        <HorizontalScrollView
+            android:id="@+id/scrollhorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none"
+            android:layout_below="@+id/categ">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="390dp"
+                    android:layout_height="233dp">
+
+                <ImageView
+
+                    android:layout_width="390dp"
+                    android:layout_height="233dp"
+                    android:padding="10dp"
+                    android:src="@drawable/horscrview1"
+                    />
+                    <TextView
+                        android:id="@+id/walkandstepcard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/baloo_extra_bold"
+                        android:text="Walk and step"
+                        android:textSize="30sp" />
+                    <TextView
+                        android:id="@+id/walkandstepcard_text_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="55dp"
+
+                        android:textStyle="bold"
+                        android:text="Take a step,\n make progress."
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/walkbtn"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background_primary"
+                        android:text="Click Here"
+                        android:textColor="#FFF"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginStart="15dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="128dp"
+                        android:background="@drawable/step"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="240dp"/>
+
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+
+                        android:layout_width="390dp"
+                        android:layout_height="233dp"
+                        android:padding="10dp"
+                        android:src="@drawable/horscrview1"
+                        />
+                    <TextView
+                        android:id="@+id/nutritioncard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/baloo_extra_bold"
+                        android:text="Nutrition Info"
+                        android:textSize="30sp" />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="55dp"
+
+                        android:textStyle="bold"
+                        android:text="Fuel your body \n for health."
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/nutritionbtn"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background_primary"
+                        android:text="Click here"
+                        android:textColor="#FFF"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginStart="15dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="128dp"
+                        android:background="@drawable/nutritionicon"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="240dp"/>
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+
+                        android:layout_width="390dp"
+                        android:layout_height="233dp"
+                        android:padding="10dp"
+                        android:src="@drawable/horscrview1"
+                        />
+                    <TextView
+                        android:id="@+id/waterstepcard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/baloo_extra_bold"
+                        android:text="Water reminder"
+                        android:textSize="30sp" />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="55dp"
+
+                        android:textStyle="bold"
+                        android:text="Stay hydrated for \n healthy life."
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/waterbtn"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background_primary"
+                        android:text="Click here"
+                        android:textColor="#FFF"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginStart="15dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="128dp"
+                        android:background="@drawable/ic_drik_water"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="240dp"/>
+
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+
+<!--start here-->
+        <TextView
+            android:id="@+id/Yogaaasan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Popular Yoga Categories"
+            android:layout_marginStart="15dp"
+            android:layout_below="@+id/scrollhorizontal"
+            android:fontFamily="@font/baloo_extra_bold"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Yogaaasan">
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/backgroundcrop"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:padding="5dp"
+                                android:text="For Stretching"
+                                android:textColor="#ff000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:padding="5.0dp"
+                                android:text="Days 60"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5.0dp"
+                                android:text="EVERYDAY 15 MINUTES"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/shoulder_stretch"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.0">
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10.0dp"
+                                android:src="@drawable/right_arrow"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/stretching_btn1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:background="@drawable/button_background_primary"
+                        android:text="Get Started"
+                        android:textAllCaps="true"
+                        android:textColor="#FFF"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/backgroundcrop"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="monospace"
+                                android:padding="5dp"
+                                android:text="For Breathing"
+                                android:textColor="#ff000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:padding="5.0dp"
+                                android:text="Days 60"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="5.0dp"
+                                android:text="EVERYDAY 15 MINUTES"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/pursed_lip_breathing"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.0">
+
+                            <ImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="10.0dp"
+                                android:src="@drawable/right_arrow"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/breathingbtn1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10.0dp"
+                        android:background="@drawable/button_background_primary"
+                        android:text="Get Started"
+                        android:textAllCaps="true"
+                        android:textColor="#FFF"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+<!--end here-->
+    </RelativeLayout>
+
+
 </RelativeLayout>
+
+
+
+
+
+</ScrollView>
 </FrameLayout>
