@@ -196,10 +196,6 @@
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\layout\\activity_splashscreen.xml"
     },
     {
-        "merged": "com.example.fitelevate.app-mergeDebugResources-49:/layout/activity_yoga.xml",
-        "source": "com.example.fitelevate.app-main-52:/layout/activity_yoga.xml"
-    },
-    {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-49:\\layout\\content_breathing_yoga.xml",
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\layout\\content_breathing_yoga.xml"
     },
