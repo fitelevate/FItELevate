@@ -9,9 +9,7 @@
         android:targetSdkVersion="24" />
 
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-    <!-- vaibhav -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- vaibhav -->
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -36,7 +34,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FItElevate" >
-
+        <activity
+            android:name="com.example.fitelevate.step_counter"
+            android:exported="false" />
         <!-- vaibhav -->
         <activity
             android:name="com.example.fitelevate.WaterMainActivity"
@@ -96,9 +96,6 @@
             android:name="com.example.fitelevate.bmi"
             android:exported="false" />
         <activity
-            android:name="com.example.fitelevate.step_counter"
-            android:exported="false" />
-        <activity
             android:name="com.example.fitelevate.forgotpassword"
             android:exported="false" />
         <activity android:name="com.example.fitelevate.bmi_result" />
@@ -119,9 +116,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- vaibhav -->
+        </activity> <!-- vaibhav -->
         <receiver android:name="recievers.BootReceiver" />
         <receiver
             android:name="recievers.NotifierReceiver"

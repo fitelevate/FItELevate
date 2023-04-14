@@ -196,7 +196,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:hint="Notification Tone"
+        android:hint="Notification"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etNotificationText">
@@ -219,7 +219,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:textColor="@color/black"
+        android:textColor="@color/colorWhite"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etRingtone"
         tools:text="Notification Frequency" />
@@ -235,7 +235,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
+
+
+
+
+
+
         >
+
 
             <RadioButton
                 android:id="@+id/radio30mins"
@@ -267,6 +274,8 @@
             android:minHeight="48dp"
             android:text="60 Minutes"
             android:textAlignment="center" />
+
+
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
