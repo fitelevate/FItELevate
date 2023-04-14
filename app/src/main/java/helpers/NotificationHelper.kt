@@ -15,6 +15,7 @@ import android.os.Build
 import android.util.Log
 import androidx.core.app.NotificationCompat
 import com.example.fitelevate.R
+import com.example.fitelevate.WaterMainActivity
 import com.example.fitelevate.databinding.ActivityWaterMainBinding
 import utils.AppUtils
 import java.util.*
@@ -77,7 +78,7 @@ class NotificationHelper(private val ctx: Context) {
 
         notification.setSound(Uri.parse(notificationsTone))
 
-        val notificationIntent = Intent(ctx, ActivityWaterMainBinding::class.java)
+        val notificationIntent = Intent(ctx, WaterMainActivity::class.java)
 
         notificationIntent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
         val contentIntent =

@@ -101,6 +101,6 @@ public class Activity_fragment extends Fragment{
     public void onPause() {
         super.onPause();
         // save if user has input data for WaterActivity in shared preferences
-        sharedPreferences.edit().putBoolean("hasInputData", true).commit();
+        sharedPreferences.edit().putBoolean("hasInputData", true).apply();
     }
 }

@@ -62,6 +62,7 @@ drawable baseline_panorama_fish_eye_24
 drawable baseline_person_24
 drawable baseline_poll_24
 drawable baseline_power_settings_new_24
+drawable baseline_remove_red_eye_24
 drawable baseline_search_24
 drawable baseline_stacked_line_chart_24
 drawable bent_over_row
@@ -71,6 +72,7 @@ drawable bmi_banner_image
 drawable bmi_chart
 drawable bmr
 drawable bmr_banner
+drawable border
 drawable breath_focus_technique
 drawable btn_login
 drawable btnbg
@@ -302,6 +304,7 @@ id cardexercise
 id cardstep
 id cardwater
 id cardyoga
+id categories
 id ccpose
 id chair
 id chart
@@ -326,7 +329,6 @@ id etTarget
 id etWakeUpTime
 id etWeight
 id etWorkTime
-id exebtn
 id fabAdd
 id female_radio_btn
 id female_radio_button
@@ -370,7 +372,6 @@ id nav_graph
 id nav_home
 id nav_host_fragment_content_breathing_yoga
 id nav_search
-id nutritionbtn
 id op100ml
 id op150ml
 id op200ml
@@ -443,11 +444,10 @@ id tvIntook
 id tvTotalIntake
 id update_button
 id update_image_button
+id userName
 id userNameInAccount
 id user_details
-id walkbtn
 id waterLevelView
-id waterbtn
 id weightGainButton
 id weightInProfile
 id weightLooseButton

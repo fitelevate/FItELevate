@@ -32,7 +32,7 @@
         <activity
         android:name="com.example.fitelevate.StatsActivity"
         android:theme="@style/MainTheme"
-        android:screenOrientation="portrait">
+        android:screenOrientation="fullSensor">
     </activity>
 
 
@@ -93,6 +93,7 @@
         <activity
             android:name=".tnc"
             android:exported="false" />
+
         <activity
             android:name=".login"
             android:exported="false" />

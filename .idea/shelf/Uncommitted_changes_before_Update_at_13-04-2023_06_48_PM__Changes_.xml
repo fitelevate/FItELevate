@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_13-04-2023_06_48_PM_[Changes]" date="1681391910476" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-04-2023_06_48_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 13-04-2023 06:48 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" />
+    <option name="AFTER_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-04-2023_06_48_PM_[Changes]/class-fq-name-to-source.tab.len" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" />
+    <option name="AFTER_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-04-2023_06_48_PM_[Changes]/java-sources-proto-map.tab.len" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" />
+    <option name="AFTER_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab.len" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-04-2023_06_48_PM_[Changes]/supertypes.tab.len" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" />
+    <option name="AFTER_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-04-2023_06_48_PM_[Changes]/class-attributes.tab.len" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" />
+    <option name="AFTER_PATH" value="app/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13-04-2023_06_48_PM_[Changes]/source-to-classes.tab.len" />
+  </binary>
+</changelist>

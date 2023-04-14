@@ -4,8 +4,9 @@ package com.example.fitelevate.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -20,36 +21,28 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final Button bmibtn;
+  public final ImageView bmibtn;
 
   @NonNull
-  public final Button bmrbtn;
+  public final ImageView bmrbtn;
 
   @NonNull
-  public final Button exebtn;
+  public final TextView categories;
 
   @NonNull
-  public final Button nutritionbtn;
+  public final TextView userName;
 
   @NonNull
-  public final Button walkbtn;
+  public final ImageView yogabtn;
 
-  @NonNull
-  public final Button waterbtn;
-
-  @NonNull
-  public final Button yogabtn;
-
-  private FragmentHomeFragmentBinding(@NonNull FrameLayout rootView, @NonNull Button bmibtn,
-      @NonNull Button bmrbtn, @NonNull Button exebtn, @NonNull Button nutritionbtn,
-      @NonNull Button walkbtn, @NonNull Button waterbtn, @NonNull Button yogabtn) {
+  private FragmentHomeFragmentBinding(@NonNull FrameLayout rootView, @NonNull ImageView bmibtn,
+      @NonNull ImageView bmrbtn, @NonNull TextView categories, @NonNull TextView userName,
+      @NonNull ImageView yogabtn) {
     this.rootView = rootView;
     this.bmibtn = bmibtn;
     this.bmrbtn = bmrbtn;
-    this.exebtn = exebtn;
-    this.nutritionbtn = nutritionbtn;
-    this.walkbtn = walkbtn;
-    this.waterbtn = waterbtn;
+    this.categories = categories;
+    this.userName = userName;
     this.yogabtn = yogabtn;
   }
 
@@ -81,49 +74,37 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.bmibtn;
-      Button bmibtn = ViewBindings.findChildViewById(rootView, id);
+      ImageView bmibtn = ViewBindings.findChildViewById(rootView, id);
       if (bmibtn == null) {
         break missingId;
       }
 
       id = R.id.bmrbtn;
-      Button bmrbtn = ViewBindings.findChildViewById(rootView, id);
+      ImageView bmrbtn = ViewBindings.findChildViewById(rootView, id);
       if (bmrbtn == null) {
         break missingId;
       }
 
-      id = R.id.exebtn;
-      Button exebtn = ViewBindings.findChildViewById(rootView, id);
-      if (exebtn == null) {
+      id = R.id.categories;
+      TextView categories = ViewBindings.findChildViewById(rootView, id);
+      if (categories == null) {
         break missingId;
       }
 
-      id = R.id.nutritionbtn;
-      Button nutritionbtn = ViewBindings.findChildViewById(rootView, id);
-      if (nutritionbtn == null) {
-        break missingId;
-      }
-
-      id = R.id.walkbtn;
-      Button walkbtn = ViewBindings.findChildViewById(rootView, id);
-      if (walkbtn == null) {
-        break missingId;
-      }
-
-      id = R.id.waterbtn;
-      Button waterbtn = ViewBindings.findChildViewById(rootView, id);
-      if (waterbtn == null) {
+      id = R.id.userName;
+      TextView userName = ViewBindings.findChildViewById(rootView, id);
+      if (userName == null) {
         break missingId;
       }
 
       id = R.id.yogabtn;
-      Button yogabtn = ViewBindings.findChildViewById(rootView, id);
+      ImageView yogabtn = ViewBindings.findChildViewById(rootView, id);
       if (yogabtn == null) {
         break missingId;
       }
 
-      return new FragmentHomeFragmentBinding((FrameLayout) rootView, bmibtn, bmrbtn, exebtn,
-          nutritionbtn, walkbtn, waterbtn, yogabtn);
+      return new FragmentHomeFragmentBinding((FrameLayout) rootView, bmibtn, bmrbtn, categories,
+          userName, yogabtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

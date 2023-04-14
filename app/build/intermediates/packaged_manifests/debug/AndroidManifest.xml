@@ -46,7 +46,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.fitelevate.StatsActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="fullSensor"
             android:theme="@style/MainTheme" >
         </activity>
         <activity

@@ -11,9 +11,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class Home_fragment extends Fragment {
-    private Button bmiBtn, bmrBtn, yogaBtn, walkBtn, exerciseBtn, waterBtn, nutritionBtn;
+//    private Button  walkBtn, exerciseBtn, waterBtn, nutritionBtn;
+    private ImageView bmiBtn, bmrBtn, yogaBtn;
 
     @Nullable
     @Override
@@ -23,10 +26,10 @@ public class Home_fragment extends Fragment {
         bmiBtn = view.findViewById(R.id.bmibtn);
         bmrBtn = view.findViewById(R.id.bmrbtn);
         yogaBtn = view.findViewById(R.id.yogabtn);
-        walkBtn = view.findViewById(R.id.walkbtn);
-        exerciseBtn = view.findViewById(R.id.exebtn);
-        waterBtn = view.findViewById(R.id.waterbtn);
-        nutritionBtn = view.findViewById(R.id.nutritionbtn);
+//        walkBtn = view.findViewById(R.id.walkbtn);
+//        exerciseBtn = view.findViewById(R.id.exebtn);
+//        waterBtn = view.findViewById(R.id.waterbtn);
+//        nutritionBtn = view.findViewById(R.id.nutritionbtn);
 
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
         boolean hasInputData = sharedPreferences.getBoolean("hasInputData", false);
@@ -56,52 +59,54 @@ public class Home_fragment extends Fragment {
             }
         });
 
-        walkBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), step_counter.class);
-                startActivity(intent);
-            }
-        });
+//        walkBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getActivity(), step_counter.class);
+//                startActivity(intent);
+//            }
+//        });
 
-        nutritionBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Handle water button click
-                Intent intent = new Intent(getActivity(), nutrition.class);
-                startActivity(intent);
-            }
-        });
+//        nutritionBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                // Handle water button click
+//                Intent intent = new Intent(getActivity(), nutrition.class);
+//                startActivity(intent);
+//            }
+//        });
 
-        exerciseBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), exercise.class);
-                startActivity(intent);
-            }
-        });
+//        exerciseBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getActivity(), exercise.class);
+//                startActivity(intent);
+//            }
+//        });
 
-        waterBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (hasInputData) {
-                    Intent intent = new Intent(getActivity(), WaterMainActivity.class);
-                    startActivity(intent);
-                } else {
-                    Intent intent = new Intent(getActivity(), WaterActivity.class);
-                    startActivity(intent);
-                }
-            }
-        });
+//        waterBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                if (hasInputData) {
+//                    Intent intent = new Intent(getActivity(), WaterMainActivity.class);
+//                    startActivity(intent);
+//                } else {
+//                    Intent intent = new Intent(getActivity(), WaterActivity.class);
+//                    startActivity(intent);
+//                }
+//            }
+//        });
 
-        nutritionBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), nutrition.class);
-                startActivity(intent);
-            }
-        });
+//        nutritionBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getActivity(), nutrition.class);
+//                startActivity(intent);
+//            }
+//        });
 
         return view;
     }
+
+
 }

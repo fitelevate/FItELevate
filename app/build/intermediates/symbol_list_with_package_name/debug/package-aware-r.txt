@@ -2857,6 +2857,7 @@ drawable baseline_panorama_fish_eye_24
 drawable baseline_person_24
 drawable baseline_poll_24
 drawable baseline_power_settings_new_24
+drawable baseline_remove_red_eye_24
 drawable baseline_search_24
 drawable baseline_stacked_line_chart_24
 drawable bent_over_row
@@ -2866,6 +2867,7 @@ drawable bmi_banner_image
 drawable bmi_chart
 drawable bmr
 drawable bmr_banner
+drawable border
 drawable breath_focus_technique
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3334,6 +3336,7 @@ id cardstep
 id cardwater
 id cardyoga
 id carryVelocity
+id categories
 id ccpose
 id center
 id centerCrop
@@ -3433,7 +3436,6 @@ id etTarget
 id etWakeUpTime
 id etWeight
 id etWorkTime
-id exebtn
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3621,7 +3623,6 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id nutritionbtn
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3857,6 +3858,7 @@ id up
 id update_button
 id update_image_button
 id useLogo
+id userName
 id userNameInAccount
 id user_details
 id vertical_only
@@ -3868,9 +3870,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id walkbtn
 id waterLevelView
-id waterbtn
 id weightGainButton
 id weightInProfile
 id weightLooseButton
