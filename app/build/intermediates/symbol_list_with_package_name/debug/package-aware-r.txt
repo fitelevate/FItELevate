@@ -406,6 +406,22 @@ attr counterOverflowTextAppearance
 attr counterOverflowTextColor
 attr counterTextAppearance
 attr counterTextColor
+attr cpb_background_progressbar_color
+attr cpb_background_progressbar_color_direction
+attr cpb_background_progressbar_color_end
+attr cpb_background_progressbar_color_start
+attr cpb_background_progressbar_width
+attr cpb_indeterminate_mode
+attr cpb_progress
+attr cpb_progress_direction
+attr cpb_progress_max
+attr cpb_progressbar_color
+attr cpb_progressbar_color_direction
+attr cpb_progressbar_color_end
+attr cpb_progressbar_color_start
+attr cpb_progressbar_width
+attr cpb_round_border
+attr cpb_start_angle
 attr crossfade
 attr currentState
 attr curveFit
@@ -2135,6 +2151,8 @@ dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen def_drawer_elevation
+dimen default_background_stroke_width
+dimen default_stroke_width
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -3302,6 +3320,7 @@ id bmrbtn
 id bnView
 id bottom
 id bottomSheetParent
+id bottom_to_top
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3326,6 +3345,7 @@ id cache_measures
 id calculate_bmi_button
 id callMeasure
 id cancel_button
+id card1
 id cardNutrition
 id cardView
 id cardView2
@@ -3512,6 +3532,7 @@ id labeled
 id layout
 id left
 id leftToRight
+id left_to_right
 id legRaises
 id legacy
 id light
@@ -3687,6 +3708,7 @@ id right
 id rightToLeft
 id right_icon
 id right_side
+id right_to_left
 id rounded
 id row_index_key
 id rtl
@@ -3815,7 +3837,6 @@ id textViewCaloriesBurnt
 id textViewCat
 id textViewCategory
 id textViewDistance
-id textViewStepCounter
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3833,11 +3854,14 @@ id title
 id titleDividerNoCustom
 id title_template
 id tnc
+id to_left
+id to_right
 id toggle
 id toolbaar
 id toolbaar1
 id top
 id topPanel
+id top_to_bottom
 id totalIntakePercentage
 id touch_outside
 id transitionToEnd
@@ -3851,6 +3875,8 @@ id triangle
 id tvCustom
 id tvIntook
 id tvTotalIntake
+id tv_stepsTaken
+id tv_totalMax
 id unchecked
 id uniform
 id unlabeled
@@ -5580,6 +5606,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircularProgressBar cpb_background_progressbar_color cpb_background_progressbar_color_direction cpb_background_progressbar_color_end cpb_background_progressbar_color_start cpb_background_progressbar_width cpb_indeterminate_mode cpb_progress cpb_progress_direction cpb_progress_max cpb_progressbar_color cpb_progressbar_color_direction cpb_progressbar_color_end cpb_progressbar_color_start cpb_progressbar_width cpb_round_border cpb_start_angle
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

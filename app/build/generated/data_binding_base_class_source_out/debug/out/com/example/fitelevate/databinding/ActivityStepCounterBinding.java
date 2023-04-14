@@ -4,20 +4,28 @@ package com.example.fitelevate.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.fitelevate.R;
+import com.mikhaellopez.circularprogressbar.CircularProgressBar;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityStepCounterBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
+
+  @NonNull
+  public final CardView card1;
+
+  @NonNull
+  public final CircularProgressBar progressCircular;
 
   @NonNull
   public final TextView textViewCaloriesBurnt;
@@ -26,20 +34,27 @@ public final class ActivityStepCounterBinding implements ViewBinding {
   public final TextView textViewDistance;
 
   @NonNull
-  public final TextView textViewStepCounter;
+  public final TextView tvStepsTaken;
 
-  private ActivityStepCounterBinding(@NonNull LinearLayout rootView,
-      @NonNull TextView textViewCaloriesBurnt, @NonNull TextView textViewDistance,
-      @NonNull TextView textViewStepCounter) {
+  @NonNull
+  public final TextView tvTotalMax;
+
+  private ActivityStepCounterBinding(@NonNull RelativeLayout rootView, @NonNull CardView card1,
+      @NonNull CircularProgressBar progressCircular, @NonNull TextView textViewCaloriesBurnt,
+      @NonNull TextView textViewDistance, @NonNull TextView tvStepsTaken,
+      @NonNull TextView tvTotalMax) {
     this.rootView = rootView;
+    this.card1 = card1;
+    this.progressCircular = progressCircular;
     this.textViewCaloriesBurnt = textViewCaloriesBurnt;
     this.textViewDistance = textViewDistance;
-    this.textViewStepCounter = textViewStepCounter;
+    this.tvStepsTaken = tvStepsTaken;
+    this.tvTotalMax = tvTotalMax;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -64,6 +79,18 @@ public final class ActivityStepCounterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.card1;
+      CardView card1 = ViewBindings.findChildViewById(rootView, id);
+      if (card1 == null) {
+        break missingId;
+      }
+
+      id = R.id.progress_circular;
+      CircularProgressBar progressCircular = ViewBindings.findChildViewById(rootView, id);
+      if (progressCircular == null) {
+        break missingId;
+      }
+
       id = R.id.textViewCaloriesBurnt;
       TextView textViewCaloriesBurnt = ViewBindings.findChildViewById(rootView, id);
       if (textViewCaloriesBurnt == null) {
@@ -76,14 +103,20 @@ public final class ActivityStepCounterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textViewStepCounter;
-      TextView textViewStepCounter = ViewBindings.findChildViewById(rootView, id);
-      if (textViewStepCounter == null) {
+      id = R.id.tv_stepsTaken;
+      TextView tvStepsTaken = ViewBindings.findChildViewById(rootView, id);
+      if (tvStepsTaken == null) {
         break missingId;
       }
 
-      return new ActivityStepCounterBinding((LinearLayout) rootView, textViewCaloriesBurnt,
-          textViewDistance, textViewStepCounter);
+      id = R.id.tv_totalMax;
+      TextView tvTotalMax = ViewBindings.findChildViewById(rootView, id);
+      if (tvTotalMax == null) {
+        break missingId;
+      }
+
+      return new ActivityStepCounterBinding((RelativeLayout) rootView, card1, progressCircular,
+          textViewCaloriesBurnt, textViewDistance, tvStepsTaken, tvTotalMax);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

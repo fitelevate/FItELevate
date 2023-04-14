@@ -295,6 +295,7 @@ id btnUpdate
 id button_first
 id button_second
 id calculate_bmi_button
+id card1
 id cardNutrition
 id cardView
 id cardView2
@@ -392,6 +393,7 @@ id pose8
 id pose9
 id profileIcon
 id progressBar
+id progress_circular
 id pursed
 id pushups
 id radio30mins
@@ -431,7 +433,6 @@ id textViewCaloriesBurnt
 id textViewCat
 id textViewCategory
 id textViewDistance
-id textViewStepCounter
 id textview_first
 id textview_second
 id timer
@@ -442,6 +443,8 @@ id totalIntakePercentage
 id tvCustom
 id tvIntook
 id tvTotalIntake
+id tv_stepsTaken
+id tv_totalMax
 id update_button
 id update_image_button
 id userName
