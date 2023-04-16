@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class Home_fragment extends Fragment {
-    private Button  walkBtn, waterBtn, nutritionBtn,exerciseBtn,button11,button22;
+    private Button  walkBtn, waterBtn, nutritionBtn,exerciseBtn;
     private ImageView bmiBtn, bmrBtn, yogaBtn;
 
     //change
@@ -34,11 +34,10 @@ public class Home_fragment extends Fragment {
         exerciseBtn = view.findViewById(R.id.exebtn);
         waterBtn = view.findViewById(R.id.waterbtn);
         nutritionBtn = view.findViewById(R.id.nutritionbtn);
-        button11=view.findViewById(R.id.stretching_btn1);
-        button22=view.findViewById(R.id.breathingbtn1);
 
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
-        boolean hasInputData = sharedPreferences.getBoolean("hasInputData", false);
+
+    //    SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+    //    boolean hasInputData = sharedPreferences.getBoolean("hasInputData", false);
 
         // Set click listeners for each button
         bmiBtn.setOnClickListener(new View.OnClickListener() {
@@ -93,13 +92,13 @@ public class Home_fragment extends Fragment {
         waterBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (hasInputData) {
-                    Intent intent = new Intent(getActivity(), WaterMainActivity.class);
-                    startActivity(intent);
-                } else {
+              //  if (hasInputData) {
+                //    Intent intent = new Intent(getActivity(), WaterMainActivity.class);
+                  //  startActivity(intent);
+              //  } else {
                     Intent intent = new Intent(getActivity(), WaterActivity.class);
                     startActivity(intent);
-                }
+               // }
             }
         });
 
@@ -112,21 +111,9 @@ public class Home_fragment extends Fragment {
         });
 
 
-        button11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(),stretching.class);
-                startActivity(intent);
-            }
-        });
 
-        button22.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getActivity(), breathing.class);
-                startActivity(intent);
-            }
-        });
+
+
 
         return view;
     }

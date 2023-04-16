@@ -33,14 +33,25 @@ private var doubleBackToExitPressedOnce = false
                 binding = ActivityWaterBinding.inflate(layoutInflater)
                 val view = binding.root
                 setContentView(view)
+        val sharedPref = getSharedPreferences(AppUtils.USERS_SHARED_PREF, MODE_PRIVATE)
         val is24h = android.text.format.DateFormat.is24HourFormat(this.applicationContext)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
         }
         //setContentView(R.layout.activity_water)
+// check if the user has already filled out the details
+                if (sharedPref.contains(AppUtils.WEIGHT_KEY) &&
+                        sharedPref.contains(AppUtils.WORK_TIME_KEY) &&
+                        sharedPref.contains(AppUtils.WAKEUP_TIME) &&
+                        sharedPref.contains(AppUtils.SLEEPING_TIME_KEY)
+                ) {
+                        // if the user has already filled out the details, start the WaterMainActivity
+                        startActivity(Intent(this, WaterMainActivity::class.java))
+                        finish()
+                } else {
 
-        sharedPref = getSharedPreferences(AppUtils.USERS_SHARED_PREF, MODE_PRIVATE)
+      //  sharedPref = getSharedPreferences(AppUtils.USERS_SHARED_PREF, MODE_PRIVATE)
 
         wakeupTime = sharedPref.getLong(AppUtils.WAKEUP_TIME, 1558323000000)
         sleepingTime = sharedPref.getLong(AppUtils.SLEEPING_TIME_KEY, 1558369800000)
@@ -139,7 +150,7 @@ private var doubleBackToExitPressedOnce = false
         }
         }
 
-        }
+        }}
 
         override fun onBackPressed() {
         if (doubleBackToExitPressedOnce) {

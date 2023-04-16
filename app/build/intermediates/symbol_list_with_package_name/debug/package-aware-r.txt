@@ -3243,7 +3243,6 @@ id SYM
 id SecondFragment
 id TOP_END
 id TOP_START
-id Yogaaasan
 id acc_fragment
 id accelerate
 id accessibility_action_clickable_span
@@ -3360,7 +3359,6 @@ id breakfast_chart
 id breakfast_chart_gain
 id breathfocus
 id breathingbtn
-id breathingbtn1
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
@@ -3850,7 +3848,6 @@ id staticPostLayout
 id stop
 id stretch
 id stretching_btn
-id stretching_btn1
 id submenuarrow
 id submitButton
 id submit_area

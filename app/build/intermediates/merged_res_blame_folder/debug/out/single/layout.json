@@ -28,10 +28,6 @@
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\layout\\militry_press.xml"
     },
     {
-        "merged": "com.example.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain_page3.xml",
-        "source": "com.example.fitelevate.app-main-52:/layout/activity_muscle_gain_page3.xml"
-    },
-    {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-49:\\layout\\activity_stats.xml",
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\layout\\activity_stats.xml"
     },
@@ -182,6 +178,10 @@
     {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-49:\\layout\\activity_muscle_gain_page1.xml",
         "source": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\layout\\activity_muscle_gain_page1.xml"
+    },
+    {
+        "merged": "com.example.fitelevate.app-mergeDebugResources-49:/layout/fragment_home_fragment.xml",
+        "source": "com.example.fitelevate.app-main-52:/layout/fragment_home_fragment.xml"
     },
     {
         "merged": "C:\\Users\\itsjp\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-49:\\layout\\activity_bmi_result.xml",

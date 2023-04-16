@@ -290,7 +290,6 @@ font roboto_regular
 id Before_bed_chart
 id FirstFragment
 id SecondFragment
-id Yogaaasan
 id acc_fragment
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
@@ -319,7 +318,6 @@ id breakfast_chart
 id breakfast_chart_gain
 id breathfocus
 id breathingbtn
-id breathingbtn1
 id btnBack
 id btnContinue
 id btnMenu
@@ -470,7 +468,6 @@ id squats
 id ssbend
 id startbutton
 id stretching_btn
-id stretching_btn1
 id submitButton
 id targetIntake
 id textView10

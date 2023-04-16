@@ -20,7 +20,7 @@ public class Activity_fragment extends Fragment{
 
     private boolean permissionAlreadyGranted = false;
     private boolean permissionAlreadyDenied = false;
-    private SharedPreferences sharedPreferences; // declare shared preferences
+  //  private SharedPreferences sharedPreferences; // declare shared preferences
 
     String[] permissions = {"android.permission.ACTIVITY_RECOGNITION"};
 
@@ -37,7 +37,7 @@ public class Activity_fragment extends Fragment{
         card6=(CardView)view.findViewById(R.id.cardwater);
         card7=(CardView)view.findViewById(R.id.cardNutrition);
 
-        sharedPreferences = getActivity().getSharedPreferences("WaterData", getActivity().MODE_PRIVATE); // initialize shared preferences
+   //     sharedPreferences = getActivity().getSharedPreferences("WaterData", getActivity().MODE_PRIVATE); // initialize shared preferences
 
         //bmi intent
         card1.setOnClickListener(view1 -> {
@@ -79,13 +79,13 @@ public class Activity_fragment extends Fragment{
         //water intent
         card6.setOnClickListener(view15 -> {
             // check if user has input data for WaterActivity
-            if (sharedPreferences.getBoolean("hasInputData", false)) {
-                Intent intent = new Intent(getActivity(), WaterMainActivity.class);
-                startActivity(intent);
-            } else {
-                Intent intent = new Intent(getActivity(), WaterActivity.class);
-                startActivity(intent);
-            }
+          //  if (sharedPreferences.getBoolean("hasInputData", false)) {
+            //    Intent intent = new Intent(getActivity(), WaterMainActivity.class);
+              //  startActivity(intent);
+        //    } else {
+               Intent intent = new Intent(getActivity(), WaterActivity.class);
+               startActivity(intent);
+          //  }
         });
 
         // nutrition intent
@@ -97,10 +97,10 @@ public class Activity_fragment extends Fragment{
         return view;
     }
 
-    @Override
+   /* @Override
     public void onPause() {
         super.onPause();
         // save if user has input data for WaterActivity in shared preferences
         sharedPreferences.edit().putBoolean("hasInputData", true).apply();
-    }
+    }*/
 }

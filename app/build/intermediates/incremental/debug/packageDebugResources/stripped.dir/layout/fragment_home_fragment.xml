@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_fragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/baloo_extra_bold"
+        android:text="Hi, Ajay"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/userName"
+        android:layout_marginTop="20dp"
+        android:text="Categories"
+        android:fontFamily="@font/baloo_semibold"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/categories"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+
+                android:orientation="vertical"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:id="@+id/yogabtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:contentDescription="@string/yoga"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/yoga" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yoga"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:id="@+id/bmibtn"
+                    android:src="@drawable/bmi"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/yoga"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmi"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:id="@+id/bmrbtn"
+                    android:src="@drawable/bmr"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/yoga"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bmr"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/baseline_remove_red_eye_24"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/yoga"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="active"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/exer"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/home_page_gradiant" />
+
+        <TextView
+            android:id="@+id/categ"
+            android:layout_width="match_parent"
+            android:layout_below="@id/exer"
+            android:text="Popular Categories"
+            android:textSize="25sp"
+            android:padding="6dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_extra_bold"/>
+
+        <ImageView
+            android:layout_width="219dp"
+            android:layout_height="205dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="-23dp"
+            android:background="@drawable/exercise_men" />
+
+        <TextView
+            android:id="@+id/hewo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="225dp"
+            android:fontFamily="@font/baloo_extra_bold"
+            android:text="Full Body workout"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/everymusc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/hewo"
+            android:textStyle="bold"
+            android:text="Exercising for a healthier \n body and mind"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/exebtn"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/everymusc"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:text="Start Training"
+            android:textColor="#FFF"
+            android:background="@drawable/exercisebt"/>
+
+        <HorizontalScrollView
+            android:id="@+id/scrollhorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+
+            android:layout_below="@+id/categ">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="390dp"
+                    android:layout_height="233dp">
+
+                <ImageView
+
+                    android:layout_width="390dp"
+                    android:layout_height="233dp"
+                    android:padding="10dp"
+                    android:src="@drawable/horscrview1"
+                    />
+                    <TextView
+                        android:id="@+id/walkandstepcard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/baloo_extra_bold"
+                        android:text="Walk and step"
+                        android:textSize="30sp" />
+                    <TextView
+                        android:id="@+id/walkandstepcard_text_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="55dp"
+
+                        android:textStyle="bold"
+                        android:text="Take a step,\n make progress."
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/walkbtn"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background_primary"
+                        android:text="Click Here"
+                        android:textColor="#FFF"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginStart="15dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="128dp"
+                        android:background="@drawable/step"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="240dp"/>
+
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+
+                        android:layout_width="390dp"
+                        android:layout_height="233dp"
+                        android:padding="10dp"
+                        android:src="@drawable/horscrview1"
+                        />
+                    <TextView
+                        android:id="@+id/nutritioncard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/baloo_extra_bold"
+                        android:text="Nutrition Info"
+                        android:textSize="30sp" />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="55dp"
+
+                        android:textStyle="bold"
+                        android:text="Fuel your body \n for health."
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/nutritionbtn"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background_primary"
+                        android:text="Click here"
+                        android:textColor="#FFF"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginStart="15dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="128dp"
+                        android:background="@drawable/nutritionicon"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="240dp"/>
+
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+
+                        android:layout_width="390dp"
+                        android:layout_height="233dp"
+                        android:padding="10dp"
+                        android:src="@drawable/horscrview1"
+                        />
+                    <TextView
+                        android:id="@+id/waterstepcard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/baloo_extra_bold"
+                        android:text="Water reminder"
+                        android:textSize="30sp" />
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="55dp"
+
+                        android:textStyle="bold"
+                        android:text="Stay hydrated for \n healthy life."
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/waterbtn"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_background_primary"
+                        android:text="Click here"
+                        android:textColor="#FFF"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginStart="15dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="140dp"
+                        android:layout_height="128dp"
+                        android:background="@drawable/ic_drik_water"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginStart="240dp"/>
+
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+
+<!--start here-->
+
+<!--end here-->
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+</ScrollView>
+</FrameLayout>
