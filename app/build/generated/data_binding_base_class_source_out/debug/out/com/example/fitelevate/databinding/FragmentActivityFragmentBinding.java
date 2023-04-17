@@ -4,6 +4,7 @@ package com.example.fitelevate.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -40,10 +41,13 @@ public final class FragmentActivityFragmentBinding implements ViewBinding {
   @NonNull
   public final CardView cardyoga;
 
+  @NonNull
+  public final LinearLayout linearLayout;
+
   private FragmentActivityFragmentBinding(@NonNull ScrollView rootView,
       @NonNull CardView cardNutrition, @NonNull CardView cardbmi, @NonNull CardView cardbmr,
       @NonNull CardView cardexercise, @NonNull CardView cardstep, @NonNull CardView cardwater,
-      @NonNull CardView cardyoga) {
+      @NonNull CardView cardyoga, @NonNull LinearLayout linearLayout) {
     this.rootView = rootView;
     this.cardNutrition = cardNutrition;
     this.cardbmi = cardbmi;
@@ -52,6 +56,7 @@ public final class FragmentActivityFragmentBinding implements ViewBinding {
     this.cardstep = cardstep;
     this.cardwater = cardwater;
     this.cardyoga = cardyoga;
+    this.linearLayout = linearLayout;
   }
 
   @Override
@@ -123,8 +128,14 @@ public final class FragmentActivityFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
+        break missingId;
+      }
+
       return new FragmentActivityFragmentBinding((ScrollView) rootView, cardNutrition, cardbmi,
-          cardbmr, cardexercise, cardstep, cardwater, cardyoga);
+          cardbmr, cardexercise, cardstep, cardwater, cardyoga, linearLayout);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

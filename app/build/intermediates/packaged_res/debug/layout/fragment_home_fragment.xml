@@ -24,7 +24,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:fontFamily="@font/baloo_extra_bold"
-        android:text="Hi, Ajay"
+        android:text="Hi,"
         android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

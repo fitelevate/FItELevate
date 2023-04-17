@@ -152,5 +152,7 @@ public class ActivityWeightLooseExercise extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+
+        stoptimer();
     }
 }

@@ -152,5 +152,6 @@ public class ActivityBreathingYoga extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        stoptimer();
     }
 }

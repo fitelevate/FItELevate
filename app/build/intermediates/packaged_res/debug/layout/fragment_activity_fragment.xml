@@ -12,6 +12,26 @@
         android:layout_margin="10dp"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="14dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Activity"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cardbmi"
             android:layout_width="match_parent"

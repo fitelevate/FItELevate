@@ -151,6 +151,9 @@ public class ActivityMuscleGainExercise extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+
         super.onBackPressed();
+
+        stoptimer();
     }
 }
