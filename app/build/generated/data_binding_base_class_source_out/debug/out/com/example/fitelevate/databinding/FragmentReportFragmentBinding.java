@@ -34,17 +34,31 @@ public final class FragmentReportFragmentBinding implements ViewBinding {
   public final TextView textViewBmr;
 
   @NonNull
+  public final TextView textViewCalory;
+
+  @NonNull
   public final TextView textViewCat;
+
+  @NonNull
+  public final TextView textViewDistance;
+
+  @NonNull
+  public final TextView textViewSteps;
 
   private FragmentReportFragmentBinding(@NonNull ConstraintLayout rootView,
       @NonNull LinearLayout linearLayout, @NonNull SeekBar seekBar, @NonNull TextView textViewBmi,
-      @NonNull TextView textViewBmr, @NonNull TextView textViewCat) {
+      @NonNull TextView textViewBmr, @NonNull TextView textViewCalory,
+      @NonNull TextView textViewCat, @NonNull TextView textViewDistance,
+      @NonNull TextView textViewSteps) {
     this.rootView = rootView;
     this.linearLayout = linearLayout;
     this.seekBar = seekBar;
     this.textViewBmi = textViewBmi;
     this.textViewBmr = textViewBmr;
+    this.textViewCalory = textViewCalory;
     this.textViewCat = textViewCat;
+    this.textViewDistance = textViewDistance;
+    this.textViewSteps = textViewSteps;
   }
 
   @Override
@@ -98,14 +112,32 @@ public final class FragmentReportFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textViewCalory;
+      TextView textViewCalory = ViewBindings.findChildViewById(rootView, id);
+      if (textViewCalory == null) {
+        break missingId;
+      }
+
       id = R.id.textViewCat;
       TextView textViewCat = ViewBindings.findChildViewById(rootView, id);
       if (textViewCat == null) {
         break missingId;
       }
 
+      id = R.id.textViewDistance;
+      TextView textViewDistance = ViewBindings.findChildViewById(rootView, id);
+      if (textViewDistance == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewSteps;
+      TextView textViewSteps = ViewBindings.findChildViewById(rootView, id);
+      if (textViewSteps == null) {
+        break missingId;
+      }
+
       return new FragmentReportFragmentBinding((ConstraintLayout) rootView, linearLayout, seekBar,
-          textViewBmi, textViewBmr, textViewCat);
+          textViewBmi, textViewBmr, textViewCalory, textViewCat, textViewDistance, textViewSteps);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

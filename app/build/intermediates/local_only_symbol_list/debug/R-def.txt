@@ -482,9 +482,11 @@ id textView8
 id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
+id textViewCalory
 id textViewCat
 id textViewCategory
 id textViewDistance
+id textViewSteps
 id textview_first
 id textview_second
 id timer

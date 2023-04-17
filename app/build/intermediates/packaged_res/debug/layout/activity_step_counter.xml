@@ -122,7 +122,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:padding="15dp">
 
 
@@ -140,10 +140,27 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Today's Distance Covered"
-                android:layout_marginLeft="45dp"/>
+                android:text=" meters"
+                android:textSize="25dp"
+                android:textColor="#3D6CFC"
+                android:drawablePadding="10dp"
+                />
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Distance Covered"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="45dp"/>
+        </LinearLayout>
+
 
 
     </androidx.cardview.widget.CardView>

@@ -1772,6 +1772,10 @@
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "com.example.fitelevate.app-merged_res-50:/layout_activity_step_counter.xml.flat",
+        "source": "com.example.fitelevate.app-main-52:/layout/activity_step_counter.xml"
+    },
+    {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-50:\\drawable-xhdpi__296515_bird_tweet_twitter_twitter_logo_icon.png.flat",
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\drawable-xhdpi\\_296515_bird_tweet_twitter_twitter_logo_icon.png"
     },
@@ -1858,10 +1862,6 @@
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-50:\\font_chivomono_black.ttf.flat",
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\font\\chivomono_black.ttf"
-    },
-    {
-        "merged": "com.example.fitelevate.app-merged_res-50:/layout_fragment_activity_fragment.xml.flat",
-        "source": "com.example.fitelevate.app-main-52:/layout/fragment_activity_fragment.xml"
     },
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-merged_res-50:\\drawable-xxhdpi_rectangle_140.png.flat",

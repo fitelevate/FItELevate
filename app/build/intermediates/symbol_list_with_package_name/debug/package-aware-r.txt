@@ -3886,9 +3886,11 @@ id textView8
 id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt
+id textViewCalory
 id textViewCat
 id textViewCategory
 id textViewDistance
+id textViewSteps
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

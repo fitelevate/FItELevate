@@ -30,7 +30,7 @@ public class Report_fragment extends Fragment {
 
     FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
 
-    TextView textViewBmi, textViewBmr, textViewCat;
+    TextView textViewBmi, textViewBmr, textViewCat, textViewSteps, textViewCalory, textViewDistance;
     SeekBar seekBar;
 
     // TODO: Rename parameter arguments, choose names that match
@@ -81,9 +81,39 @@ public class Report_fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_report_fragment, container, false);
         fetchBmi(view);
         fetchBmr(view);
+        fetchStepsData(view);
         // Inflate the layout for this fragment
 
         return view;
+    }
+
+    private void fetchStepsData(View view) {
+        textViewSteps = view.findViewById(R.id.textViewSteps);
+        textViewCalory = view.findViewById(R.id.textViewCalory);
+        textViewDistance = view.findViewById(R.id.textViewDistance);
+        String uid = user.getUid();
+        Query query = FirebaseDatabase.getInstance().getReference("Steps").orderByKey().equalTo(uid);
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.exists()){
+                    String steps = snapshot.child(uid).child("stepCount").getValue().toString();
+                    String calory = snapshot.child(uid).child("calory").getValue().toString();
+                    String distance = snapshot.child(uid).child("distance").getValue().toString();
+                    textViewSteps.setText(steps);
+                    textViewCalory.setText(calory);;
+                    textViewDistance.setText(distance);
+                }
+                else {
+                    //Toast.makeText(getActivity(), "Step Counter Details Not Found", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
     }
 
     private void fetchBmr(View view) {

@@ -24,10 +24,6 @@
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\layout\\activity_jumping_jacks.xml"
     },
     {
-        "merged": "com.example.fitelevate.app-mergeDebugResources-49:/layout/fragment_activity_fragment.xml",
-        "source": "com.example.fitelevate.app-main-52:/layout/fragment_activity_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-49:\\layout\\dumble_kick_back.xml",
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\layout\\dumble_kick_back.xml"
     },
@@ -254,6 +250,10 @@
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-49:\\layout\\activity_inch_warms.xml",
         "source": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-main-52:\\layout\\activity_inch_warms.xml"
+    },
+    {
+        "merged": "com.example.fitelevate.app-mergeDebugResources-49:/layout/activity_step_counter.xml",
+        "source": "com.example.fitelevate.app-main-52:/layout/activity_step_counter.xml"
     },
     {
         "merged": "C:\\Users\\Vipin\\.gradle\\daemon\\7.5\\com.example.fitelevate.app-mergeDebugResources-49:\\layout\\fragment_activity_fragment.xml",

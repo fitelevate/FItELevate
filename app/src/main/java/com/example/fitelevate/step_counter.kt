@@ -5,11 +5,13 @@ import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
 import com.mikhaellopez.circularprogressbar.CircularProgressBar
 
 class step_counter : AppCompatActivity(), SensorEventListener {
@@ -27,6 +29,9 @@ class step_counter : AppCompatActivity(), SensorEventListener {
     private lateinit var textViewCaloriesBurnt: TextView
     private lateinit var textViewDistance: TextView
     private lateinit var progress_circular: CircularProgressBar
+
+    var user = FirebaseAuth.getInstance().currentUser
+    var uid = user!!.uid
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,7 +70,7 @@ class step_counter : AppCompatActivity(), SensorEventListener {
             textViewCaloriesBurnt.text = cal.toString()
             val feet = (currentSteps*2.5).toInt()
             val distance = (feet/3.281).toInt()
-            textViewDistance.text = "$distance meters"
+            textViewDistance.text = distance.toString()
 
             progress_circular.apply{
                 setProgressWithAnimation(currentSteps.toFloat())
@@ -74,6 +79,7 @@ class step_counter : AppCompatActivity(), SensorEventListener {
     }
 
     private fun resetSteps(){
+
         tv_stepsTaken.setOnClickListener(){
             Toast.makeText(this, "Long Tap To Reset", Toast.LENGTH_SHORT).show()
         }
@@ -90,6 +96,16 @@ class step_counter : AppCompatActivity(), SensorEventListener {
             progress_circular.apply{
                 progress=0f
             }
+
+            //Start Saving Data In Firebase
+            if (s.toInt() != 0 && c.toInt() != 0 && d.toInt() != 0) {
+                val rootNode = FirebaseDatabase.getInstance()
+                val reference = rootNode.getReference("Steps")
+                val addSteps = dbSteps(s.toInt(), c.toInt(), d.toInt())
+                reference.child(user!!.uid).setValue(addSteps)
+            }
+            //End
+
             Toast.makeText(this, s+", "+c+", "+d, Toast.LENGTH_SHORT).show()
             savedata()
             true
