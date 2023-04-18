@@ -2,6 +2,7 @@ package com.example.fitelevate;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -16,6 +17,7 @@ public class bmr_result extends AppCompatActivity {
 //    }
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +28,6 @@ public class bmr_result extends AppCompatActivity {
 
         // Display the BMR value in the TextView
         TextView bmrTextView = findViewById(R.id.bmr_result_text);
-        bmrTextView.setText(String.format(Locale.getDefault(), "%.2f", bmr));
+        bmrTextView.setText(String.format(Locale.getDefault(), "%.0f",bmr));
     }
 }

@@ -14,6 +14,7 @@ MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Vipin\.gradle\caches\t
 MERGED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\0ba5b1b5ddee0984e9c239b794613af0\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:17:1-75:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\Vipin\.gradle\caches\transforms-3\3257616a16e36fa88fc9f7aba92d0315\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:17:1-37:12
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.25] C:\Users\Vipin\.gradle\caches\transforms-3\ef0e7810c1ba0869351669ab2dc5ccbd\transformed\jetified-android-gif-drawable-1.2.25\AndroidManifest.xml:2:1-9:12
 MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\eb9c60bb365d588f188f5bdb715a3f8b\transformed\jetified-circularprogressbar-3.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\9f3c0a75ad99b5d6d8ad51bae36b00ff\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -27,9 +28,11 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] C:\Users\Vipin\.grad
 MERGED from [com.google.android.play:integrity:1.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\1c4b97ba316511724c9b552f4448d7cc\transformed\jetified-integrity-1.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\19a2d04a2a5039f0ab1a2d5f43872b6e\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\eb4777be434c9523bf842712f29d95f6\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\efa0dd836c0d8182b8babe29197cf14f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\60dc85a82e835a003572b05fa6589ee7\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\9eb86a6d1284df7f2ae4cd152ad9adbc\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\505a0d529ca11622400bc478709a540c\transformed\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\Vipin\.gradle\caches\transforms-3\0082110133a85526050a22c37579ade3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\Vipin\.gradle\caches\transforms-3\61ea0990418c6cdc663ff827ffab134a\transformed\navigation-common-2.5.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\Vipin\.gradle\caches\transforms-3\f6977369841ae929bac7fc00dbcd2181\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
@@ -43,6 +46,10 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\Vipin\.gra
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\1be5fbe355f4e098a4d01528edcf5b9f\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.window:window:1.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\4f15c4d2112b687ca2d3cf101c9b87e1\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vipin\.gradle\caches\transforms-3\adaba766de33404f913daa79de362c38\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\75cc55d33b94ebf5db6a0a3be440bf0e\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\bc965e5ff3c7cdb98a4194264ca08edb\transformed\jetified-play-services-measurement-base-21.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\e023387d764cef435c696abc039af907\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\e39c66b690d1f0a15d23bd6483a2d418\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Vipin\.gradle\caches\transforms-3\46455a075cde0d81e52761140c770a8b\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.6.0] C:\Users\Vipin\.gradle\caches\transforms-3\faa5b3fc1c47fbc7334d4ec5244d5635\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
@@ -130,6 +137,8 @@ MERGED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\Vipin\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\0ba5b1b5ddee0984e9c239b794613af0\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:28:5-73:19
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\1789c9935c21a52043a3bbb83872c51d\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\1789c9935c21a52043a3bbb83872c51d\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\d8bc2e6728cc2cbb31ece019e722e9d7\transformed\jetified-recaptcha-18.0.1\AndroidManifest.xml:7:5-20
@@ -140,6 +149,8 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vipin\.g
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\19a2d04a2a5039f0ab1a2d5f43872b6e\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\eb4777be434c9523bf842712f29d95f6\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\eb4777be434c9523bf842712f29d95f6\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\efa0dd836c0d8182b8babe29197cf14f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\efa0dd836c0d8182b8babe29197cf14f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\9eb86a6d1284df7f2ae4cd152ad9adbc\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
@@ -148,6 +159,12 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\Vipin\.gradle\caches\transfo
 MERGED from [androidx.window:window:1.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\4f15c4d2112b687ca2d3cf101c9b87e1\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vipin\.gradle\caches\transforms-3\adaba766de33404f913daa79de362c38\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vipin\.gradle\caches\transforms-3\adaba766de33404f913daa79de362c38\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\75cc55d33b94ebf5db6a0a3be440bf0e\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\75cc55d33b94ebf5db6a0a3be440bf0e\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\bc965e5ff3c7cdb98a4194264ca08edb\transformed\jetified-play-services-measurement-base-21.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\bc965e5ff3c7cdb98a4194264ca08edb\transformed\jetified-play-services-measurement-base-21.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\e023387d764cef435c696abc039af907\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\e023387d764cef435c696abc039af907\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\e39c66b690d1f0a15d23bd6483a2d418\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\e39c66b690d1f0a15d23bd6483a2d418\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\dbfc1ce8d7d278accb2e73f0f99c26bb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
@@ -420,6 +437,8 @@ MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\Vipin\.grad
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\Vipin\.gradle\caches\transforms-3\3257616a16e36fa88fc9f7aba92d0315\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:20:5-44
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.25] C:\Users\Vipin\.gradle\caches\transforms-3\ef0e7810c1ba0869351669ab2dc5ccbd\transformed\jetified-android-gif-drawable-1.2.25\AndroidManifest.xml:5:5-7:41
 MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.25] C:\Users\Vipin\.gradle\caches\transforms-3\ef0e7810c1ba0869351669ab2dc5ccbd\transformed\jetified-android-gif-drawable-1.2.25\AndroidManifest.xml:5:5-7:41
 MERGED from [com.mikhaellopez:circularprogressbar:3.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\eb9c60bb365d588f188f5bdb715a3f8b\transformed\jetified-circularprogressbar-3.1.0\AndroidManifest.xml:5:5-7:41
@@ -446,12 +465,16 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vipin\.g
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\19a2d04a2a5039f0ab1a2d5f43872b6e\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\eb4777be434c9523bf842712f29d95f6\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\eb4777be434c9523bf842712f29d95f6\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\efa0dd836c0d8182b8babe29197cf14f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\efa0dd836c0d8182b8babe29197cf14f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\60dc85a82e835a003572b05fa6589ee7\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\60dc85a82e835a003572b05fa6589ee7\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\9eb86a6d1284df7f2ae4cd152ad9adbc\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\9eb86a6d1284df7f2ae4cd152ad9adbc\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\505a0d529ca11622400bc478709a540c\transformed\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\505a0d529ca11622400bc478709a540c\transformed\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\Vipin\.gradle\caches\transforms-3\0082110133a85526050a22c37579ade3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime:2.5.3] C:\Users\Vipin\.gradle\caches\transforms-3\0082110133a85526050a22c37579ade3\transformed\navigation-runtime-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.5.3] C:\Users\Vipin\.gradle\caches\transforms-3\61ea0990418c6cdc663ff827ffab134a\transformed\navigation-common-2.5.3\AndroidManifest.xml:20:5-22:41
@@ -478,6 +501,14 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\Vipin\.gradle\caches\transfo
 MERGED from [androidx.window:window:1.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\4f15c4d2112b687ca2d3cf101c9b87e1\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vipin\.gradle\caches\transforms-3\adaba766de33404f913daa79de362c38\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Vipin\.gradle\caches\transforms-3\adaba766de33404f913daa79de362c38\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\75cc55d33b94ebf5db6a0a3be440bf0e\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\75cc55d33b94ebf5db6a0a3be440bf0e\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\bc965e5ff3c7cdb98a4194264ca08edb\transformed\jetified-play-services-measurement-base-21.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\bc965e5ff3c7cdb98a4194264ca08edb\transformed\jetified-play-services-measurement-base-21.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\e023387d764cef435c696abc039af907\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\e023387d764cef435c696abc039af907\transformed\jetified-firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\e39c66b690d1f0a15d23bd6483a2d418\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\e39c66b690d1f0a15d23bd6483a2d418\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Vipin\.gradle\caches\transforms-3\46455a075cde0d81e52761140c770a8b\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
@@ -566,12 +597,24 @@ uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\0ba5b1b5ddee0984e9c239b794613af0\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\0ba5b1b5ddee0984e9c239b794613af0\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:25:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\0ba5b1b5ddee0984e9c239b794613af0\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\0ba5b1b5ddee0984e9c239b794613af0\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:26:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
@@ -626,6 +669,10 @@ service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth:21.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\0ba5b1b5ddee0984e9c239b794613af0\transformed\jetified-firebase-auth-21.2.0\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\efa0dd836c0d8182b8babe29197cf14f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\efa0dd836c0d8182b8babe29197cf14f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:32:9-36:35
 	android:exported
@@ -648,6 +695,32 @@ ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle
 		ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-database:20.1.0] C:\Users\Vipin\.gradle\caches\transforms-3\ef62a5b894754b4fb88ab176c595e81d\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\75cc55d33b94ebf5db6a0a3be440bf0e\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\Vipin\.gradle\caches\transforms-3\75cc55d33b94ebf5db6a0a3be440bf0e\transformed\jetified-play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\56718d5ef17e743fe8a363d25b7bb8fd\transformed\jetified-play-services-measurement-sdk-api-21.2.1\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.1] C:\Users\Vipin\.gradle\caches\transforms-3\f903b35eb9a8b2ef9975744129c10b5a\transformed\jetified-play-services-measurement-api-21.2.1\AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\Vipin\.gradle\caches\transforms-3\98cbbe1d3994030eef925663158429a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:20.2.0] C:\Users\Vipin\.gradle\caches\transforms-3\efa0dd836c0d8182b8babe29197cf14f\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
 	android:authorities

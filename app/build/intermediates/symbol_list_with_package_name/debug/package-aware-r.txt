@@ -2885,6 +2885,7 @@ drawable bmi_banner_image
 drawable bmi_chart
 drawable bmr
 drawable bmr_banner
+drawable bmr_banner_image
 drawable border
 drawable breath_focus_technique
 drawable btn_checkbox_checked_mtrl
@@ -3874,6 +3875,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView10
 id textView12
 id textView14
@@ -3883,6 +3885,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textViewActive
 id textViewBmi
 id textViewBmr
 id textViewCaloriesBurnt

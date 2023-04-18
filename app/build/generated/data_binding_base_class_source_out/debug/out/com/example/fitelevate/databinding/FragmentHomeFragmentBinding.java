@@ -56,6 +56,9 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
   public final HorizontalScrollView scrollhorizontal;
 
   @NonNull
+  public final TextView textViewActive;
+
+  @NonNull
   public final TextView userName;
 
   @NonNull
@@ -80,10 +83,10 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
       @NonNull ImageView bmrbtn, @NonNull TextView categ, @NonNull TextView categories,
       @NonNull TextView everymusc, @NonNull Button exebtn, @NonNull ImageView exer,
       @NonNull TextView hewo, @NonNull Button nutritionbtn, @NonNull TextView nutritioncard,
-      @NonNull HorizontalScrollView scrollhorizontal, @NonNull TextView userName,
-      @NonNull TextView walkandstepcard, @NonNull TextView walkandstepcardTextDes,
-      @NonNull Button walkbtn, @NonNull Button waterbtn, @NonNull TextView waterstepcard,
-      @NonNull ImageView yogabtn) {
+      @NonNull HorizontalScrollView scrollhorizontal, @NonNull TextView textViewActive,
+      @NonNull TextView userName, @NonNull TextView walkandstepcard,
+      @NonNull TextView walkandstepcardTextDes, @NonNull Button walkbtn, @NonNull Button waterbtn,
+      @NonNull TextView waterstepcard, @NonNull ImageView yogabtn) {
     this.rootView = rootView;
     this.bmibtn = bmibtn;
     this.bmrbtn = bmrbtn;
@@ -96,6 +99,7 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
     this.nutritionbtn = nutritionbtn;
     this.nutritioncard = nutritioncard;
     this.scrollhorizontal = scrollhorizontal;
+    this.textViewActive = textViewActive;
     this.userName = userName;
     this.walkandstepcard = walkandstepcard;
     this.walkandstepcardTextDes = walkandstepcardTextDes;
@@ -198,6 +202,12 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textViewActive;
+      TextView textViewActive = ViewBindings.findChildViewById(rootView, id);
+      if (textViewActive == null) {
+        break missingId;
+      }
+
       id = R.id.userName;
       TextView userName = ViewBindings.findChildViewById(rootView, id);
       if (userName == null) {
@@ -242,8 +252,8 @@ public final class FragmentHomeFragmentBinding implements ViewBinding {
 
       return new FragmentHomeFragmentBinding((FrameLayout) rootView, bmibtn, bmrbtn, categ,
           categories, everymusc, exebtn, exer, hewo, nutritionbtn, nutritioncard, scrollhorizontal,
-          userName, walkandstepcard, walkandstepcardTextDes, walkbtn, waterbtn, waterstepcard,
-          yogabtn);
+          textViewActive, userName, walkandstepcard, walkandstepcardTextDes, walkbtn, waterbtn,
+          waterstepcard, yogabtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

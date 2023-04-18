@@ -17,6 +17,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.gms.tasks.TaskCompletionSource;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -25,12 +30,16 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Calendar;
+import java.util.Date;
+
 public class Home_fragment extends Fragment {
     private Button  walkBtn, waterBtn, nutritionBtn,exerciseBtn;
     private ImageView bmiBtn, bmrBtn, yogaBtn;
 
-    private TextView userName;
+    private TextView userName, textViewActive;
     FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
+
 
     //change
 
@@ -41,6 +50,7 @@ public class Home_fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home_fragment, container, false);
+
         bmiBtn = view.findViewById(R.id.bmibtn);
         bmrBtn = view.findViewById(R.id.bmrbtn);
         yogaBtn = view.findViewById(R.id.yogabtn);
@@ -127,13 +137,8 @@ public class Home_fragment extends Fragment {
         });
 
 
-
-
-
-
         return view;
     }
-
     private void fetchUserName(View view) {
         userName = view.findViewById(R.id.userName);
         String uid = user.getUid();
