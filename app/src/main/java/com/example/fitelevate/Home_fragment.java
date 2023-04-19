@@ -26,6 +26,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
@@ -40,9 +41,7 @@ public class Home_fragment extends Fragment {
     private TextView userName, textViewActive;
     FirebaseUser user= FirebaseAuth.getInstance().getCurrentUser();
 
-
     //change
-
 
 
     @Nullable
@@ -60,6 +59,7 @@ public class Home_fragment extends Fragment {
         nutritionBtn = view.findViewById(R.id.nutritionbtn);
 
         fetchUserName(view);
+        fetchUserCount(view);
 
 
     //    SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getContext());
@@ -139,6 +139,25 @@ public class Home_fragment extends Fragment {
 
         return view;
     }
+
+    private void fetchUserCount(View view) {
+        textViewActive = view.findViewById(R.id.textViewActive);
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference reference = database.getReference("User");
+        reference.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                long count = snapshot.getChildrenCount();
+                textViewActive.setText(String.valueOf(count));
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                //Toast.makeText(getActivity(), error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
     private void fetchUserName(View view) {
         userName = view.findViewById(R.id.userName);
         String uid = user.getUid();
