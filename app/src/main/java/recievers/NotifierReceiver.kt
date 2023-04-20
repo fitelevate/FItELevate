@@ -5,7 +5,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.media.RingtoneManager
-import com.example.fitelevate.R
+import com.knit.fitelevate.R
 import helpers.NotificationHelper
 import utils.AppUtils
 

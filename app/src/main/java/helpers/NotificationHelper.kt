@@ -14,9 +14,8 @@ import android.net.Uri
 import android.os.Build
 import android.util.Log
 import androidx.core.app.NotificationCompat
-import com.example.fitelevate.R
-import com.example.fitelevate.WaterMainActivity
-import com.example.fitelevate.databinding.ActivityWaterMainBinding
+import com.knit.fitelevate.R
+import com.knit.fitelevate.WaterMainActivity
 import utils.AppUtils
 import java.util.*
 

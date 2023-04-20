@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/nutrition_bg7"
+    android:layout_height="match_parent"
+    tools:context=".muscle_gain_page1">
+
+    <TableLayout
+        android:id="@+id/breakfast_chart_gain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+
+        >
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Breakfast"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Quantity"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Protein"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Carbs"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Fats"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Oats"
+
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1 cup"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="54"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Banana/Apple"
+
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Boiled whole eggs"
+
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Boiled egg whites"
+
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Total"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="35"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="74"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="16"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/eve_snack_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/white"
+        android:layout_below="@id/breakfast_chart_gain"
+        >
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Lunch"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Quantity"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Protein"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Carbs"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#0ead69"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Fats"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Bread"
+
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="35"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Large Banana"
+
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="25"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Peanut Butter"
+
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Whole eggs"
+
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:padding="9sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="Total"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="-"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="37"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="64"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#ffd23f"
+                android:gravity="center_horizontal"
+                android:padding="9sp"
+                android:text="19"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:ignore="TextContrastCheck" />
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/gain_page1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/eve_snack_chart"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button4"
+        android:text="Next Page"/>
+</RelativeLayout>
+</ScrollView>

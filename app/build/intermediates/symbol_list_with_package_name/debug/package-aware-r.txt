@@ -1,4 +1,4 @@
-com.example.fitelevate
+com.knit.fitelevate
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -4359,6 +4359,7 @@ string fab_transformation_sheet_behavior
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string firebase_database_url
 string first_fragment_label
 string forgot_message
 string forgotpass_message

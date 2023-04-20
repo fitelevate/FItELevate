@@ -8,12 +8,12 @@ plugins {
 }
 
 android {
-    namespace 'com.example.fitelevate'
+    namespace 'com.knit.fitelevate'
 
 
     defaultConfig {
-        applicationId "com.example.fitelevate"
-        minSdk 24
+        applicationId "com.knit.fitelevate"
+        minSdk 31
         compileSdk 33
         //targetSdk 33
         versionCode 1

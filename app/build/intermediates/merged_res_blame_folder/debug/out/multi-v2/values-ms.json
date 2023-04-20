@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.fitelevate.app-mergeDebugResources-48:/values-ms/values-ms.xml",
+            "outputFile": "com.knit.fitelevate.app-mergeDebugResources-48:/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Vipin\\.gradle\\caches\\transforms-3\\5804030942482b983326b83c9807f82b\\transformed\\material-1.8.0\\res\\values-ms\\values-ms.xml",

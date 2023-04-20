@@ -640,6 +640,7 @@ string enter_your_password
 string equalbreathingdesc
 string exercise
 string exerciseany
+string firebase_database_url
 string first_fragment_label
 string forgot_message
 string forgotpass_message
