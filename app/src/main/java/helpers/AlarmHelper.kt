@@ -82,7 +82,14 @@ class AlarmHelper {
         return PendingIntent.getBroadcast(
             context, 0,
             alarmIntent,
-            PendingIntent.FLAG_NO_CREATE
+            PendingIntent.FLAG_IMMUTABLE
         ) != null
     }
+//        val intent = Intent(context, NotifierReceiver::class.java)
+//        val pendingIntent = PendingIntent.getBroadcast(
+//            context,
+//            requestCode,
+//            intent,
+//            PendingIntent.FLAG_IMMUTABLE // or PendingIntent.FLAG_MUTABLE
+//        )
 }

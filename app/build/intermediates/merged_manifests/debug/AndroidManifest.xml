@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="31"
-        android:targetSdkVersion="31" />
+        android:minSdkVersion="24"
+        android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- vaibhav -->

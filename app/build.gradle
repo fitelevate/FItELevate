@@ -2,20 +2,20 @@ plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
 
-    //vaibhav
+
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-android'
 }
 
 android {
     namespace 'com.knit.fitelevate'
-
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.knit.fitelevate"
-        minSdk 31
-        compileSdk 33
-        //targetSdk 33
+        minSdk 24
+
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
