@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.knit.fitelevate.app-mergeDebugResources-48:/values-v31/values-v31.xml",
+            "outputFile": "com.developer.fitelevate.app-mergeDebugResources-48:/values-v31/values-v31.xml",
             "map": [
                 {
                     "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\5804030942482b983326b83c9807f82b\\transformed\\material-1.8.0\\res\\values-v31\\values-v31.xml",

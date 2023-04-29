@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:635183237547:android:9dc869e5c9cf70b56beaee",
+        "mobilesdk_app_id": "1:635183237547:android:891077c2a3727ddb6beaee",
         "android_client_info": {
-          "package_name": "com.example.fitelevate"
+          "package_name": "com.developer.fitelevate"
         }
       },
       "oauth_client": [

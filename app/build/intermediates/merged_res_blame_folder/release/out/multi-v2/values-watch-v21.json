@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.developer.fitelevate.app-mergeReleaseResources-48:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\9d09ceef58fe9957bb01548bb8bac268\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

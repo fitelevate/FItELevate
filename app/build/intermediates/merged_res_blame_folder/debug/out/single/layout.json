@@ -1,322 +1,322 @@
 [
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain_page3.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_muscle_gain_page3.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_squat_kicks.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_squat_kicks.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/fragment_account_fragment.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/fragment_account_fragment.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/cat_cow_pose.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/cat_cow_pose.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_breathing.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_breathing.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/equal_brething.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/equal_brething.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_bmi.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_bmi.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/custom_input_dialog.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/custom_input_dialog.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_squat_kicks.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_squat_kicks.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_squats.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_squats.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loose.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_weight_loose.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_bmi.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_bmi.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/custom_input_dialog.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/custom_input_dialog.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/militry_push_ups.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/militry_push_ups.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/bottom_sheet_fragment.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/bottom_sheet_fragment.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_step_counter.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_step_counter.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/double_knees_to_chest.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/double_knees_to_chest.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_main.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_water.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_water.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loose_exercise.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_weight_loose_exercise.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/militry_press.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/militry_press.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain_page2.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_muscle_gain_page2.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/fragment_second.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/fragment_second.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_update_profile.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_update_profile.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/dumbwell_squats.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/dumbwell_squats.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loss_page3.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_weight_loss_page3.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/equal_brething.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/equal_brething.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_login.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_login.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/fragment_report_fragment.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/fragment_report_fragment.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain_page1.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_muscle_gain_page1.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/breath_focus_technique.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/breath_focus_technique.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_squat_reachups.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_squat_reachups.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_reverse_crunches.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_reverse_crunches.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/resonant_breathing.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/resonant_breathing.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_bmi_result.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_bmi_result.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/standing_dumbbell_curl.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/standing_dumbbell_curl.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_forgotpassword.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_forgotpassword.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/militry_press.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/militry_press.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_inch_warms.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_inch_warms.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_yoga.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_yoga.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/dynamic_chest.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/dynamic_chest.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/deep_breathing.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/deep_breathing.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_yoga.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_yoga.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_bmi_result.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_bmi_result.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_lunges.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_lunges.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_inch_warms.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_inch_warms.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/walk_the_dog.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/walk_the_dog.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/sitali_breath.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/sitali_breath.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/dumble_kick_back.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/dumble_kick_back.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/breath_focus_technique.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/breath_focus_technique.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain_page2.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_muscle_gain_page2.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/kobra_stretch.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/kobra_stretch.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_login.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_login.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/bottom_sheet_fragment.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/bottom_sheet_fragment.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_update_profile.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_update_profile.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/fragment_first.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/fragment_first.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/bent_over_row.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/bent_over_row.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/walk_the_dog.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/walk_the_dog.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/deep_breathing.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/deep_breathing.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/fragment_report_fragment.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/fragment_report_fragment.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/sitali_breath.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/sitali_breath.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_register.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_register.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/cat_cow_pose.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/cat_cow_pose.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/dumble_kick_back.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/dumble_kick_back.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/kobra_stretch.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/kobra_stretch.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/fragment_account_fragment.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/fragment_account_fragment.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_leg_raises.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_leg_raises.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain_page3.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_muscle_gain_page3.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_stats.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_stats.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_water.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_water.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/lions_breath.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/lions_breath.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_bmr.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_bmr.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_bmr_result.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_bmr_result.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_stretching.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_stretching.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/forword_bend.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/forword_bend.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_muscle_gain.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_squats.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_squats.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_push_ups.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_push_ups.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_bmr.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_bmr.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/lions_breath.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/lions_breath.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_nutrition.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_nutrition.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_leg_raises.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_leg_raises.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/content_breathing_yoga.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/content_breathing_yoga.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_bmr_result.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_bmr_result.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_register.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_register.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loss_page1.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_weight_loss_page1.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_stretching.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_stretching.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_reverse_crunches.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_reverse_crunches.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/knee_to_chest_stretch.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/knee_to_chest_stretch.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/dumble_front_raise.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/dumble_front_raise.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loose_exercise.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_weight_loose_exercise.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/content_breathing_yoga.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/content_breathing_yoga.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/pursed_lip_breathing.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/pursed_lip_breathing.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_water_main.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_water_main.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/fragment_first.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/fragment_first.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/bent_over_row.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/bent_over_row.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/childs_pose.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/childs_pose.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/fragment_activity_fragment.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/fragment_activity_fragment.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loss_page3.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_weight_loss_page3.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_splashscreen.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_splashscreen.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/dumble_chest_fly.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/dumble_chest_fly.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/fragment_second.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/fragment_second.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_water_main.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_water_main.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_breathing.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_breathing.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loss_page2.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_weight_loss_page2.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/forword_bend.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/forword_bend.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/diaphragmatic_breathing.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/diaphragmatic_breathing.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/shoulder_stretch.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/shoulder_stretch.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_muscle_gain.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/pursed_lip_breathing.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/pursed_lip_breathing.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/militry_push_ups.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/militry_push_ups.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_stats.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_stats.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/standing_dumbbell_curl.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/standing_dumbbell_curl.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/seated_side_bend.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/seated_side_bend.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/bhramari.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/bhramari.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/dynamic_chest.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/dynamic_chest.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loss_page1.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_weight_loss_page1.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/fragment_steps_counter.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/fragment_steps_counter.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_step_counter.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_step_counter.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/dumble_chest_fly.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/dumble_chest_fly.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/fragment_steps_counter.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/fragment_steps_counter.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_jumping_jacks.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_jumping_jacks.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_jumping_jacks.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_jumping_jacks.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/alternate_nostril_breath.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/alternate_nostril_breath.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_frog_press.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_frog_press.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/knee_to_chest_stretch.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/knee_to_chest_stretch.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/dumble_front_raise.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/dumble_front_raise.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loose.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_weight_loose.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_stretching_yoga.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_stretching_yoga.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/bhramari.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/bhramari.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/dumb_bell_swings.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/dumb_bell_swings.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_frog_press.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_frog_press.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/shoulder_stretch.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/shoulder_stretch.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/childs_pose.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/childs_pose.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_muscle_gain_page1.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_muscle_gain_page1.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_tnc.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_tnc.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_splashscreen.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_splashscreen.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/double_knees_to_chest.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/double_knees_to_chest.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_main.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_main.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/dumb_bell_swings.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/dumb_bell_swings.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_exercise.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_exercise.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/dumbwell_squats.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/dumbwell_squats.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/resonant_breathing.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/resonant_breathing.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_forgotpassword.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_forgotpassword.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/seated_side_bend.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/seated_side_bend.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/chair.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/chair.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_tnc.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_tnc.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_exercise.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_exercise.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/alternate_nostril_breath.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/alternate_nostril_breath.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_nutrition.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_nutrition.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_push_ups.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_push_ups.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/fragment_home_fragment.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/fragment_home_fragment.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/chair.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/chair.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_lunges.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_lunges.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/fragment_home_fragment.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/fragment_home_fragment.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_weight_loss_page2.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_weight_loss_page2.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/activity_squat_reachups.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/activity_squat_reachups.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/activity_stretching_yoga.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/activity_stretching_yoga.xml"
     },
     {
-        "merged": "com.knit.fitelevate.app-mergeDebugResources-49:/layout/fragment_activity_fragment.xml",
-        "source": "com.knit.fitelevate.app-main-52:/layout/fragment_activity_fragment.xml"
+        "merged": "com.developer.fitelevate.app-mergeDebugResources-49:/layout/diaphragmatic_breathing.xml",
+        "source": "com.developer.fitelevate.app-main-52:/layout/diaphragmatic_breathing.xml"
     }
 ]

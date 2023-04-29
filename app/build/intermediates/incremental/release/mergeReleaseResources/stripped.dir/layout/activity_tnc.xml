@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kat"
+    tools:context=".tnc">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle_5"
+        android:contentDescription="@string/contdes"
+        />
+
+    <TextView
+        android:id="@+id/welcomeToText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcomeTo"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+    <ImageView
+        android:id="@+id/fit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeToText"
+        android:contentDescription="@string/contdes"
+        android:background="@drawable/fit"
+        android:layout_marginStart="20dp"
+
+        />
+    <ImageView
+        android:id="@+id/elevate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fit"
+        android:contentDescription="@string/contdes"
+        android:background="@drawable/elevate"
+        android:layout_marginStart="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tnc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/elevate"
+        android:layout_marginStart="20dp"
+        android:text="@string/tncmessage"
+        android:textColor="@color/white"
+
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+
+
+</RelativeLayout>

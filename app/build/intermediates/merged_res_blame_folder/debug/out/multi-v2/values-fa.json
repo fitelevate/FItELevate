@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.knit.fitelevate.app-mergeDebugResources-48:/values-fa/values-fa.xml",
+            "outputFile": "com.developer.fitelevate.app-mergeDebugResources-48:/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\itsjp\\.gradle\\caches\\transforms-3\\e39c66b690d1f0a15d23bd6483a2d418\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-fa\\values.xml",

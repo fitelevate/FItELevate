@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.knit.fitelevate.app-mergeDebugResources-48:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.developer.fitelevate.app-mergeDebugResources-48:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\itsjp\\AndroidStudioProjects\\FItELevate\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
