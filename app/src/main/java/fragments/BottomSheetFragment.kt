@@ -15,9 +15,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.developer.fitelevate.WaterMainActivity
-import com.developer.fitelevate.R
-import com.developer.fitelevate.databinding.BottomSheetFragmentBinding
+import com.mcadeveloper.fitelevate.WaterMainActivity
+import com.mcadeveloper.fitelevate.R
+import com.mcadeveloper.fitelevate.databinding.BottomSheetFragmentBinding
 import helpers.AlarmHelper
 import helpers.SqliteHelper
 import utils.AppUtils

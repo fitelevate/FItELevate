@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:635183237547:android:1533a6e8bde124d66beaee",
+        "android_client_info": {
+          "package_name": "com.android.fitelevate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635183237547-24gd8f5k1ctldpscf2ak5perpf52as21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABESmINwp229ofn4xQZWLP2_1yYBau_i4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635183237547-24gd8f5k1ctldpscf2ak5perpf52as21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:635183237547:android:891077c2a3727ddb6beaee",
         "android_client_info": {
           "package_name": "com.developer.fitelevate"
@@ -40,6 +69,35 @@
         "mobilesdk_app_id": "1:635183237547:android:1aab80e6324d974f6beaee",
         "android_client_info": {
           "package_name": "com.knit.fitelevate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635183237547-24gd8f5k1ctldpscf2ak5perpf52as21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABESmINwp229ofn4xQZWLP2_1yYBau_i4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635183237547-24gd8f5k1ctldpscf2ak5perpf52as21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635183237547:android:4d2c65ccf0ffbf456beaee",
+        "android_client_info": {
+          "package_name": "com.mcadeveloper.fitelevate"
         }
       },
       "oauth_client": [

@@ -4,7 +4,7 @@
     <string name="firebase_database_url" translatable="false">https://fitelevate-96f37-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">635183237547</string>
     <string name="google_api_key" translatable="false">AIzaSyABESmINwp229ofn4xQZWLP2_1yYBau_i4</string>
-    <string name="google_app_id" translatable="false">1:635183237547:android:891077c2a3727ddb6beaee</string>
+    <string name="google_app_id" translatable="false">1:635183237547:android:4d2c65ccf0ffbf456beaee</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyABESmINwp229ofn4xQZWLP2_1yYBau_i4</string>
     <string name="google_storage_bucket" translatable="false">fitelevate-96f37.appspot.com</string>
     <string name="project_id" translatable="false">fitelevate-96f37</string>

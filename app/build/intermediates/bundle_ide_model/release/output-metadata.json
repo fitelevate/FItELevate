@@ -4,14 +4,14 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "com.developer.fitelevate",
+  "applicationId": "com.mcadeveloper.fitelevate",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "outputFile": "../../../../release/app-release.aab"
+      "outputFile": "../../../../../../../Desktop/playstore/release/app-release.aab"
     }
   ],
   "elementType": "File"

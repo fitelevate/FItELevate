@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.developer.fitelevate"
+    package="com.mcadeveloper.fitelevate"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -19,10 +19,10 @@
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <permission
-        android:name="com.developer.fitelevate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.mcadeveloper.fitelevate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.developer.fitelevate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.mcadeveloper.fitelevate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -35,99 +35,99 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FItElevate" >
         <activity
-            android:name="com.developer.fitelevate.step_counter"
+            android:name="com.mcadeveloper.fitelevate.step_counter"
             android:exported="false" />
         <!-- vaibhav -->
         <activity
-            android:name="com.developer.fitelevate.WaterMainActivity"
+            android:name="com.mcadeveloper.fitelevate.WaterMainActivity"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.WaterActivity"
+            android:name="com.mcadeveloper.fitelevate.WaterActivity"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.StatsActivity"
+            android:name="com.mcadeveloper.fitelevate.StatsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MainTheme" >
         </activity>
         <activity
-            android:name="com.developer.fitelevate.update_profile"
+            android:name="com.mcadeveloper.fitelevate.update_profile"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.developer.fitelevate.nutrition"
+            android:name="com.mcadeveloper.fitelevate.nutrition"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.muscle_gain_page1"
+            android:name="com.mcadeveloper.fitelevate.muscle_gain_page1"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.muscle_gain_page2"
+            android:name="com.mcadeveloper.fitelevate.muscle_gain_page2"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.muscle_gain_page3"
+            android:name="com.mcadeveloper.fitelevate.muscle_gain_page3"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.weight_loss_page1"
+            android:name="com.mcadeveloper.fitelevate.weight_loss_page1"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.weight_loss_page2"
+            android:name="com.mcadeveloper.fitelevate.weight_loss_page2"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.weight_loss_page3"
+            android:name="com.mcadeveloper.fitelevate.weight_loss_page3"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.breathing"
+            android:name="com.mcadeveloper.fitelevate.breathing"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.stretching"
+            android:name="com.mcadeveloper.fitelevate.stretching"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.bmr_result"
+            android:name="com.mcadeveloper.fitelevate.bmr_result"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.ActivityWeightLooseExercise"
+            android:name="com.mcadeveloper.fitelevate.ActivityWeightLooseExercise"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.ActivityMuscleGainExercise"
+            android:name="com.mcadeveloper.fitelevate.ActivityMuscleGainExercise"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.ActivityStretchingYoga"
+            android:name="com.mcadeveloper.fitelevate.ActivityStretchingYoga"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.ActivityBreathingYoga"
+            android:name="com.mcadeveloper.fitelevate.ActivityBreathingYoga"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.weightLoose"
+            android:name="com.mcadeveloper.fitelevate.weightLoose"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.muscleGain"
+            android:name="com.mcadeveloper.fitelevate.muscleGain"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.exercise"
+            android:name="com.mcadeveloper.fitelevate.exercise"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.yoga"
+            android:name="com.mcadeveloper.fitelevate.yoga"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.bmr"
+            android:name="com.mcadeveloper.fitelevate.bmr"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.bmi"
+            android:name="com.mcadeveloper.fitelevate.bmi"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.forgotpassword"
+            android:name="com.mcadeveloper.fitelevate.forgotpassword"
             android:exported="false" />
-        <activity android:name="com.developer.fitelevate.bmi_result" />
+        <activity android:name="com.mcadeveloper.fitelevate.bmi_result" />
         <activity
-            android:name="com.developer.fitelevate.tnc"
-            android:exported="false" />
-        <activity
-            android:name="com.developer.fitelevate.login"
+            android:name="com.mcadeveloper.fitelevate.tnc"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.register"
+            android:name="com.mcadeveloper.fitelevate.login"
             android:exported="false" />
         <activity
-            android:name="com.developer.fitelevate.splashscreen"
+            android:name="com.mcadeveloper.fitelevate.register"
+            android:exported="false" />
+        <activity
+            android:name="com.mcadeveloper.fitelevate.splashscreen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -144,7 +144,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name="com.developer.fitelevate.MainActivity" />
+        <activity android:name="com.mcadeveloper.fitelevate.MainActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
@@ -202,7 +202,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.developer.fitelevate.firebaseinitprovider"
+            android:authorities="com.mcadeveloper.fitelevate.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -225,7 +225,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.developer.fitelevate.androidx-startup"
+            android:authorities="com.mcadeveloper.fitelevate.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

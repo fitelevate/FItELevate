@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace 'com.developer.fitelevate'
+    namespace 'com.mcadeveloper.fitelevate'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.developer.fitelevate"
+        applicationId "com.mcadeveloper.fitelevate"
         minSdk 24
 
         targetSdk 33
